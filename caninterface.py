@@ -1,4 +1,10 @@
-import can
+
+try:
+	import can
+except ImportError:
+	print("Error: The 'can' module is not installed. Please install it using 'pip install python-can'.")
+	# Handle the case where the 'can' module is not available
+	# You can raise an exception or exit the program
 
 
 class CanInterface:

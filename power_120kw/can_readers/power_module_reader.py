@@ -46,6 +46,8 @@ class PMSetDataCurrentPeccStatus1(PowerModuleReader):
             divide_vol = ((volatge_pe1) / 1000)
             t1 = int(divide_vol* 10)
             vl1 = DTH.converttohexforpecc(hex(t1))
+            # To update the PECC.STATUS2_GUN1_DATA with the voltage values
+            # to update the PECC.STATUS2_GUN1_DATA with the current values
             PECC.STATUS2_GUN1_DATA[1] = vl1[0]
             PECC.STATUS2_GUN1_DATA[0] = vl1[1]
         if self._diff_vol_current == 47:

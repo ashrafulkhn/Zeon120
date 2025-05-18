@@ -22,27 +22,36 @@ class Vehicle1StatusReader(BaseReader):
         #logger.info('Read input for Vehicle-1 status')
         vs1 = self._binary_data
         self._global_data.set_data_status_vehicle1(binaryToDecimal(int(vs1[0])))
-        vehicle_status1 = binaryToDecimal(int(vs1[0]))
+        vehicle_status1 = binaryToDecimal(int(vs1[0]))  # Vehicle 1 Status value
         #logger.info(f'Vehicle-1 status {vehicle_status1}')
-        vehicle_status2_g = self._global_data.get_data_status_vehicle2()
+        vehicle_status2_g = self._global_data.get_data_status_vehicle2() # Vehicle 2 Status value
+
+        '''
+        Now we have Status for vehicle 1 and vehicle 2
+        '''
         
 
         #logger.info(f'Vehicle-2 status {vehicle_status2_g}')
         tag_vol1 = binaryToDecimal(int(vs1[2] + vs1[1]))
-        target_volatge_from_car1 = (tag_vol1 / 10)
+        target_volatge_from_car1 = (tag_vol1 / 10)    # Target volate from car 1
 
         tag_curr1 = binaryToDecimal(int(vs1[4] + vs1[3]))
         tag_curr11 = (tag_curr1 / 10)
-        target_current_from_car1 = (tag_curr11 )
+        target_current_from_car1 = (tag_curr11 )    # Target current from car 1
+
+        '''
+        As we have the target voltage and target current from car 1, we can calculate the target power as shown below.
+        After calculating the target power, we will set the target power in the global data.
+        '''
 
         target_power1 = int(target_volatge_from_car1 * tag_curr11)
-        self._global_data.set_data_targetpower_ev1(target_power1)
+        self._global_data.set_data_targetpower_ev1(target_power1)  # Setting target power for vehicle 1 to the global data
 
-        maxpowerev1_g = self._global_data.get_data_maxpower_ev1()
-        maxpowerev2_g = self._global_data.get_data_maxpower_ev2()
+        maxpowerev1_g = self._global_data.get_data_maxpower_ev1()  # Getting max power for vehicle 1 from global data
+        maxpowerev2_g = self._global_data.get_data_maxpower_ev2()  # Getting max power for vehicle 2 from global data
 
         if vehicle_status1 == 0 and vehicle_status2_g == 0 or vehicle_status1 == 6 and vehicle_status2_g == 6 or vehicle_status1 == 6 and vehicle_status2_g == 0:
-            mm.digital_output_open_AC()
+            mm.digital_output_open_AC()      # data is data=[0, 0, 255, 48], I do not know what is this data performing in can message
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 224                                                                                    
             PECC.LIMITS1_DATA_120kw_Gun1[5] = 46                                                                                
             PECC.LIMITS2_DATA_120kw_Gun1[2] = 190                                                                                    
