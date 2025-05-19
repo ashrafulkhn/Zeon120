@@ -9,7 +9,6 @@ from utility import bytetobinary, binaryToDecimal, DTH
 
 #logger = logging.getLogger(__name__)
 
-
 class Vehicle1StatusReader(BaseReader):
     arbitration_id = 769
 
@@ -30,13 +29,17 @@ class Vehicle1StatusReader(BaseReader):
         #logger.info(f'Vehicle-2 status {vehicle_status2_g}')
         tag_vol1 = binaryToDecimal(int(vs1[2] + vs1[1]))
         target_volatge_from_car1 = (tag_vol1 / 10)
+        self._global_data.set_data_targetvoltage_ev1(target_volatge_from_car1)
 
         tag_curr1 = binaryToDecimal(int(vs1[4] + vs1[3]))
         tag_curr11 = (tag_curr1 / 10)
         target_current_from_car1 = (tag_curr11 )
+        self._global_data.set_data_targetcurrent_ev1(target_current_from_car1)
 
         target_power1 = int(target_volatge_from_car1 * tag_curr11)
         self._global_data.set_data_targetpower_ev1(target_power1)
+        
+        target_current_from_car2 = self._global_data.get_data_targetpower_ev1()
 
         maxpowerev1_g = self._global_data.get_data_maxpower_ev1()
         maxpowerev2_g = self._global_data.get_data_maxpower_ev2()
@@ -325,12 +328,6 @@ class Vehicle1StatusReader(BaseReader):
 
             if digitl_input[3] == '0':
                 PECC.STATUS1_GUN1_DATA[0] = 5
-           
-
-                #precharge
-
-
-
                 
 
         if vehicle_status1 == 21 and vehicle_status2_g == 0 or vehicle_status1 == 21 and vehicle_status2_g == 6:

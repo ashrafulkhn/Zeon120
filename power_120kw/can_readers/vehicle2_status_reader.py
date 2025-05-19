@@ -9,7 +9,6 @@ from utility import bytetobinary, binaryToDecimal, DTH
 
 #logger = logging.getLogger(__name__)
 
-
 class Vehicle2StatusReader(BaseReader):
     arbitration_id = 1537
 
@@ -30,17 +29,25 @@ class Vehicle2StatusReader(BaseReader):
 
         tag_vol2 = binaryToDecimal(int(vs2[2] + vs2[1]))
         target_volatge_from_car2 = (tag_vol2 / 10)
+        self._global_data.set_data_targetvoltage_ev2(target_volatge_from_car2)
 
         tag_curr2 = binaryToDecimal(int(vs2[4] + vs2[3]))
         tag_curr22 = (tag_curr2 / 10)
         target_current_from_car2 = (tag_curr22)
+        self._global_data.set_data_targetcurrent_ev2(target_current_from_car2)
+
         target_power2 = int(target_volatge_from_car2 * tag_curr22)
         self._global_data.set_data_targetpower_ev2(target_power2)
 
         maxpowerev1_g = self._global_data.get_data_maxpower_ev1()
         maxpowerev2_g = self._global_data.get_data_maxpower_ev2()
+
+        cable_check_voltage2 = binaryToDecimal(int(vs2[7] + vs2[6]))
+        self._global_data.set_data_cablecheckvoltage_ev2(cable_check_voltage2)
+
+
         def funct_40_cc2():
-            cable_check_voltage2 = binaryToDecimal(int(vs2[7] + vs2[6]))
+            cable_check_voltage2 = self._global_data.get_data_cablecheckvoltage_ev2()
 
             if cable_check_voltage2 <= 500:
                 mm.lowMode(CanId.CAN_ID_2)

@@ -15,6 +15,12 @@ class ConstantManager120KW(BaseConstantManager):
         self._maxpower2 = maxpower2
         self._pm_assign1 = pm_assign1
         self._pm_assign2 = pm_assign2
+        self._targetvoltage_ev1 = 0
+        self._targetvoltage_ev2 = 0
+        self._targetcurrent_ev1 = 0
+        self._targetcurrent_ev2 = 0
+        self._cablecheckvoltage_ev2 = 0
+        self._cablecheckvoltage_ev1 = 0
         
     def get_data_current_pe2(self):  # 120kW code change
         return self._pe2_current
@@ -75,3 +81,39 @@ class ConstantManager120KW(BaseConstantManager):
 
     def set_data_pm_assign2(self, x):
         self._pm_assign2 = x
+
+    def get_data_targetvoltage_ev1(self):
+        return self._targetvoltage_ev1
+    
+    def set_data_targetvoltage_ev1(self, x):
+        self._targetvoltage_ev1 = x
+
+    def get_data_targetvoltage_ev2(self):
+        return self._targetvoltage_ev2
+    
+    def set_data_targetvoltage_ev2(self, x):
+        self._targetvoltage_ev2 = x
+
+    def get_data_targetcurrent_ev1(self):
+        return self._targetcurrent_ev1
+    
+    def set_data_targetcurrent_ev1(self, x):
+        self._targetcurrent_ev1 = x
+
+    def get_data_targetcurrent_ev2(self):
+        return self._targetcurrent_ev2
+    
+    def set_data_targetcurrent_ev1(self, x):
+        self._targetcurrent_ev2 = x
+
+    def get_data_cablecheckvoltage_ev1(self):
+        return self._cablecheckvoltage_ev1
+    
+    def set_data_cablecheckvoltage_ev2(self, x):
+        self._cablecheckvoltage_ev2 = x
+
+    def get_data_cablecheckvoltage_ev2(self):
+        return self._cablecheckvoltage_ev2
+    
+    def set_data_cablecheckvoltage_ev2(self, x):
+        self._cablecheckvoltage_ev2 = x

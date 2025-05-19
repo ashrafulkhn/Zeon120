@@ -5,7 +5,6 @@ from utility import bytetobinary, binaryToDecimal
 
 #logger = logging.getLogger(__name__)
 
-
 class MaxEVvalues1(BaseReader):
     arbitration_id = 779
 
