@@ -51,7 +51,7 @@ class Vehicle1StatusReader(BaseReader):
         maxpowerev2_g = self._global_data.get_data_maxpower_ev2()  # Getting max power for vehicle 2 from global data
 
         if vehicle_status1 == 0 and vehicle_status2_g == 0 or vehicle_status1 == 6 and vehicle_status2_g == 6 or vehicle_status1 == 6 and vehicle_status2_g == 0:
-            mm.digital_output_open_AC()      # data is data=[0, 0, 255, 48], I do not know what is this data performing in can message
+            mm.digital_output_open_AC()      # data is data=[0, 0, 255, 48], I do not know what is this data performing in can message. Most probably it from the DAtasheet of the vercotr VSECC device CAN message format.
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 224                                                                                    
             PECC.LIMITS1_DATA_120kw_Gun1[5] = 46                                                                                
             PECC.LIMITS2_DATA_120kw_Gun1[2] = 190                                                                                    
