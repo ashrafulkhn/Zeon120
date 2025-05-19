@@ -543,15 +543,25 @@ class Vehicle1StatusReader(BaseReader):
                     
             elif maxpowerev1_g > 80000 and maxpowerev1_g <=120000:
                 if target_power_from_car1 <= 38000:
-                    PECC.LIMITS1_DATA_120kw_Gun1[4] = 160
-                    PECC.LIMITS1_DATA_120kw_Gun1[5] = 15
+                    # set limit 40kW
+                    # PECC.LIMITS1_DATA_120kw_Gun1[4] = 160
+                    # PECC.LIMITS1_DATA_120kw_Gun1[5] = 15
+                    # PECC.LIMITS2_DATA_120kw_Gun1[2] = 50
+                    # PECC.LIMITS2_DATA_120kw_Gun1[3] = 5
+
+                    # set limit to 35kW
+                    PECC.LIMITS1_DATA_120kw_Gun1[4] = 172
+                    PECC.LIMITS1_DATA_120kw_Gun1[5] = 13
                     PECC.LIMITS2_DATA_120kw_Gun1[2] = 50
                     PECC.LIMITS2_DATA_120kw_Gun1[3] = 5
+                    pm1=1
+                    pm_assign1 = self._global_data.set_data_pm_assign1(pm1)
                     mm.stopModule(CanId.CAN_ID_2)
                     mm.stopModule(CanId.CAN_ID_4)
                     mm.stopModule(CanId.CAN_ID_3)
-                    pm1=1
-                    pm_assign1 = self._global_data.set_data_pm_assign1(pm1)
+                    
+                
+                    #set limit upto  
                     mm1.digital_output_close_Gun11()
                     funct_40_1()
                     digitl_input = self._global_data.get_data()
@@ -569,10 +579,10 @@ class Vehicle1StatusReader(BaseReader):
                 
 
                 if target_power_from_car1 > 38000 and target_power_from_car1 < 42000:
-                    PECC.LIMITS1_DATA_120kw_Gun1[4] = 64
-                    PECC.LIMITS1_DATA_120kw_Gun1[5] = 31
-                    PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
-                    PECC.LIMITS2_DATA_120kw_Gun1[3] = 9
+                    # PECC.LIMITS1_DATA_120kw_Gun1[4] = 64
+                    # PECC.LIMITS1_DATA_120kw_Gun1[5] = 31
+                    # PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
+                    # PECC.LIMITS2_DATA_120kw_Gun1[3] = 9
                     pm_assign1 = self._global_data.get_data_pm_assign1()
                     if (pm_assign1 == 1):
                         mm.stopModule(CanId.CAN_ID_2)
