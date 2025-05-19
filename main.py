@@ -25,12 +25,8 @@ if __name__ == "__main__":
         #logger.error(f'error found in app config: {err}')
         sys.exit(1)
     else:
-        if int(total_power) == 60:
-            from power_60kw.dynamicsharing import perform_action
-        elif int(total_power) == 120:
+
+        if int(total_power) == 120:
             from power_120kw.dynamicsharing import perform_action
-        elif int(total_power) == 180:
-            from power_180kw.dynamicsharing import perform_action
-        elif int(total_power) == 240:
-            from power_240kw.dynamicsharing import perform_action
+ 
         perform_action()
