@@ -81,15 +81,18 @@ class PMSetDataCurrentPeccStatus2(PowerModuleReader):
         #logger.info('Reading input for 120KW PECC-2 Status')
         bd = self._binary_data
         super().read_input_data()
-        if self._diff_vol_current == 98:
+        if self._diff_vol_current == 98:  # For voltage vlaue
             volatge_pe2 = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))
             divide_vol2 = ((volatge_pe2) / 1000)
+
             t2 = int(divide_vol2) * 10
+
+
             vl2 = DTH.converttohexforpecc(hex(t2))
             PECC.STATUS2_GUN2_DATA[1] = vl2[0]
             PECC.STATUS2_GUN2_DATA[0] = vl2[1]
         
-        if self._diff_vol_current == 48:
+        if self._diff_vol_current == 48: # For current vlaue
             self._global_data.set_data_current_pe2(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             if self._vehicle_status1_g == 0 or self._vehicle_status1_g == 6:
                 if self._maxevpower2_g <= 40000 or self._targetpower_ev2 <= 38000 or self._pm_assign2 == 1:
@@ -171,6 +174,7 @@ class PMSetDataCurrentPeccStatus4(PowerModuleReader):
                     cu_vl_24 = DTH.converttohexforpecc(hex(tot_current2))
                     PECC.STATUS2_GUN2_DATA[3] = cu_vl_24[0]
                     PECC.STATUS2_GUN2_DATA[2] = cu_vl_24[1]
+
 class PMSetDataCurrentPeccStatus3(PowerModuleReader):
     arbitration_id = int(ConfigManager().get_power_config('PS3_id'))
 

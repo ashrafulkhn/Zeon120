@@ -31,10 +31,10 @@ class CanId:
     PECC_STATUS2_GUN1 = 0x303
     STOP_GUN1 = 0x309
 
-
 class PECC:
-    STATUS1_GUN1_DATA = [0, 0, 0, 0, 0, 0, 0]
-    STATUS2_GUN1_DATA = [0, 0, 0, 0, 0, 0, 0]
+    STATUS1_GUN1_DATA = [0, 0, 0, 0, 0, 0, 0]       # 
+    STATUS2_GUN1_DATA = [0, 0, 0, 0, 0, 0, 0]       # 
+
     LIMITS1_DATA_60kw_Gun1 = [220, 5, 16, 39, 112, 23, 0, 0]
     LIMITS2_DATA_60kw_Gun1 = [0, 0, 208, 7]
     LIMITS1_DATA_60kw_Gun2 = [220, 5, 16, 39, 112, 23, 0, 0]
@@ -47,5 +47,6 @@ class PECC:
     LIMITS2_DATA_180kW = [0, 0, 196, 9]
     LIMITS1_DATA_240kw = [220, 5, 16, 39, 192, 93, 0, 0]
     LIMITS2_DATA_240kw = [0, 0, 196, 9]
-    STATUS1_GUN2_DATA = [0, 0, 0, 0, 0, 0, 0]
-    STATUS2_GUN2_DATA = [0, 0, 0, 0, 0, 0, 0]
+
+    STATUS1_GUN2_DATA = [0, 0, 0, 0, 0, 0, 0]  # Error codes
+    STATUS2_GUN2_DATA = [0, 0, 0, 0, 0, 0, 0]  # Total voltage, current
