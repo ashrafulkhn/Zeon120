@@ -7,16 +7,19 @@ from caninterface import CanInterface
 from power_120kw.persistent_communication import set_status_update
 
 
-def readAllCanData(d):
-    reader = FactoryReader.create_reader(d.arbitration_id,d.data)
+def readAllCanData(messgage):
+    """
+    This function reads all the CAN data and calls the appropriate reader based on the arbitration ID.
+    """
+    reader = FactoryReader.create_reader(messgage.arbitration_id, messgage.data)
     if reader:
         reader.read_input_data()
 
 
 def readFromCan():
     bus = CanInterface.bus_instance
-    for m in bus:
-        readAllCanData(m)
+    for message in bus:
+        readAllCanData(message)
 
 
 def perform_action():
