@@ -10,7 +10,7 @@ import math
 
 from power_120kw.can_readers.power_module_reader import PowerModuleReader
 
-#logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
 
 class Vehicle1StatusReader(BaseReader):
@@ -34,14 +34,19 @@ class Vehicle1StatusReader(BaseReader):
         self._current = (current_pre / 10)
 
         self._readPower = int(self._voltage * self._current)
+        # print(f"Real-time Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W")
         return self._readPower, self._voltage, self._current
     
     def limitChangeRequest(self, limitPower):
-        margin = 0.05 * limitPower  # 5% margin
-        if abs(self._readPower - limitPower) <= margin:
+        print(f"Limit Power: {limitPower}")
+        val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
+        print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
+        if val > 2000:  # 2kW
             self.limitChangeRequested = True
         else:
             self.limitChangeRequested = False
+        
+        print(f"Limit Change Requested status: {self.limitChangeRequested}")
         
     def read_input_data(self):
         #logger.info('Read input for Vehicle-1 status')
@@ -52,6 +57,7 @@ class Vehicle1StatusReader(BaseReader):
         vehicle_status2_g = self._global_data.get_data_status_vehicle2()
         
         self.getRealTimeVIP()   # To update the real-time voltage, current and power
+        print(f"Real-time Power: {self._readPower}W")
 
         #logger.info(f'Vehicle-2 status {vehicle_status2_g}')
         tag_vol1 = binaryToDecimal(int(vs1[2] + vs1[1]))
@@ -494,6 +500,7 @@ class Vehicle1StatusReader(BaseReader):
                 self.limitChangeRequest(35000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
+                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun11()
                     funct_40_1()
 
@@ -504,6 +511,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
                     PECC.LIMITS2_DATA_120kw_Gun1[3] = 9
                     self.limitChangeRequested = False
+                    print(f"INFO: Limit changed to 75kW.")
 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
@@ -559,6 +567,7 @@ class Vehicle1StatusReader(BaseReader):
                 self.limitChangeRequest(75000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
+                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun12()
                     funct_80_1()
                 else:
@@ -568,6 +577,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
                     PECC.LIMITS2_DATA_120kw_Gun1[3] = 9
                     self.limitChangeRequested = False
+                    print(f"INFO: Limit changed to 75kW.")
 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
@@ -616,6 +626,7 @@ class Vehicle1StatusReader(BaseReader):
 
                 self.limitChangeRequest(115000)  # Updates the limitChangeRequested variable to true if the limit is reached
                 if (self.limitChangeRequested == False):
+                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun13()
                     funct_120_1()
                 else:
@@ -625,7 +636,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.LIMITS2_DATA_120kw_Gun1[2] = 134
                     PECC.LIMITS2_DATA_120kw_Gun1[3] = 11
                     self.limitChangeRequested = False
-
+                    print(f"INFO: Limit changed to 75kW.")
 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':

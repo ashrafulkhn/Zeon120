@@ -218,3 +218,4 @@ class PMSetDataCurrentPeccStatus3(PowerModuleReader):
                     cu_vl_13 = DTH.converttohexforpecc(hex(tot_current1))
                     PECC.STATUS2_GUN1_DATA[3] = cu_vl_13[0]
                     PECC.STATUS2_GUN1_DATA[2] = cu_vl_13[1]
+
