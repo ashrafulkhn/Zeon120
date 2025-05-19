@@ -26,7 +26,8 @@ class Vehicle1StatusReader(BaseReader):
 
     #  Return the real-time voltage, current and power
     def getRealTimeVIP(self):
-        s2gd = PECC.STATUS2_GUN1_DATA
+        s2gd = bytetobinary(PECC.STATUS2_GUN1_DATA)
+
         voltage_pre = binaryToDecimal(int(s2gd[1] + s2gd[0]))
         self._voltage = (voltage_pre / 10)
 
@@ -34,14 +35,14 @@ class Vehicle1StatusReader(BaseReader):
         self._current = (current_pre / 10)
 
         self._readPower = int(self._voltage * self._current)
-        # print(f"Real-time Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W")
+        print(f"Real-time Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W  || Target Power: {self._global_data.get_data_targetpower_ev1()}W")
         return self._readPower, self._voltage, self._current
     
     def limitChangeRequest(self, limitPower):
         print(f"Limit Power: {limitPower}")
         val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
         print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
-        if val > 2000:  # 2kW
+        if val <= 2000:  # 2kW
             self.limitChangeRequested = True
         else:
             self.limitChangeRequested = False
