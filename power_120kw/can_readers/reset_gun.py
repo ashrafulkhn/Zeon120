@@ -27,21 +27,22 @@ class ResetGunModule1(BaseReader):
             maxpowerev2_g = self._global_data.get_data_maxpower_ev2()
             target_power_from_car2 = self._global_data.get_data_targetpower_ev2()
             target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
+            pm_assign1 = self._global_data.get_data_pm_assign1()
             mm1.digital_output_led_red1()
-            if (target_power_from_car1 <= 30000 and target_power_from_car2 <= 30000) or (target_power_from_car1 <= 30000 and 30000 < target_power_from_car2 <= 60000) or (target_power_from_car1 <= 30000 and 60000 < target_power_from_car2 <= 90000) or (target_power_from_car1 <= 30000 and target_power_from_car2 > 90000):
+            if (pm_assign1 == 1):
                 mm.stopModule(CanId.CAN_ID_1)
                 mm1.digital_output_open_load11()
-            if (30000 < target_power_from_car1 <= 60000 and target_power_from_car2 <= 30000) or (30000 < target_power_from_car1 <= 60000 and 30000 < target_power_from_car2 <= 60000) or (30000 < target_power_from_car1 <= 60000 and 60000 < target_power_from_car2 <= 90000) or (30000 < target_power_from_car1 <= 60000 and target_power_from_car2 > 90000) or (60000 < target_power_from_car1 <= 90000 and 30000 < target_power_from_car2 <= 60000) or (60000 < target_power_from_car1 <= 90000 and 60000 < target_power_from_car2 <= 90000) or (60000 < target_power_from_car1 <= 90000 and target_power_from_car2 > 90000) or (target_power_from_car1 > 90000 and 30000 < target_power_from_car2 <= 60000) or (target_power_from_car1 > 90000 and 60000 < target_power_from_car2 <= 90000) or (target_power_from_car1 > 90000 and target_power_from_car2 > 90000):
+            if (pm_assign1 == 2):
                 mm.stopModule(CanId.CAN_ID_1)
                 mm.stopModule(CanId.CAN_ID_3)
                 mm1.digital_output_open_load12()
-            if (60000 < target_power_from_car1 <= 90000 and target_power_from_car2 <= 30000) or (target_power_from_car1 > 90000 and target_power_from_car2 <= 30000):
+            if (pm_assign1 == 3):
                 mm.stopModule(CanId.CAN_ID_1)
                 mm.stopModule(CanId.CAN_ID_3)
                 mm.stopModule(CanId.CAN_ID_4)
                 mm1.digital_output_open_load13()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1':
+            if digitl_input[1] == '0' or digitl_input[2] == '1'or digitl_input[7] == '0':
                 PECC.STATUS1_GUN1_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN1_DATA[0] = 0
@@ -55,7 +56,7 @@ class ResetGunModule1(BaseReader):
             time.sleep(10)
             mm.digital_output_open_fan()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1' :
+            if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0':
                 PECC.STATUS1_GUN1_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN1_DATA[0] = 0
@@ -79,20 +80,21 @@ class ResetGunModule2(BaseReader):
             maxpowerev2_g = self._global_data.get_data_maxpower_ev2()
             target_power_from_car2 = self._global_data.get_data_targetpower_ev2()
             target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
-            if (target_power_from_car2 <= 30000 and target_power_from_car1 <= 30000) or (target_power_from_car2 <= 30000 and 30000 < target_power_from_car1 <= 60000) or (target_power_from_car2 <= 30000 and 60000 < target_power_from_car1 <= 90000) or (target_power_from_car2 <= 30000 and target_power_from_car1 > 90000):
+            pm_assign2 = self._global_data.get_data_pm_assign2()
+            if (pm_assign2 ==1):
                 mm.stopModule(CanId.CAN_ID_2)
                 mm2.digital_output_open_load21()
-            if (30000 < target_power_from_car2 <= 60000 and target_power_from_car1 <= 30000) or (30000 < target_power_from_car2 <= 60000 and 30000 < target_power_from_car1 <= 60000) or (30000 < target_power_from_car2 <= 60000 and 60000 < target_power_from_car1 <= 90000) or (30000 < target_power_from_car2 <= 60000 and target_power_from_car1 > 90000) or (60000 < target_power_from_car2 <= 90000 and 30000 < target_power_from_car1 <= 60000) or (60000 < target_power_from_car2 <= 90000 and 60000 < target_power_from_car1 <= 90000) or (60000 < target_power_from_car2 <= 90000 and target_power_from_car1 > 90000) or (target_power_from_car2 > 90000 and 30000 < target_power_from_car1 <= 60000) or (target_power_from_car2 > 90000 and 60000 < target_power_from_car1 <= 90000) or (target_power_from_car2 > 90000 and target_power_from_car1 > 90000):
+            if (pm_assign2 == 2):
                 mm.stopModule(CanId.CAN_ID_2)
                 mm.stopModule(CanId.CAN_ID_4)
                 mm2.digital_output_open_load22()
-            if (60000 < target_power_from_car2 <= 90000 and target_power_from_car1 <= 30000) or (target_power_from_car2 > 90000 and target_power_from_car1 <= 30000):
+            if (pm_assign2 == 3):
                 mm.stopModule(CanId.CAN_ID_2)
                 mm.stopModule(CanId.CAN_ID_4)
                 mm.stopModule(CanId.CAN_ID_3)
                 mm2.digital_output_open_load23()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1':
+            if digitl_input[1] == '0' or digitl_input[2] == '1'or digitl_input[7] == '0':
                 PECC.STATUS1_GUN2_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN2_DATA[0] = 0
@@ -109,7 +111,7 @@ class ResetGunModule2(BaseReader):
             time.sleep(10)
             mm.digital_output_open_fan()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1':
+            if digitl_input[1] == '0' or digitl_input[2] == '1'or digitl_input[7] == '0':
                 PECC.STATUS1_GUN2_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN2_DATA[0] = 0

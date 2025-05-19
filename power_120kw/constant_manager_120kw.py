@@ -3,7 +3,7 @@ from base_constant_manager import BaseConstantManager
 
 class ConstantManager120KW(BaseConstantManager):
 
-    def __init__(self, d='', pe1current=0, pe2current=0, pe3current=0, pe4current=0, rc=0, vehiclestatus2=6, vehiclestatus1=6, targetpower1=0,targetpower2=0,maxev1power=0,maxev2power=0,maxpower1=0,maxpower2=0 ):
+    def __init__(self, d='', pe1current=0, pe2current=0, pe3current=0, pe4current=0, rc=0, vehiclestatus2=6, vehiclestatus1=6, targetpower1=0,targetpower2=0,maxev1power=0,maxev2power=0,maxpower1=0,maxpower2=0,pm_assign1=0, pm_assign2=0 ):
         super().__init__(d, pe1current, vehiclestatus2, vehiclestatus1,maxev1power,maxev2power)
         self._pe2_current = pe2current
         self._pe3_current = pe3current
@@ -13,7 +13,8 @@ class ConstantManager120KW(BaseConstantManager):
         self._power2 = targetpower2
         self._maxpower1 = maxpower1
         self._maxpower2 = maxpower2
-
+        self._pm_assign1 = pm_assign1
+        self._pm_assign2 = pm_assign2
         
     def get_data_current_pe2(self):  # 120kW code change
         return self._pe2_current
@@ -62,3 +63,15 @@ class ConstantManager120KW(BaseConstantManager):
 
     def set_data_maxpower2(self, x):
         self._maxpower2 = x
+
+    def get_data_pm_assign1(self): # 120kW code change
+        return self._pm_assign1
+
+    def set_data_pm_assign1(self, x):
+        self._pm_assign1 = x
+
+    def get_data_pm_assign2(self): # 120kW code change
+        return self._pm_assign2
+
+    def set_data_pm_assign2(self, x):
+        self._pm_assign2 = x

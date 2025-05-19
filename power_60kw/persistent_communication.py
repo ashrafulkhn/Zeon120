@@ -37,62 +37,53 @@ class PECCStatusManager:
     # Bus interface
     bus = CanInterface.bus_instance
 
-    #@staticmethod
-    #def pecc_powers_voltage_limits_1():
-        #message = can.Message(arbitration_id=CanId.PECC_POWER_VOLTAGE_L1,
-        #                     is_extended_id=False, data=PECC.LIMITS1_DATA_60kw_Gun1)
-        #PECCStatusManager.bus.send(message)
+    @staticmethod
+    def pecc_powers_voltage_limits_1():
+        message = can.Message(arbitration_id=CanId.PECC_POWER_VOLTAGE_L1,
+                              is_extended_id=False, data=PECC.LIMITS1_DATA_60kw_Gun1)
+        PECCStatusManager.bus.send(message)
 
-    #@staticmethod
-    #def pecc_current_limits_1():
-        #message = can.Message(arbitration_id=CanId.PECC_CURRENT_L1,
-        #                      is_extended_id=False, data=PECC.LIMITS2_DATA_60kw_Gun1)
-        #PECCStatusManager.bus.send(message)
+    @staticmethod
+    def pecc_current_limits_1():
+        message = can.Message(arbitration_id=CanId.PECC_CURRENT_L1,
+                              is_extended_id=False, data=PECC.LIMITS2_DATA_60kw_Gun1)
+        PECCStatusManager.bus.send(message)
 
     @staticmethod
     def pecc_status_1_Gun1():
-        print(f"pecc_status_1_Gun1:{PECC.STATUS1_GUN1_DATA}")
-
-     #   message = can.Message(arbitration_id=CanId.PECC_STATUS1_GUN1,
-      #                        is_extended_id=False, data=PECC.STATUS1_GUN1_DATA)
-       # PECCStatusManager.bus.send(message)
+        message = can.Message(arbitration_id=CanId.PECC_STATUS1_GUN1,
+                              is_extended_id=False, data=PECC.STATUS1_GUN1_DATA)
+        PECCStatusManager.bus.send(message)
 
     @staticmethod
     def pecc_status_2_Gun1():
-        print(f"pecc_status_2_Gun1:{PECC.STATUS2_GUN1_DATA}")
+        message = can.Message(arbitration_id=CanId.PECC_STATUS2_GUN1,
+                              is_extended_id=False, data=PECC.STATUS2_GUN1_DATA)
+        PECCStatusManager.bus.send(message)
 
-     #   message = can.Message(arbitration_id=CanId.PECC_STATUS2_GUN1,
-      #                        is_extended_id=False, data=PECC.STATUS2_GUN1_DATA)
-       # PECCStatusManager.bus.send(message)
-
-    #@staticmethod
-    #def pecc_powers_voltage_limits_2():
-    #    message = can.Message(arbitration_id=CanId.PECC_POWER_VOLTAGE_L2,
-     #                         is_extended_id=False, data=PECC.LIMITS1_DATA_60kw_Gun2)
-      #  PECCStatusManager.bus.send(message)
+    @staticmethod
+    def pecc_powers_voltage_limits_2():
+        message = can.Message(arbitration_id=CanId.PECC_POWER_VOLTAGE_L2,
+                              is_extended_id=False, data=PECC.LIMITS1_DATA_60kw_Gun2)
+        PECCStatusManager.bus.send(message)
 
     @staticmethod
     def pecc_current_limits_2():
-        pass
-     #   message = can.Message(arbitration_id=CanId.PECC_CURRENT_L2,
-      #                        is_extended_id=False, data=PECC.LIMITS2_DATA_60kw_Gun2)
-       # PECCStatusManager.bus.send(message)
+        message = can.Message(arbitration_id=CanId.PECC_CURRENT_L2,
+                              is_extended_id=False, data=PECC.LIMITS2_DATA_60kw_Gun2)
+        PECCStatusManager.bus.send(message)
 
     @staticmethod
     def pecc_status_1_Gun2():
-        print(f"pecc_status_1_Gun2:{PECC.STATUS1_GUN2_DATA}")
-
-     #   message = can.Message(arbitration_id=CanId.PECC_STATUS1_Gun2,
-      #                        is_extended_id=False, data=PECC.STATUS1_GUN2_DATA)
-       # PECCStatusManager.bus.send(message)
+        message = can.Message(arbitration_id=CanId.PECC_STATUS1_Gun2,
+                              is_extended_id=False, data=PECC.STATUS1_GUN2_DATA)
+        PECCStatusManager.bus.send(message)
 
     @staticmethod
     def pecc_status_2_Gun2():
-        print(f"pecc_status_2_Gun2:{PECC.STATUS2_GUN2_DATA}")
-
-     #   message = can.Message(arbitration_id=CanId.PECC_STATUS2_Gun2,
-      #                        is_extended_id=False, data=PECC.STATUS2_GUN2_DATA)
-       # PECCStatusManager.bus.send(message)
+        message = can.Message(arbitration_id=CanId.PECC_STATUS2_Gun2,
+                              is_extended_id=False, data=PECC.STATUS2_GUN2_DATA)
+        PECCStatusManager.bus.send(message)
 
 
 def set_status_update():

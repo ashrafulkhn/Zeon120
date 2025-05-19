@@ -26,6 +26,8 @@ isStartButton1Pressed = False
 isStartButton2Pressed = False
 readCurrent = None
 readVolatge = None
+power1 = 0
+power2 = 0
 # This part of the static values has to be captured from config.ini file.
 # TODO
 hostIp = "192.168.3.120"
@@ -58,10 +60,11 @@ def on_message(client, userdata, msg):
             current = int(data[2])
             voltage = int(data[1])
             isStartButton1Pressed = True
-            #isStartButton2Pressed = False
+            isStartButton2Pressed = False
         elif data[0] == "STOP1":
-            stop()
             isStartButton1Pressed = False
+            isStartButton2Pressed = False
+            stop()
     
     if msg.topic == "MAN_COMMAND_2":
         if data[0] == "START2":
@@ -69,30 +72,48 @@ def on_message(client, userdata, msg):
             current = int(data[2])
             voltage = int(data[1])
             isStartButton2Pressed = True
-            #isStartButton1Pressed = False
+            isStartButton1Pressed = False
         elif data[0] == "STOP2":
-            stop()
             isStartButton2Pressed = False
-
+            isStartButton1Pressed = False
+            stop()
 # Function to start sensor
 def start(current, setVoltage):
     print("Charging started... GUN1")
     global isStartButton1Pressed
+    global power1
     #When Start button is pressed, below code and while loop should run.
-    Running_current = int(current/4)
+    Running_current = int(current)
+    power1 = int(current * setVoltage)
     mm.digital_output_close_AC()
-    #time.sleep(5)
-    mm1.digital_output_close_Gun14()
+    if 0 < power1 <= 30000:
+        mm1.digital_output_close_Gun11()
+    elif 30000 < power1 <= 60000:
+        mm1.digital_output_close_Gun12()
+    elif 60000 < power1 <= 90000:
+        mm1.digital_output_close_Gun13()
+    elif power1 > 90000:
+        mm1.digital_output_close_Gun14()
+    
     # print(f"Charging started for current = {Running_current}A and voltage = {setVoltage}")
     return Running_current, setVoltage
 
 def start2(current, setVoltage):
     print("Charging started... GUN2")
     global isStartButton2Pressed
-    Running_current = int(current/4)
+    global power2
+    Running_current = int(current)
+    power2 = int(current * setVoltage)
     mm.digital_output_close_AC()
-    #time.sleep(5)
-    mm2.digital_output_close_Gun24()    
+    if 0 < power2 <= 30000:
+        mm2.digital_output_close_Gun21()
+    elif 30000 < power2 <= 60000:
+        mm2.digital_output_close_Gun22()
+    elif 60000 < power2 <= 90000:
+        mm2.digital_output_close_Gun23()
+    elif power2 > 90000:
+        mm2.digital_output_close_Gun24()
+        
     # print(f"Charging started for current = {Running_current}A and voltage = {setVoltage}")
     return Running_current, setVoltage
 
@@ -115,9 +136,9 @@ def stop():
     mm.readModule_Current(CanId.CAN_ID_3)
     mm.readModule_Current(CanId.CAN_ID_4)
     mm.digital_output_open_stop()
-    mm1.digital_output_open_AC()
     time.sleep(5)
     mm.digital_output_open_fan()
+    mm.digital_output_open_AC()
 # # Function to set current
 # def setCurrent(current):
 #     # Code to set current
@@ -150,48 +171,242 @@ client.loop_start()
 def start_Modules(icurrent, isetVoltage):
     #print("SetCurrent1 -> ", icurrent1)
     #print("SetVoltage1 -> ", isetVoltage1)
+    power1 = int(icurrent * isetVoltage)
     mm1.digital_output_led_red1()
     mm2.digital_output_led_red2()
     time.sleep(2)
+    if 0 < power1 <= 30000:
+        mm.stopModule(CanId.CAN_ID_2)
+        mm.stopModule(CanId.CAN_ID_3)
+        mm.stopModule(CanId.CAN_ID_4)
+        #mm1.digital_output_close_Gun11()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_1)
 
-    if isetVoltage <= 500 :
-        mm.lowMode(CanId.CAN_ID_1)
-        mm.lowMode(CanId.CAN_ID_2)
-        mm.lowMode(CanId.CAN_ID_3)
-        mm.lowMode(CanId.CAN_ID_4)
-    elif isetVoltage >500 :
-        mm.highMode(CanId.CAN_ID_1)
-        mm.highMode(CanId.CAN_ID_2)
-        mm.highMode(CanId.CAN_ID_3)
-        mm.highMode(CanId.CAN_ID_4)
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_1)
+
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_1)
+        global_data.set_data_running_current(int(icurrent))
+        mm.setCurrent(CanId.CAN_ID_1)
+        mm.startModule(CanId.CAN_ID_1)
+        mm.readModule_Voltage(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
         
-    #time.sleep(1)
-    mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_1)
-    mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_2)
-    mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_3)
-    mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_4)
-    global_data.set_data_running_current1(int(icurrent))
-    mm.setCurrent(CanId.CAN_ID_1)
-    mm.setCurrent(CanId.CAN_ID_2)
-    mm.setCurrent(CanId.CAN_ID_3)
-    mm.setCurrent(CanId.CAN_ID_4)
-    mm.startModule(CanId.CAN_ID_1)
-    mm.startModule(CanId.CAN_ID_2)
-    mm.startModule(CanId.CAN_ID_3)
-    mm.startModule(CanId.CAN_ID_4)
-    mm.readModule_Voltage(CanId.CAN_ID_1)
-    mm.readModule_Voltage(CanId.CAN_ID_2)
-    mm.readModule_Voltage(CanId.CAN_ID_3)
-    mm.readModule_Voltage(CanId.CAN_ID_4)
-    mm.readModule_Current(CanId.CAN_ID_1)
-    mm.readModule_Current(CanId.CAN_ID_2)
-    mm.readModule_Current(CanId.CAN_ID_3)
-    mm.readModule_Current(CanId.CAN_ID_4)
+    elif 30000 < power1 <= 60000:
+        mm.stopModule(CanId.CAN_ID_2)
+        mm.stopModule(CanId.CAN_ID_4)
+        #mm1.digital_output_close_Gun12()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_1)
+            mm.lowMode(CanId.CAN_ID_3)
+
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_1)
+            mm.highMode(CanId.CAN_ID_3)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_1)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_3)
+        global_data.set_data_running_current(int(icurrent/2))
+        mm.setCurrent(CanId.CAN_ID_1)
+        mm.setCurrent(CanId.CAN_ID_3)
+        mm.startModule(CanId.CAN_ID_1)
+        mm.startModule(CanId.CAN_ID_3)
+        mm.readModule_Voltage(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
+    
+    elif 60000 < power1 <= 90000:
+        
+        mm.stopModule(CanId.CAN_ID_2)
+        #mm1.digital_output_close_Gun13()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_1)
+            mm.lowMode(CanId.CAN_ID_3)
+            mm.lowMode(CanId.CAN_ID_4)
+
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_1)
+            mm.highMode(CanId.CAN_ID_3)
+            mm.highMode(CanId.CAN_ID_4)
+    
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_1)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_3)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_4)
+        global_data.set_data_running_current(int(icurrent/3))
+        mm.setCurrent(CanId.CAN_ID_1)
+        mm.setCurrent(CanId.CAN_ID_3)
+        mm.setCurrent(CanId.CAN_ID_4)
+        mm.startModule(CanId.CAN_ID_1)
+        mm.startModule(CanId.CAN_ID_3)
+        mm.startModule(CanId.CAN_ID_4)
+        mm.readModule_Voltage(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
+    
+    elif power1 > 90000:
+        #mm1.digital_output_close_Gun14()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_1)
+            mm.lowMode(CanId.CAN_ID_2)
+            mm.lowMode(CanId.CAN_ID_3)
+            mm.lowMode(CanId.CAN_ID_4)
+
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_1)
+            mm.highMode(CanId.CAN_ID_2)
+            mm.highMode(CanId.CAN_ID_3)
+            mm.highMode(CanId.CAN_ID_4)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_1)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_2)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_3)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_4)
+        global_data.set_data_running_current(int(icurrent/4))
+        mm.setCurrent(CanId.CAN_ID_1)
+        mm.setCurrent(CanId.CAN_ID_2)
+        mm.setCurrent(CanId.CAN_ID_3)
+        mm.setCurrent(CanId.CAN_ID_4)
+        mm.startModule(CanId.CAN_ID_1)
+        mm.startModule(CanId.CAN_ID_2)
+        mm.startModule(CanId.CAN_ID_3)
+        mm.startModule(CanId.CAN_ID_4)
+        mm.readModule_Voltage(CanId.CAN_ID_1)
+        mm.readModule_Voltage(CanId.CAN_ID_2)
+        mm.readModule_Voltage(CanId.CAN_ID_3)
+        mm.readModule_Voltage(CanId.CAN_ID_4)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
 
 # def stop_charge():
 #     pass
 
+def start_Modules2(icurrent, isetVoltage):
+    #print("SetCurrent1 -> ", icurrent1)
+    #print("SetVoltage1 -> ", isetVoltage1)
+    power2 = int(icurrent * isetVoltage)
+    mm1.digital_output_led_red1()
+    mm2.digital_output_led_red2()
+    time.sleep(2)
+    if 0 < power2 <= 30000:
+        mm.stopModule(CanId.CAN_ID_1)
+        mm.stopModule(CanId.CAN_ID_3)
+        mm.stopModule(CanId.CAN_ID_4)
+        #mm2.digital_output_close_Gun21()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_2)
 
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_2)
+
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_2)
+        global_data.set_data_running_current(int(icurrent))
+        mm.setCurrent(CanId.CAN_ID_2)
+        mm.startModule(CanId.CAN_ID_2)
+        mm.readModule_Voltage(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
+        
+    elif 30000 < power2 <= 60000:
+        mm.stopModule(CanId.CAN_ID_1)
+        mm.stopModule(CanId.CAN_ID_3)
+        #mm2.digital_output_close_Gun22()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_2)
+            mm.lowMode(CanId.CAN_ID_4)
+
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_2)
+            mm.highMode(CanId.CAN_ID_4)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_2)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_4)
+        global_data.set_data_running_current(int(icurrent/2))
+        mm.setCurrent(CanId.CAN_ID_2)
+        mm.setCurrent(CanId.CAN_ID_4)
+        mm.startModule(CanId.CAN_ID_2)
+        mm.startModule(CanId.CAN_ID_4)
+        mm.readModule_Voltage(CanId.CAN_ID_2)
+        mm.readModule_Voltage(CanId.CAN_ID_4)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
+    
+    elif 60000 < power2 <= 90000:
+        
+        mm.stopModule(CanId.CAN_ID_1)
+        #mm2.digital_output_close_Gun23()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_2)
+            mm.lowMode(CanId.CAN_ID_3)
+            mm.lowMode(CanId.CAN_ID_4)
+
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_2)
+            mm.highMode(CanId.CAN_ID_3)
+            mm.highMode(CanId.CAN_ID_4)
+    
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_2)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_3)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_4)
+        global_data.set_data_running_current(int(icurrent/3))
+        mm.setCurrent(CanId.CAN_ID_2)
+        mm.setCurrent(CanId.CAN_ID_3)
+        mm.setCurrent(CanId.CAN_ID_4)
+        mm.startModule(CanId.CAN_ID_2)
+        mm.startModule(CanId.CAN_ID_3)
+        mm.startModule(CanId.CAN_ID_4)
+        mm.readModule_Voltage(CanId.CAN_ID_2)
+        mm.readModule_Voltage(CanId.CAN_ID_3)
+        mm.readModule_Voltage(CanId.CAN_ID_4)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
+    
+    elif power2 > 90000:
+        #mm2.digital_output_close_Gun24()
+        if isetVoltage <= 500 :
+            mm.lowMode(CanId.CAN_ID_1)
+            mm.lowMode(CanId.CAN_ID_2)
+            mm.lowMode(CanId.CAN_ID_3)
+            mm.lowMode(CanId.CAN_ID_4)
+
+        elif isetVoltage >500 :
+            mm.highMode(CanId.CAN_ID_1)
+            mm.highMode(CanId.CAN_ID_2)
+            mm.highMode(CanId.CAN_ID_3)
+            mm.highMode(CanId.CAN_ID_4)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_1)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_2)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_3)
+        mm.setVoltage(DTH.convertohex(int(isetVoltage)), CanId.CAN_ID_4)
+        global_data.set_data_running_current(int(icurrent/4))
+        mm.setCurrent(CanId.CAN_ID_1)
+        mm.setCurrent(CanId.CAN_ID_2)
+        mm.setCurrent(CanId.CAN_ID_3)
+        mm.setCurrent(CanId.CAN_ID_4)
+        mm.startModule(CanId.CAN_ID_1)
+        mm.startModule(CanId.CAN_ID_2)
+        mm.startModule(CanId.CAN_ID_3)
+        mm.startModule(CanId.CAN_ID_4)
+        mm.readModule_Voltage(CanId.CAN_ID_1)
+        mm.readModule_Voltage(CanId.CAN_ID_2)
+        mm.readModule_Voltage(CanId.CAN_ID_3)
+        mm.readModule_Voltage(CanId.CAN_ID_4)
+        mm.readModule_Current(CanId.CAN_ID_1)
+        mm.readModule_Current(CanId.CAN_ID_2)
+        mm.readModule_Current(CanId.CAN_ID_3)
+        mm.readModule_Current(CanId.CAN_ID_4)
 
 def readAllCanData(d):
     global readCurrent
@@ -293,22 +508,22 @@ readdata = SetInterval(0.25,readFromCan)
 # Run the main loop
 while True:
     # Do other stuff here
-    if isStartButton1Pressed:
+    if isStartButton1Pressed == True:
         #print("Current1 : ", readCurrent1)
         #print("voltage1: ", readVolatge1 )
 
         client.publish("VOLTAGE_2ND_1", str(readVolatge))
         client.publish("CURRENT_2ND_1", str(readCurrent))
         # current, setVoltage = start()
-        start_Modules((current/4), voltage)
-    if isStartButton2Pressed:
+        start_Modules(current, voltage)
+    if isStartButton2Pressed == True:
         #print("Current 2: ", readCurrent2)
         #print("voltage 2: ", readVolatge2 )
 
         client.publish("VOLTAGE_2ND_2", str(readVolatge))
         client.publish("CURRENT_2ND_2", str(readCurrent))
         # current, setVoltage = start()
-        start_Modules((current/4), voltage)
+        start_Modules2(current, voltage)
 
 
 # Stop the network thread and disconnect

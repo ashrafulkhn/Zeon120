@@ -31,7 +31,7 @@ readVolatge = None
 
 # This part of the static values has to be captured from config.ini file.
 # TODO
-hostIp = "192.168.3.11"
+hostIp = "192.168.3.120"
 hostPort = 1883
 
 # The callback function to be called when the client receives a CONNACK response from the server.
@@ -104,8 +104,8 @@ def start2(current, setVoltage):
 def stop():
     print("Charging Stopped...")
         # When Stop button is pressed, below code should run.
-    mm1.digital_output_led_red1()
-    mm2.digital_output_led_red2()
+    mm1.digital_output_led_blue1()
+    mm2.digital_output_led_blue2()
     mm.stopModule(CanId.CAN_ID_1)
     mm.stopModule(CanId.CAN_ID_2)
     mm.readModule_Voltage(CanId.CAN_ID_1)
@@ -113,9 +113,9 @@ def stop():
     mm.readModule_Current(CanId.CAN_ID_1)
     mm.readModule_Current(CanId.CAN_ID_2)
     mm.digital_output_open_stop()
-    mm.digital_output_open_AC()
     time.sleep(5)
     mm.digital_output_open_fan()
+    mm.digital_output_open_AC()
 # # Function to set current
 # def setCurrent(current):
 #     # Code to set current
@@ -148,9 +148,9 @@ client.loop_start()
 def start_Modules(icurrent, isetVoltage):
     #print("SetCurrent1 -> ", icurrent1)
     #print("SetVoltage1 -> ", isetVoltage1)
-    mm1.digital_output_led_red1()
-    mm2.digital_output_led_red2()
-    time.sleep(2)
+    mm1.digital_output_led_blue1()
+    mm2.digital_output_led_blue2()
+    time.sleep(1)
     if isetVoltage <= 500 :
         #print("low")
         mm.lowMode(CanId.CAN_ID_1)

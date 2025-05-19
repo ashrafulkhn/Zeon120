@@ -24,3 +24,15 @@ class ConstantManager60KW(BaseConstantManager):
 
     def set_data_targetpower_ev2(self, x):
         self._power2 = x
+
+    def get_data_maxpower1(self): # 120kW code change
+        return self._maxpower1
+
+    def set_data_maxpower1(self, x):
+        self._maxpower1 = x
+
+    def get_data_maxpower2(self): # 120kW code change
+        return self._maxpower2
+
+    def set_data_maxpower2(self, x):
+        self._maxpower2 = x

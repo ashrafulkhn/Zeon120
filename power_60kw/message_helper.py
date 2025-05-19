@@ -23,7 +23,7 @@ class ModuleMessage:
     @classmethod
     def digital_output_open_AC(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[0, 0, 64, 0])
+                              is_extended_id=False, data=[0, 0, 223, 48])
         cls.bus.send(message)
 
     @classmethod
@@ -41,7 +41,7 @@ class ModuleMessage:
     @classmethod
     def digital_output_open_stop(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[0, 0, 63, 48])
+                              is_extended_id=False, data=[0, 0, 31, 48])
         cls.bus.send(message)
 
     @classmethod
@@ -92,37 +92,43 @@ class Module1Message(ModuleMessage):
     @classmethod
     def digital_output_close_Gun1(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[253, 48, 253, 48])
+                              is_extended_id=False, data=[221, 48, 221, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_load1(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[195, 0, 255, 48])
+                              is_extended_id=False, data=[195, 0, 223, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_Gun1_load2(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[193, 0, 253, 48])
+                              is_extended_id=False, data=[193, 0, 221, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_open_load1(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[0, 0, 61, 48])
+                              is_extended_id=False, data=[0, 0, 29, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_led_red1(cls):
         message=can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                          is_extended_id=False, data=[0, 1, 0, 3])       # data changed for 240kW
+                          is_extended_id=False, data=[0, 1, 32, 3])       # data changed for 120kW
+        cls.bus.send(message)
+
+    @classmethod
+    def digital_output_led_blue1(cls):
+        message=can.Message(arbitration_id=CanId.DIGITAL_OUT,
+                          is_extended_id=False, data=[0, 2, 32, 3])       # data changed for 120kW
         cls.bus.send(message)
 
     @classmethod
     def digital_output_led_green1(cls):
         message=can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                          is_extended_id=False, data=[0, 2, 0, 3])       # data changed for 240kW
+                          is_extended_id=False, data=[32, 0, 32, 3])       # data changed for 120kW
         cls.bus.send(message)
 
 
@@ -131,38 +137,43 @@ class Module2Message(ModuleMessage):
     @classmethod
     def digital_output_close_Gun2(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[254, 48, 254, 48])
+                              is_extended_id=False, data=[222, 48, 222, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_load2(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[195, 0, 255, 48])
+                              is_extended_id=False, data=[195, 0, 223, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_Gun2_load1(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[194, 0, 254, 48])
+                              is_extended_id=False, data=[194, 0, 222, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_open_load2(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                              is_extended_id=False, data=[0, 0, 62, 48])
+                              is_extended_id=False, data=[0, 0, 30, 48])
         cls.bus.send(message)
 
     @classmethod
     def digital_output_led_red2(cls):
         message=can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                          is_extended_id=False, data=[0, 4, 0, 12])       # data changed for 60kW
+                          is_extended_id=False, data=[0, 4, 0, 76])       # data changed for 120kW
+        cls.bus.send(message)
+
+    @classmethod
+    def digital_output_led_blue2(cls):
+        message=can.Message(arbitration_id=CanId.DIGITAL_OUT,
+                          is_extended_id=False, data=[0, 8, 0, 76])       # data changed for 120kW
         cls.bus.send(message)
 
     @classmethod
     def digital_output_led_green2(cls):
         message=can.Message(arbitration_id=CanId.DIGITAL_OUT,
-                          is_extended_id=False, data=[0, 8, 0, 12])       # data changed for 60kW
+                          is_extended_id=False, data=[0, 64, 0, 76])       # data changed for 120kW
         cls.bus.send(message)
-
 
     
