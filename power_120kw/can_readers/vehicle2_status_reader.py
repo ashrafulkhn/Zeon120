@@ -429,7 +429,7 @@ class Vehicle2StatusReader(BaseReader):
             pm2=1
             self._global_data.set_data_pm_assign2(pm2)
 
-            startCharging([CanId.CAN_ID_1])
+            startCharging([CanId.CAN_ID_2])
 
             digitl_input = self._global_data.get_data()
             if digitl_input[4] == '1':
@@ -653,7 +653,7 @@ class Vehicle2StatusReader(BaseReader):
                     startCharging([CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
                 elif (pm_assign2 == 4):
                     mm2.digital_output_close_Gun24()
-                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4, CanId.CAN_ID_1])
                 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[4] == '1':
@@ -903,7 +903,7 @@ class Vehicle2StatusReader(BaseReader):
                 mm.stopModule(CanId.CAN_ID_1)
                 mm2.digital_output_Gun2_load13()
                 # funct_120_2()
-                startCharging([CanId.CAN_ID_2, CanId.CAN_ID_4, CanId])
+                startCharging([CanId.CAN_ID_2, CanId.CAN_ID_4, CanId.CAN_ID_3])
                 digitl_input = self._global_data.get_data()
                 if digitl_input[4] == '1':
                     mm2.digital_output_led_red2()
