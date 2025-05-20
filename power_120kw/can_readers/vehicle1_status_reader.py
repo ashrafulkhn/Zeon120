@@ -50,7 +50,7 @@ class Vehicle1StatusReader(BaseReader):
         This means switch power only when the difference is more than 2kW both positive and negative way. If there is a drastic change in power, then we will not switch the power.
         """
         print(f"Limit Power: {limitPower}")
-        val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
+        val = abs(limitPower - self._readPower)    # Cpnsider conditions: 35 - 34 = 1; 35 - 36 = -1
         print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
         if val <= 2000:  # 2kW
             self.limitChangeRequested = True
