@@ -39,6 +39,16 @@ class Vehicle1StatusReader(BaseReader):
         return self._readPower, self._voltage, self._current
     
     def limitChangeRequest(self, limitPower):
+        """
+        Case 1:
+        Demand = 34kW -> Limit = 35kW -> readPower = 20kW -> Difference = 15kW
+        Case 2:
+        Demand = 38kW -> Limit = 35kW -> readPower = 33kW -> Difference = 2kW
+        Case 3:
+        Demand = 38kW -> Limit = 35kW -> readPower = 55kW -> Difference = abs(-20kW) = 20kW
+
+        This means switch power only when the difference is more than 2kW both positive and negative way. If there is a drastic change in power, then we will not switch the power.
+        """
         print(f"Limit Power: {limitPower}")
         val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
         print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
@@ -92,97 +102,61 @@ class Vehicle1StatusReader(BaseReader):
                 mm.stopModule(CanId.CAN_ID_1)
                 PECC.STATUS1_GUN1_DATA[0] = 3
 
-        def funct_40_1():
-            
-            if target_volatge_from_car1 <= 500:
-                mm.lowMode(CanId.CAN_ID_1)
+        def handleError(module_ids):
+            """"
+            Check the digital input from the VSECC.
+            Digital input 1: Emergency Button Status, 0 is Active
+            Digital input 2: SPD Status/ELR Status, 1 is active
+            Digital input 7: 3 Phase Monitoring Device Status, 0 is active
+            If any of the above digital input is Active, then stop the charging and turn on the red LED.
 
-            if target_volatge_from_car1 > 500:
-                mm.highMode(CanId.CAN_ID_1)
-            mm.setVoltage(DTH.convertohex(target_volatge_from_car1), CanId.CAN_ID_1)
+            """
+            # Handle error conditions here
 
-            RUNNING_CURRENT = (target_current_from_car1)
-            self._global_data.set_data_running_current(RUNNING_CURRENT)
-            mm.setCurrent(CanId.CAN_ID_1)
-            mm.startModule(CanId.CAN_ID_1)
-            mm.readModule_Voltage(CanId.CAN_ID_1)
-            mm.readModule_Current(CanId.CAN_ID_1)
-            digitl_input = self._global_data.get_data()
-            
+            # Check the digital input from the VSECC.
+            mm1.digital_output_led_red1()
+            mm.stopcharging(CanId.STOP_GUN1)
+            for module_id in module_ids:
+                mm.stopModule(module_id)
 
-            if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0' :
-                mm1.digital_output_led_red1()
-                mm.stopcharging(CanId.STOP_GUN1)
-                mm.stopModule(CanId.CAN_ID_1)
-                PECC.STATUS1_GUN1_DATA[0] = 3
-
-        def funct_80_1():
-            
-            if target_volatge_from_car1 <= 500:
-                mm.lowMode(CanId.CAN_ID_1)
-                mm.lowMode(CanId.CAN_ID_3)
-
-            if target_volatge_from_car1 > 500:
-                mm.highMode(CanId.CAN_ID_1)
-                mm.highMode(CanId.CAN_ID_3)
-
-            mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_1)
-            mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_3)
-            RUNNING_CURRENT = (target_current_from_car1/2)
-            self._global_data.set_data_running_current(RUNNING_CURRENT)
-            mm.setCurrent(CanId.CAN_ID_1)
-            mm.setCurrent(CanId.CAN_ID_3)
-            mm.startModule(CanId.CAN_ID_1)
-            mm.startModule(CanId.CAN_ID_3)
-            mm.readModule_Voltage(CanId.CAN_ID_1)
-            mm.readModule_Current(CanId.CAN_ID_1)
-            mm.readModule_Current(CanId.CAN_ID_3)
-            digitl_input = self._global_data.get_data()
+            PECC.STATUS1_GUN1_DATA[0] = 3
             
 
-            if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0' :
-                mm1.digital_output_led_red1()
-                mm.stopcharging(CanId.STOP_GUN1)
-                mm.stopModule(CanId.CAN_ID_1)
-                mm.stopModule(CanId.CAN_ID_3)
-                PECC.STATUS1_GUN1_DATA[0] = 3
 
-        def funct_120_1():
+        def startCharging(module_ids):
+            """
+            Call the startCharging function to start the charging process
+            modue_ids: List of module IDs to be started
+            Example:
+            module_ids = [CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4]
+            """
+            for module_id in module_ids:
+                mm.startModule(module_id)
+                mm.readModule_Voltage(module_id)
+                mm.readModule_Current(module_id)
 
             if target_volatge_from_car1 <= 500:
-                mm.lowMode(CanId.CAN_ID_1)
-                mm.lowMode(CanId.CAN_ID_3)
-                mm.lowMode(CanId.CAN_ID_4)
+                for module_id in module_ids:
+                    mm.lowMode(module_id)
 
-            if target_volatge_from_car1 > 500:
-                mm.highMode(CanId.CAN_ID_1)
-                mm.highMode(CanId.CAN_ID_3)
-                mm.highMode(CanId.CAN_ID_4)
+            elif target_volatge_from_car1 > 500:
+                for module_id in module_ids:
+                    mm.highMode(module_id)
 
-            mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_1)
-            mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_3)
-            mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_4)
-            RUNNING_CURRENT = (target_current_from_car1/3)
+
+            RUNNING_CURRENT = (target_current_from_car1/len(module_ids))
             self._global_data.set_data_running_current(RUNNING_CURRENT)
-            mm.setCurrent(CanId.CAN_ID_1)
-            mm.setCurrent(CanId.CAN_ID_3)
-            mm.setCurrent(CanId.CAN_ID_4)
-            mm.startModule(CanId.CAN_ID_1)
-            mm.startModule(CanId.CAN_ID_3)
-            mm.startModule(CanId.CAN_ID_4)
-            mm.readModule_Voltage(CanId.CAN_ID_1)
-            mm.readModule_Current(CanId.CAN_ID_1)
-            mm.readModule_Current(CanId.CAN_ID_3)
-            mm.readModule_Current(CanId.CAN_ID_4)
+            for module_id in module_ids:
+                mm.setVoltage(DTH.convertohex(target_volatge_from_car1), module_id)
+                mm.setCurrent(module_id)
+                mm.startModule(module_id)
+                mm.readModule_Current(module_id)
+            mm.readModule_Voltage(module_ids[0])
+
+            # Handle error conditions here
             digitl_input = self._global_data.get_data()
-            
             if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0' :
-                mm1.digital_output_led_red1()
-                mm.stopcharging(CanId.STOP_GUN1)
-                mm.stopModule(CanId.CAN_ID_1)
-                mm.stopModule(CanId.CAN_ID_3)
-                mm.stopModule(CanId.CAN_ID_4)
-                PECC.STATUS1_GUN1_DATA[0] = 3
+                handleError(module_ids)
         
         if vehicle_status1 == 0 and vehicle_status2_g == 0 or vehicle_status1 == 6 and vehicle_status2_g == 6 or vehicle_status1 == 6 and vehicle_status2_g == 0:
             mm.digital_output_open_AC()
@@ -358,13 +332,6 @@ class Vehicle1StatusReader(BaseReader):
 
             if digitl_input[3] == '0':
                 PECC.STATUS1_GUN1_DATA[0] = 5
-           
-
-                #precharge
-
-
-
-                
 
         if vehicle_status1 == 21 and vehicle_status2_g == 0 or vehicle_status1 == 21 and vehicle_status2_g == 6:
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
@@ -381,7 +348,8 @@ class Vehicle1StatusReader(BaseReader):
             mm1.digital_output_close_Gun11()
             pm1=1
             self._global_data.set_data_pm_assign1(pm1)
-            funct_40_1()
+            # funct_40_1()
+            startCharging([CanId.CAN_ID_1])
 
             digitl_input = self._global_data.get_data()
             if digitl_input[3] == '1':
@@ -397,9 +365,6 @@ class Vehicle1StatusReader(BaseReader):
                 PECC.STATUS1_GUN1_DATA[0] = 5
 
             
-                
-                
-
         if vehicle_status1 == 21 and vehicle_status2_g == 2 or vehicle_status1 == 21 and vehicle_status2_g == 35 or vehicle_status1 == 21 and vehicle_status2_g == 37:
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
@@ -421,7 +386,11 @@ class Vehicle1StatusReader(BaseReader):
             mm.stopModule(CanId.CAN_ID_3) 
             pm1=1
             self._global_data.set_data_pm_assign1(pm1)
-            funct_40_1()
+            # funct_40_1()
+
+
+            startCharging([CanId.CAN_ID_1])
+
             digitl_input = self._global_data.get_data()
             if digitl_input[3] == '1':
                 mm1.digital_output_led_red1()
@@ -450,7 +419,9 @@ class Vehicle1StatusReader(BaseReader):
             mm1.digital_output_load11()
             pm1=1
             self._global_data.set_data_pm_assign1(pm1)
-            funct_40_1()
+            # funct_40_1()
+            startCharging([CanId.CAN_ID_1])
+
             digitl_input = self._global_data.get_data()
             if digitl_input[3] == '1':
                 mm1.digital_output_led_red1()
@@ -503,7 +474,8 @@ class Vehicle1StatusReader(BaseReader):
                 if (self.limitChangeRequested == False):
                     print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun11()
-                    funct_40_1()
+                    # funct_40_1()
+                    startCharging([CanId.CAN_ID_1])
 
                 else:
                     # set limit to 75kW
@@ -539,12 +511,14 @@ class Vehicle1StatusReader(BaseReader):
                     mm.stopModule(CanId.CAN_ID_4)
                     mm.stopModule(CanId.CAN_ID_3)
                     mm1.digital_output_close_Gun11()
-                    funct_40_1()
+                    # funct_40_1()
+                    startCharging([CanId.CAN_ID_1])
                 elif (pm_assign1 == 2):
                     mm1.digital_output_close_Gun12()
                     mm.stopModule(CanId.CAN_ID_2)
                     mm.stopModule(CanId.CAN_ID_4)
-                    funct_80_1()
+                    # funct_80_1()
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
@@ -570,7 +544,8 @@ class Vehicle1StatusReader(BaseReader):
                 if (self.limitChangeRequested == False):
                     print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun12()
-                    funct_80_1()
+                    # funct_80_1()
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
                 else:
                     # set limit to 115kW
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 236
@@ -600,11 +575,13 @@ class Vehicle1StatusReader(BaseReader):
                     mm.stopModule(CanId.CAN_ID_2)
                     mm.stopModule(CanId.CAN_ID_4)
                     mm1.digital_output_close_Gun12()
-                    funct_80_1()
+                    # funct_80_1()
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
                 elif (pm_assign1 == 3):
                     mm1.digital_output_close_Gun13()
                     mm.stopModule(CanId.CAN_ID_2)
-                    funct_120_1()
+                    # funct_120_1()
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
@@ -629,7 +606,8 @@ class Vehicle1StatusReader(BaseReader):
                 if (self.limitChangeRequested == False):
                     print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun13()
-                    funct_120_1()
+                    # funct_120_1()
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
                 else:
                     # set limit to 160kW
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 128
@@ -658,38 +636,41 @@ class Vehicle1StatusReader(BaseReader):
                 if (pm_assign1 == 3):
                     mm.stopModule(CanId.CAN_ID_2)
                     mm1.digital_output_close_Gun13()
-                    funct_120_1()
+                    # funct_120_1()
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
                 elif (pm_assign1 == 4):
                     mm1.digital_output_close_Gun14()
-                    if target_volatge_from_car1 <= 500:
-                        mm.lowMode(CanId.CAN_ID_1)
-                        mm.lowMode(CanId.CAN_ID_2)
-                        mm.lowMode(CanId.CAN_ID_3)
-                        mm.lowMode(CanId.CAN_ID_4)
-                    if target_volatge_from_car1 > 500:
-                        mm.highMode(CanId.CAN_ID_1)
-                        mm.highMode(CanId.CAN_ID_2)
-                        mm.highMode(CanId.CAN_ID_3)
-                        mm.highMode(CanId.CAN_ID_4)
-                    mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_1)
-                    mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_2)
-                    mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_3)
-                    mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_4)
-                    RUNNING_CURRENT = (target_current_from_car1/4)
-                    self._global_data.set_data_running_current(RUNNING_CURRENT)
-                    mm.setCurrent(CanId.CAN_ID_1)
-                    mm.setCurrent(CanId.CAN_ID_2)
-                    mm.setCurrent(CanId.CAN_ID_3)
-                    mm.setCurrent(CanId.CAN_ID_4)
-                    mm.startModule(CanId.CAN_ID_1)
-                    mm.startModule(CanId.CAN_ID_2)
-                    mm.startModule(CanId.CAN_ID_3)
-                    mm.startModule(CanId.CAN_ID_4)
-                    mm.readModule_Voltage(CanId.CAN_ID_1)
-                    mm.readModule_Current(CanId.CAN_ID_1)
-                    mm.readModule_Current(CanId.CAN_ID_2)
-                    mm.readModule_Current(CanId.CAN_ID_3)
-                    mm.readModule_Current(CanId.CAN_ID_4)
+                    startCharging([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
+
+                    # if target_volatge_from_car1 <= 500:
+                    #     mm.lowMode(CanId.CAN_ID_1)
+                    #     mm.lowMode(CanId.CAN_ID_2)
+                    #     mm.lowMode(CanId.CAN_ID_3)
+                    #     mm.lowMode(CanId.CAN_ID_4)
+                    # if target_volatge_from_car1 > 500:
+                    #     mm.highMode(CanId.CAN_ID_1)
+                    #     mm.highMode(CanId.CAN_ID_2)
+                    #     mm.highMode(CanId.CAN_ID_3)
+                    #     mm.highMode(CanId.CAN_ID_4)
+                    # mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_1)
+                    # mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_2)
+                    # mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_3)
+                    # mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_4)
+                    # RUNNING_CURRENT = (target_current_from_car1/4)
+                    # self._global_data.set_data_running_current(RUNNING_CURRENT)
+                    # mm.setCurrent(CanId.CAN_ID_1)
+                    # mm.setCurrent(CanId.CAN_ID_2)
+                    # mm.setCurrent(CanId.CAN_ID_3)
+                    # mm.setCurrent(CanId.CAN_ID_4)
+                    # mm.startModule(CanId.CAN_ID_1)
+                    # mm.startModule(CanId.CAN_ID_2)
+                    # mm.startModule(CanId.CAN_ID_3)
+                    # mm.startModule(CanId.CAN_ID_4)
+                    # mm.readModule_Voltage(CanId.CAN_ID_1)
+                    # mm.readModule_Current(CanId.CAN_ID_1)
+                    # mm.readModule_Current(CanId.CAN_ID_2)
+                    # mm.readModule_Current(CanId.CAN_ID_3)
+                    # mm.readModule_Current(CanId.CAN_ID_4)
 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
@@ -703,47 +684,14 @@ class Vehicle1StatusReader(BaseReader):
 
                 if digitl_input[3] == '0':
                     PECC.STATUS1_GUN1_DATA[0] = 5
-
-                if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0' :
-                    mm1.digital_output_led_red1()
-                    mm.stopcharging(CanId.STOP_GUN1)
-                    mm.stopModule(CanId.CAN_ID_1)
-                    PECC.STATUS1_GUN1_DATA[0] = 3
                 
 
             if target_power_from_car1 >= 122000:
                 mm1.digital_output_close_Gun14()
                 pm1=4
                 pm_assign1 = self._global_data.set_data_pm_assign1(pm1)
-                if target_volatge_from_car1 <= 500:
-                    mm.lowMode(CanId.CAN_ID_1)
-                    mm.lowMode(CanId.CAN_ID_2)
-                    mm.lowMode(CanId.CAN_ID_3)
-                    mm.lowMode(CanId.CAN_ID_4)
-                if target_volatge_from_car1 > 500:
-                    mm.highMode(CanId.CAN_ID_1)
-                    mm.highMode(CanId.CAN_ID_2)
-                    mm.highMode(CanId.CAN_ID_3)
-                    mm.highMode(CanId.CAN_ID_4)
-                mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_1)
-                mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_2)
-                mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_3)
-                mm.setVoltage(DTH.convertohex((target_volatge_from_car1)), CanId.CAN_ID_4)
-                RUNNING_CURRENT = (target_current_from_car1/4)
-                self._global_data.set_data_running_current(RUNNING_CURRENT)
-                mm.setCurrent(CanId.CAN_ID_1)
-                mm.setCurrent(CanId.CAN_ID_2)
-                mm.setCurrent(CanId.CAN_ID_3)
-                mm.setCurrent(CanId.CAN_ID_4)
-                mm.startModule(CanId.CAN_ID_1)
-                mm.startModule(CanId.CAN_ID_2)
-                mm.startModule(CanId.CAN_ID_3)
-                mm.startModule(CanId.CAN_ID_4)
-                mm.readModule_Voltage(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_2)
-                mm.readModule_Current(CanId.CAN_ID_3)
-                mm.readModule_Current(CanId.CAN_ID_4)
+                startCharging([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
+
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
                     mm1.digital_output_led_red1()
@@ -760,14 +708,6 @@ class Vehicle1StatusReader(BaseReader):
                 if digitl_input[3] == '0':
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
-                if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0' :
-                    mm1.digital_output_led_red1()
-                    mm.stopcharging(CanId.STOP_GUN1)
-                    mm.stopModule(CanId.CAN_ID_1)
-                    mm.stopModule(CanId.CAN_ID_2)
-                    mm.stopModule(CanId.CAN_ID_3)
-                    mm.stopModule(CanId.CAN_ID_4)
-                    PECC.STATUS1_GUN1_DATA[0] = 3
                 
         if vehicle_status1 == 29 and vehicle_status2_g == 2 or vehicle_status1 == 29 and vehicle_status2_g == 35 or vehicle_status1 == 29 and vehicle_status2_g == 37:
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
