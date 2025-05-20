@@ -143,7 +143,6 @@ class Vehicle1StatusReader(BaseReader):
                 for module_id in module_ids:
                     mm.highMode(module_id)
 
-
             RUNNING_CURRENT = (target_current_from_car1/len(module_ids))
             self._global_data.set_data_running_current(RUNNING_CURRENT)
             for module_id in module_ids:
