@@ -26,12 +26,12 @@ class Vehicle1StatusReader(BaseReader):
 
     #  Return the real-time voltage, current and power
     def getRealTimeVIP(self):
-        s2gd = bytetobinary(PECC.STATUS2_GUN1_DATA)
+        s2g1d = bytetobinary(PECC.STATUS2_GUN1_DATA)
 
-        voltage_pre = binaryToDecimal(int(s2gd[1] + s2gd[0]))
+        voltage_pre = binaryToDecimal(int(s2g1d[1] + s2g1d[0]))
         self._voltage = (voltage_pre / 10)
 
-        current_pre = binaryToDecimal(int(s2gd[3] + s2gd[2]))
+        current_pre = binaryToDecimal(int(s2g1d[3] + s2g1d[2]))
         self._current = (current_pre / 10)
 
         self._readPower = int(self._voltage * self._current)
