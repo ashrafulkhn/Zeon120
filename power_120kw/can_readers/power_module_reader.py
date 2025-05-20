@@ -49,6 +49,9 @@ class PMSetDataCurrentPeccStatus1(PowerModuleReader):
             volatge_pe1 = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))
             divide_vol = ((volatge_pe1) / 1000)
             t1 = int(divide_vol* 10)
+
+            # self._global_data.set_data_voltage_pe1(t1)   # Set voltage for PE1 in Watt Units
+
             vl1 = DTH.converttohexforpecc(hex(t1))
             PECC.STATUS2_GUN1_DATA[1] = vl1[0]
             PECC.STATUS2_GUN1_DATA[0] = vl1[1]
