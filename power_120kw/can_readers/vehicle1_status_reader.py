@@ -205,15 +205,19 @@ class Vehicle1StatusReader(BaseReader):
             pm1=[]
             self._global_data.set_data_pm_assign1(pm1)
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0'  :
-                mm1.digital_output_led_red1()
-                mm.stopcharging(CanId.STOP_GUN1)
-                PECC.STATUS1_GUN1_DATA[0] = 2
-            
-            else:
-                mm1.digital_output_led_green1()
-                mm.digital_output_close_AC()
-                PECC.STATUS1_GUN1_DATA[0] = 0
+
+            try:
+                if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0'  :
+                    mm1.digital_output_led_red1()
+                    mm.stopcharging(CanId.STOP_GUN1)
+                    PECC.STATUS1_GUN1_DATA[0] = 2
+                
+                else:
+                    mm1.digital_output_led_green1()
+                    mm.digital_output_close_AC()
+                    PECC.STATUS1_GUN1_DATA[0] = 0
+            except IndexError:
+                print("IndexError: List index out of range. Please check the input data.")
 
         if vehicle_status1 == 2 and vehicle_status2_g == 13 or vehicle_status1 == 2 and vehicle_status2_g == 21 or vehicle_status1 == 2 and vehicle_status2_g == 29:
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 128                                                                                    

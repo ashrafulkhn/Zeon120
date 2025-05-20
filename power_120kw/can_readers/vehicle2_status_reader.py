@@ -204,15 +204,18 @@ class Vehicle2StatusReader(BaseReader):
             pm2=0
             self._global_data.set_data_pm_assign2(pm2)    
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0':
-                mm2.digital_output_led_red2()
-                mm.stopcharging(CanId.STOP_GUN2)
-                PECC.STATUS1_GUN2_DATA[0] = 2
-            
-            else:
-                mm2.digital_output_led_green2()
-                mm.digital_output_close_AC()
-                PECC.STATUS1_GUN2_DATA[0] = 0 
+            try:
+                if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0':
+                    mm2.digital_output_led_red2()
+                    mm.stopcharging(CanId.STOP_GUN2)
+                    PECC.STATUS1_GUN2_DATA[0] = 2
+                
+                else:
+                    mm2.digital_output_led_green2()
+                    mm.digital_output_close_AC()
+                    PECC.STATUS1_GUN2_DATA[0] = 0 
+            except IndexError:
+                print("Error")
         
         if vehicle_status2 == 2 and vehicle_status1_g != 0 or vehicle_status2 == 2 and vehicle_status1_g != 6:
             """
