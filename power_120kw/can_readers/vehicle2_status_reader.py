@@ -128,10 +128,10 @@ class Vehicle2StatusReader(BaseReader):
             Example:
             module_ids = [CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4]
             """
-            for module_id in module_ids:
-                mm.startModule(module_id)
-                mm.readModule_Voltage(module_id)
-                mm.readModule_Current(module_id)
+            # for module_id in module_ids:
+            #     mm.startModule(module_id)
+            #     mm.readModule_Voltage(module_id)
+            #     mm.readModule_Current(module_id)
 
             if target_volatge_from_car2 <= 500:
                 for module_id in module_ids:
