@@ -45,22 +45,21 @@ class Vehicle1StatusReader(BaseReader):
         self._current = (current_pre / 10)
 
         self._readPower = int(self._voltage * self._current)
-        print(f"Real-time Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W  || Target Power: {self._global_data.get_data_targetpower_ev1()}W")
+        # print(f"Real-time G1 Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W  || Target Power: {self._global_data.get_data_targetpower_ev1()}W")
         return self._readPower, self._voltage, self._current
     
     # def log_demand_and_actual(self, demand_power, demand_voltage, demand_current, actual_power, actual_voltage, actual_current, limit_power, limit_change_requested):
     #     logger.info(f"[Gun1] Demand: {demand_power}W ({demand_voltage}V, {demand_current}A) | Actual: {actual_power}W ({actual_voltage}V, {actual_current}A) | Limit: {limit_power}W | LimitChangeRequested: {limit_change_requested}")
 
     def limitChangeRequest(self, limitPower):
-        print(f"Limit Power: {limitPower}")
         val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
-        print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
+        # print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
         if val <= 2000:  # 2kW
             self.limitChangeRequested = True
         else:
             self.limitChangeRequested = False
         
-        print(f"Limit Change Requested status: {self.limitChangeRequested}")
+        print(f"Gun1 :: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}, Change Reqyested: {self.limitChangeRequested}")
             
         # Log after limit check
         # self.log_demand_and_actual(
@@ -83,7 +82,7 @@ class Vehicle1StatusReader(BaseReader):
         vehicle_status2_g = self._global_data.get_data_status_vehicle2()
         
         self.getRealTimeVIP()   # To update the real-time voltage, current and power
-        print(f"Real-time Power: {self._readPower}W")
+        # print(f"Real-time Power: {self._readPower}W")
 
         #logger.info(f'Vehicle-2 status {vehicle_status2_g}')
         tag_vol1 = binaryToDecimal(int(vs1[2] + vs1[1]))
@@ -513,7 +512,7 @@ class Vehicle1StatusReader(BaseReader):
                 self.limitChangeRequest(35000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
-                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
+                    # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     startCharging(pm1)
 
                 else:
@@ -580,7 +579,7 @@ class Vehicle1StatusReader(BaseReader):
                 self.limitChangeRequest(75000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
-                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
+                    # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun12()
                     # funct_80_1()
                     startCharging(pm1)
@@ -645,7 +644,7 @@ class Vehicle1StatusReader(BaseReader):
 
                 self.limitChangeRequest(115000)  # Updates the limitChangeRequested variable to true if the limit is reached
                 if (self.limitChangeRequested == False):
-                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
+                    # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm1.digital_output_close_Gun13()
                     # funct_120_1()
                     startCharging(pm1)
@@ -1283,7 +1282,7 @@ class Vehicle1StatusReader(BaseReader):
                 mm.readModule_Current(CanId.CAN_ID_1)
                 mm.readModule_Current(CanId.CAN_ID_3)
 
-            elif ((pm_assign1) == 3):
+            elif ((pm_assign1) == 3): 
                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
                 mm.readModule_Voltage(CanId.CAN_ID_1)
                 mm.readModule_Current(CanId.CAN_ID_1)

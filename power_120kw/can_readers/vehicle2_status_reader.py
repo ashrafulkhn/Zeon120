@@ -32,7 +32,7 @@ class Vehicle2StatusReader(BaseReader):
         self._current = (current_pre / 10)
 
         self._readPower = int(self._voltage * self._current)
-        print(f"Real-time Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W  || Target Power: {self._global_data.get_data_targetpower_ev1()}W")
+        # print(f"Real-time G2: Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W  || Target Power: {self._global_data.get_data_targetpower_ev2()}W")
         return self._readPower, self._voltage, self._current
     
     def limitChangeRequest(self, limitPower):
@@ -46,15 +46,15 @@ class Vehicle2StatusReader(BaseReader):
 
         This means switch power only when the difference is more than 2kW both positive and negative way. If there is a drastic change in power, then we will not switch the power.
         """
-        print(f"Limit Power: {limitPower}")
+        # print(f"Limit Power: {limitPower}")
         val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
-        print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
+        # print(f"Comparision value: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}")
         if val <= 2000:  # 2kW
             self.limitChangeRequested = True
         else:
             self.limitChangeRequested = False
         
-        print(f"Limit Change Requested status: {self.limitChangeRequested}")
+        print(f"Gun2 :: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}, Change Reqyested: {self.limitChangeRequested}")
 
     def read_input_data(self):
         #logger.info('Read input for Vehicle-1 status')
@@ -277,7 +277,7 @@ class Vehicle2StatusReader(BaseReader):
             PECC.LIMITS1_DATA_120kw_Gun2[5] = 62
             PECC.LIMITS2_DATA_120kw_Gun2[2] = 134
             PECC.LIMITS2_DATA_120kw_Gun2[3] = 11
-            updateVI_status()
+            updateVI_status(vs2=vs2)
             PECC.STATUS1_GUN2_DATA[0] = 1
 
             mm2.digital_output_led_green2()
@@ -302,7 +302,7 @@ class Vehicle2StatusReader(BaseReader):
             
         if vehicle_status2 == 13 and vehicle_status1_g == 2 or vehicle_status2 == 13 and vehicle_status1_g == 35 or vehicle_status2 == 13 and vehicle_status1_g == 37:
             mm2.digital_output_led_green2()
-            updateVI_status()
+            updateVI_status(vs2)
             PECC.STATUS1_GUN2_DATA[0] = 1
             
             pm2=[CanId.CAN_ID_2]
@@ -324,7 +324,7 @@ class Vehicle2StatusReader(BaseReader):
 
 
         if vehicle_status2 == 13 and vehicle_status1_g == 13 or vehicle_status2 == 13 and vehicle_status1_g == 21 or vehicle_status2 == 13 and vehicle_status1_g == 29:
-            updateVI_status()
+            updateVI_status(vs2)
             PECC.STATUS1_GUN2_DATA[0] = 1
             mm2.digital_output_led_green2()
             pm2=[CanId.CAN_ID_2]
@@ -346,7 +346,7 @@ class Vehicle2StatusReader(BaseReader):
                 
 
         if vehicle_status2 == 21 and vehicle_status1_g == 0 or vehicle_status2 == 21 and vehicle_status1_g == 6:
-            updateVI_status()
+            updateVI_status(vs2)
             mm2.digital_output_led_green2()
             
             pm2=[CanId.CAN_ID_2]
@@ -375,7 +375,7 @@ class Vehicle2StatusReader(BaseReader):
                 
 
         if vehicle_status2 == 21 and vehicle_status1_g == 2 or vehicle_status2 == 21 and vehicle_status1_g == 35 or vehicle_status2 == 21 and vehicle_status1_g == 37:
-            updateVI_status()
+            updateVI_status(vs2)
             
             mm2.digital_output_led_green2()
                        
@@ -406,7 +406,7 @@ class Vehicle2StatusReader(BaseReader):
                 PECC.STATUS1_GUN2_DATA[0] = 5
                 
         if vehicle_status2 == 21 and vehicle_status1_g == 13 or vehicle_status2 == 21 and vehicle_status1_g == 21 or vehicle_status2 == 21 and vehicle_status1_g == 29:
-            updateVI_status()
+            updateVI_status(vs2)
             mm2.digital_output_led_green2()
             
             
@@ -467,7 +467,7 @@ class Vehicle2StatusReader(BaseReader):
                 self.limitChangeRequest(35000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
-                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
+                    # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     
                     startCharging(pm2)
 
@@ -533,7 +533,7 @@ class Vehicle2StatusReader(BaseReader):
                 self.limitChangeRequest(75000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
-                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
+                    # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm2.digital_output_close_Gun22()
                     # funct_80_1()
                     startCharging(pm2)
@@ -594,7 +594,7 @@ class Vehicle2StatusReader(BaseReader):
                 self.limitChangeRequest(115000)  # Updates the limitChangeRequested variable to true if the limit is reached
                 
                 if (self.limitChangeRequested == False):
-                    print(f"INFO: Limit change requested: {self.limitChangeRequested}")
+                    # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
                     mm2.digital_output_close_Gun23()
                     # funct_120_1()
                     startCharging([CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
@@ -963,7 +963,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.LIMITS2_DATA_120kw_Gun2[3] = 9
                     mm2.digital_output_load21()
                     # funct_40_2()
-                    startCharging(CanId.CAN_ID_2)
+                    startCharging([CanId.CAN_ID_2])
 
                     digitl_input = self._global_data.get_data()
                 if digitl_input[4] == '1':
