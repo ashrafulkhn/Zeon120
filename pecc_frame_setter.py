@@ -16,12 +16,12 @@ class PECCFrameSetter:
         current_hex = DTH.converttohexforpecc(hex(current_val))
         PECC.__dict__[f"LIMITS2_DATA_120kw_Gun{gun_number}"][2] = current_hex[1]  # Lower byte
         PECC.__dict__[f"LIMITS2_DATA_120kw_Gun{gun_number}"][3] = current_hex[0]  # Upper byte
-        print(f"4: {power_hex[1]}, 5: {power_hex[0]}, 2: {current_hex[1]}, 3: {current_hex[0]}")
+        print(f"Power: {power}, 4: {power_hex[1]}, 5: {power_hex[0]}, 2: {current_hex[1]}, 3: {current_hex[0]}")
 
 def main():
     setter = PECCFrameSetter()
     # e.g. set 80 kW @ 250 A on Gun 1
-    setter.setModulesLimit(40000, 250, gun_number=1)
+    setter.setModulesLimit(120000, 250, gun_number=1)
 
 if __name__ == "__main__":
     main()
