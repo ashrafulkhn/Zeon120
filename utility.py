@@ -17,7 +17,6 @@ def bytetobinary(x):
 
 
 class DTH:
-
     @staticmethod
     def convertohex(val):
         arr = []

@@ -22,7 +22,6 @@ logger = logging.getLogger(__name__)
 # if not logger.hasHandlers():
 #     logger.addHandler(file_handler)
 
-
 class Vehicle1StatusReader(BaseReader):
     arbitration_id = 769
 

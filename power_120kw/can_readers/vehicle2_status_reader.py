@@ -9,8 +9,7 @@ from utility import bytetobinary, binaryToDecimal, DTH
 
 #logger = logging.getLogger(__name__)
 
-
-class Vehicle2StatusReader(BaseReader):  
+class Vehicle2StatusReader(BaseReader):
     arbitration_id = 1537
 
     def __init__(self, data):
@@ -34,16 +33,12 @@ class Vehicle2StatusReader(BaseReader):
         self._readPower = int(self._voltage * self._current)
         # print(f"Real-time G2: Voltage: {self._voltage}V, Current: {self._current}A, Power: {self._readPower}W  || Target Power: {self._global_data.get_data_targetpower_ev2()}W")
         return self._readPower, self._voltage, self._current
-    
+
     def limitChangeRequest(self, limitPower):
         """
-        Case 1:
-        Demand = 34kW -> Limit = 35kW -> readPower = 20kW -> Difference = 15kW
-        Case 2:
-        Demand = 38kW -> Limit = 35kW -> readPower = 33kW -> Difference = 2kW
-        Case 3:
-        Demand = 38kW -> Limit = 35kW -> readPower = 55kW -> Difference = abs(-20kW) = 20kW
-
+        Case 1: Demand = 34kW -> Limit = 35kW -> readPower = 20kW -> Difference = 15kW
+        Case 2: Demand = 38kW -> Limit = 35kW -> readPower = 33kW -> Difference = 2kW
+        Case 3: Demand = 38kW -> Limit = 35kW -> readPower = 55kW -> Difference = abs(-20kW) = 20kW
         This means switch power only when the difference is more than 2kW both positive and negative way. If there is a drastic change in power, then we will not switch the power.
         """
         # print(f"Limit Power: {limitPower}")
@@ -53,7 +48,7 @@ class Vehicle2StatusReader(BaseReader):
             self.limitChangeRequested = True
         else:
             self.limitChangeRequested = False
-        
+
         print(f"Gun2 :: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}, Change Reqyested: {self.limitChangeRequested}")
 
     def read_input_data(self):
@@ -78,9 +73,6 @@ class Vehicle2StatusReader(BaseReader):
         target_power2 = int(target_volatge_from_car2 * tag_curr22)
         self._global_data.set_data_targetpower_ev2(target_power2)
 
-        maxpowerev1_g = self._global_data.get_data_maxpower_ev1()
-        maxpowerev2_g = self._global_data.get_data_maxpower_ev2()
-
         def funct_40_cc2():
             cable_check_voltage2 = binaryToDecimal(int(vs2[7] + vs2[6]))
 
@@ -94,7 +86,6 @@ class Vehicle2StatusReader(BaseReader):
             mm.readModule_Voltage(CanId.CAN_ID_2)
             digitl_input = self._global_data.get_data()
             
-
             if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0':
                 mm2.digital_output_led_red2()
                 mm.stopcharging(CanId.STOP_GUN2)
@@ -121,6 +112,9 @@ class Vehicle2StatusReader(BaseReader):
             PECC.STATUS1_GUN2_DATA[0] = 3
 
         def standByled():
+            """
+            
+            """
             if len(digitl_input) != 0 :
                 if digitl_input[1] == '0' or digitl_input[2] == '1' or  digitl_input[7] == '0':
                     PECC.STATUS1_GUN2_DATA[0] = 2
@@ -190,16 +184,6 @@ class Vehicle2StatusReader(BaseReader):
             pm2=[]
             self._global_data.set_data_pm_assign2(len(pm2))
             digitl_input = self._global_data.get_data()
-            # if len(digitl_input) != 0 :
-            #     if digitl_input[1] == '0' or digitl_input[2] == '1'  or digitl_input[7] == '0':
-            #         mm2.digital_output_led_red2()
-            #         PECC.STATUS1_GUN2_DATA[0] = 2
-            #     else:
-            #         mm2.digital_output_led_green2()
-            #         PECC.STATUS1_GUN2_DATA[0] = 0
-            # else:
-            #     mm2.digital_output_led_green2()
-            #     PECC.STATUS1_GUN2_DATA[0] = 0   
             standByled()
 
         if vehicle_status2 == 0 and vehicle_status1_g == 6 or vehicle_status2 == 0 and vehicle_status1_g == 2 or vehicle_status2 == 0 and vehicle_status1_g == 29:
