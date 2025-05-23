@@ -17,11 +17,10 @@ def bytetobinary(x):
 
 
 class DTH:
-
     @staticmethod
     def convertohex(val):
         arr = []
-        tmp = int(val * 1000);
+        tmp = int(val * 1000)
         hexval = hex(tmp)[2:].zfill(6)
         val1 = int(hexval[:2], 16)
         arr.append(val1)
