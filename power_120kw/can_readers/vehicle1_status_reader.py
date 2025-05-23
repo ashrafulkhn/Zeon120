@@ -35,14 +35,14 @@ class Vehicle1StatusReader(BaseReader):
         return self._readPower, self._voltage, self._current
     
     def limitChangeRequest(self, limitPower):
+        # self.getRealTimeVIP()
         val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
         if val <= 2000:  # 2kW
             self.limitChangeRequested = True
         else:
             self.limitChangeRequested = False
-        print(f"Gun1 :: Limit Power: {limitPower}, Read Power: {self._readPower}, Difference Value: {val}, Change Reqyested: {self.limitChangeRequested}")
+        print(f"Gun1 :: LP: {limitPower}, RP: {self._readPower}, DP: {self._global_data.get_data_targetpower_ev1()}, Diff: {val}, ChangeRequest: {self.limitChangeRequested}")
     
-        
     def read_input_data(self):
         #logger.info('Read input for Vehicle-1 status')
         vs1 = self._binary_data
@@ -97,6 +97,7 @@ class Vehicle1StatusReader(BaseReader):
             # Check the digital input from the VSECC.
             mm1.digital_output_led_red1()
             mm.stopcharging(CanId.STOP_GUN1)
+            print("Error Occured.")
             for module_id in module_ids:
                 mm.stopModule(module_id)
 
@@ -372,8 +373,6 @@ class Vehicle1StatusReader(BaseReader):
 
             pm1=[CanId.CAN_ID_1]
             self._global_data.set_data_pm_assign1(len(pm1))
-
-            # funct_40_1()
             startCharging(pm1)
 
             digitl_input = self._global_data.get_data()
@@ -395,11 +394,9 @@ class Vehicle1StatusReader(BaseReader):
             mm1.digital_output_led_blue1()
             target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
 
-            """
-            We are removing the check for maxpowerev1_g as we are doing the check based onj the target power power from car
-            """
             # Demand Condition 1
             if target_power_from_car1 <= 38000:
+                
                 setter.setModulesLimit(35000, 133, gun_number=1)
 
                 # Assign modules for Gun1
@@ -421,9 +418,12 @@ class Vehicle1StatusReader(BaseReader):
                     startCharging(pm1)
 
                 else:
-                    setter.setModulesLimit(75000, 250, gun_number=1)
-                    self.limitChangeRequested = False
-                    print(f"INFO: Limit changed to 75kW.")
+                    if self._global_data.get_data_targetpower_ev1() == 0:
+                        stopActiveModules([CanId.CAN_ID_1])
+                    else:
+                        setter.setModulesLimit(75000, 250, gun_number=1)
+                        self.limitChangeRequested = False
+                        # print(f"INFO: Limit changed to 75kW.")
 
                 digitl_input = self._global_data.get_data()
 
@@ -471,6 +471,7 @@ class Vehicle1StatusReader(BaseReader):
 
             # Demand Condition 3
             if target_power_from_car1 >= 42000 and target_power_from_car1 <= 78000:
+                setter.setModulesLimit(75000, 250, gun_number=1)
                 pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3]
                 # pm_assign1 = self._global_data.set_data_pm_assign1(pm1)
                 self._global_data.set_data_pm_assign1(len(pm1))
@@ -485,7 +486,7 @@ class Vehicle1StatusReader(BaseReader):
                 else:
                     setter.setModulesLimit(115000, 250, gun_number=1)
                     self.limitChangeRequested = False
-                    print(f"INFO: Limit changed to 75kW.")
+                    # print(f"INFO: Limit changed to 75kW.")
 
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
@@ -532,6 +533,7 @@ class Vehicle1StatusReader(BaseReader):
             
             # Demand Condition 5
             if target_power_from_car1 >= 82000 and target_power_from_car1 <= 118000:
+                setter.setModulesLimit(115000, 250, gun_number=1)
 
                 mm.stopModule(CanId.CAN_ID_2)
                 pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4]
@@ -560,11 +562,9 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
             # Demand Condition 6
-            if target_power_from_car1 > 118000 and target_power_from_car1 < 122000:
+            if target_power_from_car1 > 115000 and target_power_from_car1 < 122000:
                 pm_assign1 = self._global_data.get_data_pm_assign1()
-                setter.setModulesLimit(160000, 250, gun_number=1)
-
-
+                setter.setModulesLimit(160000, 295, gun_number=1)
                 if (pm_assign1 == 3):
                     mm.stopModule(CanId.CAN_ID_2)
                     mm1.digital_output_close_Gun13()
@@ -590,17 +590,20 @@ class Vehicle1StatusReader(BaseReader):
             # Demand Condition 7
             if target_power_from_car1 >= 122000:
                 mm1.digital_output_close_Gun14()
-                # pm1=4
                 pm1=[CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4]
-                # pm_assign1 = self._global_data.set_data_pm_assign1(pm1)
+
                 self._global_data.set_data_pm_assign1(len(pm1))
                 startCharging(pm1)
 
+                val = 160000 - self._global_data.get_data_targetpower_ev1()
+
+                print(f"Gun1 :: LP: {160000}, RP: {self._readPower}, DP: {self._global_data.get_data_targetpower_ev1()}, Diff: {val}, ChangeRequest: {self.limitChangeRequested}")
+                
                 digitl_input = self._global_data.get_data()
                 if digitl_input[3] == '1':
                     mm1.digital_output_led_red1()
                     mm.stopcharging(CanId.STOP_GUN1)
-                    stopActiveModules(pm1)
+                    stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
                     PECC.STATUS1_GUN1_DATA[0] = 9
                     mm.digital_output_open_stop()
                     time.sleep(5)
@@ -619,11 +622,6 @@ class Vehicle1StatusReader(BaseReader):
 
             # Demand Condition 1
             if (target_power_from_car1 <= 38000) :
-                # Limit 40kW
-                # PECC.LIMITS1_DATA_120kw_Gun1[4] = 160
-                # PECC.LIMITS1_DATA_120kw_Gun1[5] = 15
-                # PECC.LIMITS2_DATA_120kw_Gun1[2] = 50
-                # PECC.LIMITS2_DATA_120kw_Gun1[3] = 5
                 setter.setModulesLimit(40000, 133, gun_number=1)
                 
                 pm1=[CanId.CAN_ID_1]
@@ -702,11 +700,6 @@ class Vehicle1StatusReader(BaseReader):
 
             #Demand Condition 3
             if (42000 < target_power_from_car1 <= 78000):
-                # Setting limit to 80kW
-                # PECC.LIMITS1_DATA_120kw_Gun1[4] = 64
-                # PECC.LIMITS1_DATA_120kw_Gun1[5] = 31
-                # PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
-                # PECC.LIMITS2_DATA_120kw_Gun1[3] = 9
                 setter.setModulesLimit(80000, 250, gun_number=1)
                 # pm1=2
                 pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3]
@@ -1145,6 +1138,7 @@ class Vehicle1StatusReader(BaseReader):
         
         # Condition 14
         if vehicle_status1 == 37 and vehicle_status2_g == 0 or vehicle_status1 == 35 and vehicle_status2_g == 0 or vehicle_status1 == 35 and vehicle_status2_g == 6 or vehicle_status1 == 37 and vehicle_status2_g == 6:
+            print("GUN1 at Condition 14")
             mm1.digital_output_led_red1()
 
             updateVI_status(vs1)
@@ -1156,6 +1150,7 @@ class Vehicle1StatusReader(BaseReader):
         
         # Condition 15
         if vehicle_status1 == 37 and vehicle_status2_g == 35 or vehicle_status1 == 35 and vehicle_status2_g == 37 or vehicle_status1 == 35 and vehicle_status2_g == 35 or vehicle_status1 == 37 and vehicle_status2_g == 35:
+            print("GUN1 at Condition 15")
             mm1.digital_output_led_red1()
 
             updateVI_status(vs1)
@@ -1167,6 +1162,7 @@ class Vehicle1StatusReader(BaseReader):
         
         # Condition 16
         if vehicle_status1 == 37 and vehicle_status2_g == 2 or vehicle_status1 == 37 and vehicle_status2_g == 13 or vehicle_status1 == 37 and vehicle_status2_g == 21 or vehicle_status1 == 37 and vehicle_status2_g == 29:
+            print("GUN1 at Condition 16")
             mm1.digital_output_led_red1()
             updateVI_status(vs1)
             
@@ -1194,6 +1190,7 @@ class Vehicle1StatusReader(BaseReader):
 
         # Condition 17
         if vehicle_status1 == 35 and vehicle_status2_g == 2 or vehicle_status1 == 35 and vehicle_status2_g == 13 or vehicle_status1 == 35 and vehicle_status2_g == 21 or vehicle_status1 == 35 and vehicle_status2_g == 29:
+            print("GUN1 at Condition 17")
             mm1.digital_output_led_red1()
             updateVI_status(vs1)
 

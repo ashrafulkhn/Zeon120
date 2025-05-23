@@ -1,1314 +1,168 @@
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48894W
-Real-time Voltage: 412.7V, Current: 81.3A, Power: 33552W  || Target Power: 48894W
-Real-time Power: 33552W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33552, Difference Value: 41448
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48894W
-Real-time Voltage: 412.7V, Current: 81.3A, Power: 33552W  || Target Power: 48894W
-Real-time Power: 33552W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33552, Difference Value: 41448
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48894W
-Real-time Voltage: 412.7V, Current: 81.3A, Power: 33552W  || Target Power: 48894W
-Real-time Power: 33552W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33552, Difference Value: 41448
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48948W
-Real-time Voltage: 412.7V, Current: 81.3A, Power: 33552W  || Target Power: 48948W
-Real-time Power: 33552W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33552, Difference Value: 41448
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48948W
-Real-time Voltage: 412.7V, Current: 81.3A, Power: 33552W  || Target Power: 48948W
-Real-time Power: 33552W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33552, Difference Value: 41448
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48948W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 48948W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48948W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 48948W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 48948W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 48948W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49002W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 49002W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49002W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 49002W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49002W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 49002W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49002W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 49002W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49002W
-Real-time Voltage: 412.8V, Current: 81.3A, Power: 33560W  || Target Power: 49002W
-Real-time Power: 33560W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33560, Difference Value: 41440
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49002W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49002W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49044W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49044W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49044W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49044W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49044W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49044W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 412.9V, Current: 81.3A, Power: 33568W  || Target Power: 49044W
-Real-time Power: 33568W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33568, Difference Value: 41432
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49044W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49044W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49044W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49044W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49044W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49044W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49152W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49152W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49152W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49152W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.1V, Current: 81.3A, Power: 33585W  || Target Power: 49152W
-Real-time Power: 33585W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33585, Difference Value: 41415
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49152W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.1V, Current: 81.3A, Power: 33585W  || Target Power: 49152W
-Real-time Power: 33585W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33585, Difference Value: 41415
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49152W
-Real-time Voltage: 413.0V, Current: 81.3A, Power: 33576W  || Target Power: 49152W
-Real-time Power: 33576W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33576, Difference Value: 41424
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49206W
-Real-time Voltage: 413.1V, Current: 81.3A, Power: 33585W  || Target Power: 49206W
-Real-time Power: 33585W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33585, Difference Value: 41415
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49206W
-Real-time Voltage: 413.1V, Current: 81.3A, Power: 33585W  || Target Power: 49206W
-Real-time Power: 33585W
-Limit Power: 75000
-Comparision value: Limit Power: 75000, Read Power: 33585, Difference Value: 41415
-Limit Change Requested status: False
-INFO: Limit change requested: False
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49206W
-Real-time Voltage: 413.1V, Current: 81.3A, Power: 33585W  || Target Power: 49206W
-Real-time Power: 33585W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49206W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49206W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49206W
-Real-time Voltage: 413.1V, Current: 81.3A, Power: 33585W  || Target Power: 49206W
-Real-time Power: 33585W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49206W
-Real-time Voltage: 413.1V, Current: 81.3A, Power: 33585W  || Target Power: 49206W
-Real-time Power: 33585W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49206W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49206W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49248W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49248W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49248W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49248W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49248W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49248W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49248W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49248W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49260W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49260W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49260W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49260W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49260W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49260W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49260W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49260W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49260W
-Real-time Voltage: 413.2V, Current: 81.3A, Power: 33593W  || Target Power: 49260W
-Real-time Power: 33593W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49272W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49272W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49272W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49272W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49302W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49302W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49302W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49302W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49314W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49314W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49314W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49314W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.3V, Current: 81.3A, Power: 33601W  || Target Power: 49314W
-Real-time Power: 33601W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49314W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49314W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49314W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49399W
-Real-time Voltage: 413.4V, Current: 81.3A, Power: 33609W  || Target Power: 49399W
-Real-time Power: 33609W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49399W
-Real-time Voltage: 413.5V, Current: 81.3A, Power: 33617W  || Target Power: 49399W
-Real-time Power: 33617W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49399W
-Real-time Voltage: 413.5V, Current: 81.3A, Power: 33617W  || Target Power: 49399W
-Real-time Power: 33617W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49399W
-Real-time Voltage: 413.5V, Current: 81.3A, Power: 33617W  || Target Power: 49399W
-Real-time Power: 33617W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49399W
-Real-time Voltage: 413.5V, Current: 81.3A, Power: 33617W  || Target Power: 49399W
-Real-time Power: 33617W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49422W
-Real-time Voltage: 413.5V, Current: 81.3A, Power: 33617W  || Target Power: 49422W
-Real-time Power: 33617W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49422W
-Real-time Voltage: 413.5V, Current: 81.3A, Power: 33617W  || Target Power: 49422W
-Real-time Power: 33617W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49422W
-Real-time Voltage: 413.5V, Current: 81.3A, Power: 33617W  || Target Power: 49422W
-Real-time Power: 33617W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49422W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49422W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49464W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49464W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49464W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49464W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49464W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49464W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49464W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49464W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49476W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49476W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49518W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49518W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49518W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49518W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49518W
-Real-time Voltage: 413.6V, Current: 81.3A, Power: 33625W  || Target Power: 49518W
-Real-time Power: 33625W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49518W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49518W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49518W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49518W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49518W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49518W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49518W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49518W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49542W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49542W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49530W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49530W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49572W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49572W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49572W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49572W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49584W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49584W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49584W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49584W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.7V, Current: 81.3A, Power: 33633W  || Target Power: 49584W
-Real-time Power: 33633W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49572W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49572W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49572W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49572W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49572W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49584W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49584W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49584W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49584W
-Real-time Power: 33641W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49584W
-Real-time Power: 33641W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.8V, Current: 81.3A, Power: 33641W  || Target Power: 49584W
-Real-time Power: 33641W
-Real-time Voltage: 7.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 38.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 165.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 294.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 421.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 426.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49584W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49584W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49584W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49584W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49669W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49669W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49669W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49692W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49692W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49692W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49692W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49692W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49669W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49669W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49669W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49669W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49669W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49669W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49669W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49711W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49711W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49735W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49735W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49735W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49711W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49711W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 413.9V, Current: 81.3A, Power: 33650W  || Target Power: 49735W
-Real-time Power: 33650W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49711W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49711W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49735W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49735W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.4V, Current: 81.3A, Power: 33690W  || Target Power: 49777W
-Real-time Power: 33690W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.0V, Current: 81.3A, Power: 33658W  || Target Power: 49777W
-Real-time Power: 33658W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49777W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49777W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49777W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49777W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49777W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49777W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49789W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49789W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.1V, Current: 81.3A, Power: 33666W  || Target Power: 49831W
-Real-time Power: 33666W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49831W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49831W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49831W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49831W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49831W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 49843W
-Real-time Voltage: 414.2V, Current: 81.3A, Power: 33674W  || Target Power: 49843W
-Real-time Power: 33674W
-Real-time Voltage: 425.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 427.0V, Current: 1.9A, Power: 811W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 429.0V, Current: 4.0A, Power: 1716W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 10.5A, Power: 4515W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 17.3A, Power: 7439W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 22.6A, Power: 9718W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 26.4A, Power: 11352W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 29.5A, Power: 12685W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 31.9A, Power: 13717W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 33.7A, Power: 14491W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 35.2A, Power: 15136W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 36.3A, Power: 15608W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 430.0V, Current: 37.1A, Power: 15953W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 431.0V, Current: 38.3A, Power: 16507W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 431.0V, Current: 40.0A, Power: 17240W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 431.0V, Current: 42.4A, Power: 18274W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 432.0V, Current: 45.3A, Power: 19569W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 432.0V, Current: 48.5A, Power: 20952W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 39.4A, Power: 16863W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 30.3A, Power: 12968W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 23.0A, Power: 9844W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 18.1A, Power: 7746W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 13.9A, Power: 5949W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 10.8A, Power: 4622W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 8.4A, Power: 3595W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 6.5A, Power: 2782W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 5.1A, Power: 2182W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 4.0A, Power: 1712W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 3.2A, Power: 1369W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 2.5A, Power: 1070W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 2.1A, Power: 898W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 1.7A, Power: 727W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 1.4A, Power: 599W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 1.2A, Power: 513W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 1.0A, Power: 428W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 428.0V, Current: 0.9A, Power: 385W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-Real-time Power: 0W
-Real-time Voltage: 0.0V, Current: 0.0A, Power: 0W  || Target Power: 0W
-^CTraceback (most recent call last):
-  File "/home/UFC_160_v1/main.py", line 36, in <module>
-    perform_action()
-  File "/home/UFC_160_v1/power_120kw/dynamicsharing.py", line 24, in perform_action
-    readFromCan()
-  File "/home/UFC_160_v1/power_120kw/dynamicsharing.py", line 18, in readFromCan
-    for m in bus:
-  File "/usr/lib/python3.10/site-packages/can/bus.py", line 318, in __iter__
-    msg = self.recv(timeout=1.0)
-  File "/usr/lib/python3.10/site-packages/can/bus.py", line 94, in recv
-    msg, already_filtered = self._recv_internal(timeout=time_left)
-  File "/usr/lib/python3.10/site-packages/can/interfaces/socketcan/socketcan.py", line 716, in _recv_internal
-    ready_receive_sockets, _, _ = select.select([self.socket], [], [], timeout)
-KeyboardInterrupt
-^Z
-[1]+  Stopped(SIGTSTP)        python3 main.py
-root@phyboard-pollux-imx8mp-3:UFC_160_v1#
+root@phyboard-pollux-imx8mp-3:UFC_160_v1# python3 main.py
+Gun1: Power Limit Set to: 160.0 kW
+Gun1: Power Limit Set to: 40.0 kW
+Gun1: Power Limit Set to: 35.0 kW
+Gun1 :: LP: 35000, RP: 0, DP: 18600, Diff: 35000, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 0, DP: 18600, Diff: 35000, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 987, DP: 18600, Diff: 34013, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 4048, DP: 18600, Diff: 30952, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 7151, DP: 18600, Diff: 27849, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 9565, DP: 18600, Diff: 25435, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 11418, DP: 18600, Diff: 23582, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 12797, DP: 18600, Diff: 22203, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 13835, DP: 18600, Diff: 21165, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 14610, DP: 18600, Diff: 20390, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 15257, DP: 18600, Diff: 19743, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 15735, DP: 18600, Diff: 19265, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 16080, DP: 21901, Diff: 18920, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 16338, DP: 23947, Diff: 18662, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 17134, DP: 26040, Diff: 17866, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 18230, DP: 27993, Diff: 16770, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 19583, DP: 30085, Diff: 15417, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 21038, DP: 32085, Diff: 13962, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 22618, DP: 34177, Diff: 12382, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 24194, DP: 36270, Diff: 10806, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 25909, DP: 37432, Diff: 9091, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 27671, DP: 37432, Diff: 7329, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 29335, DP: 37432, Diff: 5665, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 30646, DP: 37432, Diff: 4354, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 31653, DP: 37432, Diff: 3347, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 32436, DP: 37386, Diff: 2564, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 33001, DP: 37386, Diff: 1999, ChangeRequest: True
+Gun1: Power Limit Set to: 75.0 kW
+Gun1: Power Limit Set to: 35.0 kW
+Gun1 :: LP: 35000, RP: 33001, DP: 37386, Diff: 1999, ChangeRequest: True
+Gun1: Power Limit Set to: 75.0 kW
+Gun1: Power Limit Set to: 35.0 kW
+Gun1 :: LP: 35000, RP: 33001, DP: 37432, Diff: 1999, ChangeRequest: True
+Gun1: Power Limit Set to: 75.0 kW
+Gun1 :: LP: 75000, RP: 34685, DP: 42780, Diff: 40315, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 35449, DP: 44872, Diff: 39551, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 32200, DP: 46918, Diff: 42800, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 29523, DP: 51010, Diff: 45477, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 27625, DP: 53010, Diff: 47375, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 26647, DP: 55102, Diff: 48353, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 26140, DP: 57148, Diff: 48860, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 26651, DP: 59194, Diff: 48349, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 32907, DP: 61194, Diff: 42093, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 38149, DP: 63240, Diff: 36851, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 42700, DP: 65332, Diff: 32300, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 46688, DP: 69424, Diff: 28312, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 50156, DP: 71424, Diff: 24844, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 53667, DP: 73470, Diff: 21333, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 56930, DP: 75562, Diff: 18070, ChangeRequest: False
+Gun1 :: LP: 75000, RP: 59921, DP: 77608, Diff: 15079, ChangeRequest: False
+Gun1: Power Limit Set to: 115.0 kW
+Gun1 :: LP: 115000, RP: 69406, DP: 82491, Diff: 45594, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 71013, DP: 84537, Diff: 43987, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 67018, DP: 86536, Diff: 47982, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 63713, DP: 88582, Diff: 51287, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 61503, DP: 90675, Diff: 53497, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 60126, DP: 92721, Diff: 54874, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 59362, DP: 96766, Diff: 55638, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 59233, DP: 98859, Diff: 55767, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 66660, DP: 100905, Diff: 48340, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 73258, DP: 102951, Diff: 41742, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 78773, DP: 104997, Diff: 36227, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 83390, DP: 106996, Diff: 31610, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 87480, DP: 109089, Diff: 27520, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 91041, DP: 111135, Diff: 23959, ChangeRequest: False
+Gun1 :: LP: 115000, RP: 94295, DP: 115366, Diff: 20705, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Gun1: Power Limit Set to: 115.0 kW
+Gun1 :: LP: 115000, RP: 97800, DP: 116250, Diff: 17200, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Gun1: Power Limit Set to: 115.0 kW
+Gun1 :: LP: 115000, RP: 100956, DP: 116250, Diff: 14044, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Gun1: Power Limit Set to: 115.0 kW
+Gun1 :: LP: 115000, RP: 103579, DP: 117459, Diff: 11421, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Gun1 :: LP: 160000, RP: 109151, DP: 123690, Diff: 36310, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 111053, DP: 127549, Diff: 32451, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 106251, DP: 129549, Diff: 30451, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 102735, DP: 131641, Diff: 28359, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 100417, DP: 133687, Diff: 26313, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 99056, DP: 135780, Diff: 24220, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 98385, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 98273, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 105403, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 111910, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 117022, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 120891, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 123812, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 126101, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 127893, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 129234, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 130258, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 131056, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 131645, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 132127, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 132518, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 132744, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133000, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133136, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133256, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133376, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133467, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133542, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133587, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133616, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133691, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133691, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133737, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133766, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133766, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133796, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133796, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133796, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133825, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133825, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133855, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133855, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133855, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133855, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133884, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133884, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1 :: LP: 160000, RP: 133914, DP: 137175, Diff: 22825, ChangeRequest: False
+Gun1: Power Limit Set to: 35.0 kW
+Gun1 :: LP: 35000, RP: 133914, DP: 0, Diff: 98914, ChangeRequest: False
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
+Gun1 :: L
