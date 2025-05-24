@@ -25,6 +25,7 @@ class Vehicle1StatusReader(BaseReader):
         self.limitChangeRequested = False
     
     def getRealTimeVIP(self):
+        print("INFO:: Indside getRealtimeVIP")
         #  Return the real-time voltage, current and power
         s2g1d = bytetobinary(PECC.STATUS2_GUN1_DATA)
         voltage_pre = binaryToDecimal(int(s2g1d[1] + s2g1d[0]))
@@ -35,6 +36,7 @@ class Vehicle1StatusReader(BaseReader):
         return self._readPower, self._voltage, self._current
     
     def limitChangeRequest(self, limitPower):
+        print("INFO:: Indside Limit Change Function")
         realTimeVIP = self.getRealTimeVIP()
         val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
         val = abs(limitPower - realTimeVIP[0])    # 35 - 34 = 1; 35 - 36 = -1
@@ -46,6 +48,7 @@ class Vehicle1StatusReader(BaseReader):
     
     def read_input_data(self):
         #logger.info('Read input for Vehicle-1 status')
+        print("Reading input status of Vehicle 1")
         vs1 = self._binary_data
         self._global_data.set_data_status_vehicle1(binaryToDecimal(int(vs1[0])))
         vehicle_status1 = binaryToDecimal(int(vs1[0]))
@@ -67,6 +70,7 @@ class Vehicle1StatusReader(BaseReader):
         self._global_data.set_data_targetpower_ev1(target_power1)
 
         def funct_40_cc():
+            print("GUN1: Cable Check")
             cable_check_voltage1 = binaryToDecimal(int(vs1[7] + vs1[6]))
             if cable_check_voltage1 <= 500:
                 mm.lowMode(CanId.CAN_ID_1)
@@ -121,6 +125,7 @@ class Vehicle1StatusReader(BaseReader):
             Update the VI status of the vehicle
             vs1: Vehicle status
             """
+            print("GUN1: UPDATE REQESTED for voltage and Current.")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -133,6 +138,7 @@ class Vehicle1StatusReader(BaseReader):
             Example:
             module_ids = [CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4]
             """
+            print(f"INFO:: Indside Start Charging Function, Module List: {module_ids}")
 
             if target_volatge_from_car1 <= 500:
                 for module_id in module_ids:
@@ -151,16 +157,17 @@ class Vehicle1StatusReader(BaseReader):
                 mm.startModule(module_id)
                 mm.readModule_Current(module_id)
             mm.readModule_Voltage(module_ids[0])
-
+            
             # Handle error conditions here
             digitl_input = self._global_data.get_data()
             if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0' :
                 handleError(module_ids)
 
         def stopActiveModules(module_ids):
+            print(f"Stopping Modules {module_ids}")
             for module_id in module_ids:
                 mm.stopModule(module_id)
-
+        
         # Conditions 1
         if  vehicle_status1 == 0 and vehicle_status2_g == 0 or \
             vehicle_status1 == 6 and vehicle_status2_g == 6 or \
@@ -462,7 +469,9 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
             # Demand Condition 2
-            if target_power_from_car1 > 38000 and target_power_from_car1 < 42000:
+            if  target_power_from_car1 > 38000 and \
+                target_power_from_car1 < 42000:
+                
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 #Setting limit to 75kW
                 setter.setModulesLimit(75000, 250, gun_number=1)

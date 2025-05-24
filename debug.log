@@ -166,3 +166,1852 @@ Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
 Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
 Gun1 :: LP: 35000, RP: 33128, DP: 0, Diff: 1872, ChangeRequest: True
 Gun1 :: L
+
+
+
+New Log here.
+
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+GUN1: Cable Check
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+GUN1: Cable Check
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+GUN1: Cable Check
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 40.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 35.0 kW
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 0, DP: 18600, Diff: 35000, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 214, DP: 18600, Diff: 34786, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 1207, DP: 18600, Diff: 33793, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 4152, DP: 18600, Diff: 30848, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 7181, DP: 18600, Diff: 27819, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 9519, DP: 18600, Diff: 25481, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 11380, DP: 18600, Diff: 23620, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 12724, DP: 18600, Diff: 22276, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 13809, DP: 18600, Diff: 21191, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 14635, DP: 18600, Diff: 20365, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 15241, DP: 18600, Diff: 19759, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 15717, DP: 18600, Diff: 19283, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 16107, DP: 19855, Diff: 18893, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 16371, DP: 23947, Diff: 18629, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 16812, DP: 26040, Diff: 18188, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 17837, DP: 27993, Diff: 17163, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 19239, DP: 30085, Diff: 15761, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 20773, DP: 32085, Diff: 14227, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 22345, DP: 34177, Diff: 12655, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 23973, DP: 36270, Diff: 11027, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 25734, DP: 37432, Diff: 9266, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 27541, DP: 37386, Diff: 7459, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 29258, DP: 37339, Diff: 5742, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 30565, DP: 37339, Diff: 4435, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 31617, DP: 37339, Diff: 3383, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 32357, DP: 37339, Diff: 2643, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 32974, DP: 37339, Diff: 2026, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 33461, DP: 37339, Diff: 1539, ChangeRequest: True
+Gun1: Power Limit Set to: 75.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 35.0 kW
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 33461, DP: 37432, Diff: 1539, ChangeRequest: True
+Gun1: Power Limit Set to: 75.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 34713, DP: 42640, Diff: 40287, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 35435, DP: 44640, Diff: 39565, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 32259, DP: 46732, Diff: 42741, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 29578, DP: 50824, Diff: 45422, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 27726, DP: 52870, Diff: 47274, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 26703, DP: 54870, Diff: 48297, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 26194, DP: 56962, Diff: 48806, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 26587, DP: 59008, Diff: 48413, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 32727, DP: 61054, Diff: 42273, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 37990, DP: 63054, Diff: 37010, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 42518, DP: 67192, Diff: 32482, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 46386, DP: 69238, Diff: 28614, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 50251, DP: 71284, Diff: 24749, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 53750, DP: 73284, Diff: 21250, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 56979, DP: 75330, Diff: 18021, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 75000, RP: 59948, DP: 77422, Diff: 15052, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 69363, DP: 82351, Diff: 45637, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 71016, DP: 84397, Diff: 43984, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 67145, DP: 86490, Diff: 47855, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 63872, DP: 88536, Diff: 51128, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 61698, DP: 90582, Diff: 53302, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 60328, DP: 92581, Diff: 54672, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 59562, DP: 96720, Diff: 55438, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 59967, DP: 98766, Diff: 55033, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 67257, DP: 100812, Diff: 47743, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 73649, DP: 102811, Diff: 41351, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 79037, DP: 104671, Diff: 35963, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 83604, DP: 106764, Diff: 31396, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 87578, DP: 110856, Diff: 27422, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 91175, DP: 112902, Diff: 23825, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 94778, DP: 114901, Diff: 20222, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 98191, DP: 116250, Diff: 16809, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 101767, DP: 116250, Diff: 13233, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 104201, DP: 116250, Diff: 10799, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 106163, DP: 116250, Diff: 8837, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 107698, DP: 116761, Diff: 7302, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 108895, DP: 116761, Diff: 6105, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 109912, DP: 116761, Diff: 5088, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 110749, DP: 116761, Diff: 4251, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 111360, DP: 116761, Diff: 3640, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 111836, DP: 116761, Diff: 3164, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 112222, DP: 116761, Diff: 2778, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 112518, DP: 116761, Diff: 2482, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 112724, DP: 116761, Diff: 2276, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 112904, DP: 116761, Diff: 2096, ChangeRequest: False
+Gun1: Power Limit Set to: 160.0 kW
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113065, DP: 116761, Diff: 1935, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113110, DP: 116761, Diff: 1890, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113226, DP: 116761, Diff: 1774, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113296, DP: 116761, Diff: 1704, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113366, DP: 116994, Diff: 1634, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113411, DP: 116994, Diff: 1589, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113527, DP: 116994, Diff: 1473, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113572, DP: 116994, Diff: 1428, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113642, DP: 116994, Diff: 1358, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113713, DP: 116994, Diff: 1287, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113713, DP: 116994, Diff: 1287, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113783, DP: 116994, Diff: 1217, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113783, DP: 116994, Diff: 1217, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113854, DP: 117087, Diff: 1146, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113854, DP: 116994, Diff: 1146, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113879, DP: 116994, Diff: 1121, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113879, DP: 116994, Diff: 1121, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113904, DP: 116994, Diff: 1096, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113904, DP: 117087, Diff: 1096, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113929, DP: 116994, Diff: 1071, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113974, DP: 116994, Diff: 1026, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113974, DP: 117087, Diff: 1026, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113974, DP: 116994, Diff: 1026, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113999, DP: 116994, Diff: 1001, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 113999, DP: 116994, Diff: 1001, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114025, DP: 117087, Diff: 975, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114025, DP: 116994, Diff: 975, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114025, DP: 116994, Diff: 975, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114025, DP: 116994, Diff: 975, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114050, DP: 117087, Diff: 950, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114050, DP: 117319, Diff: 950, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114075, DP: 117319, Diff: 925, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114145, DP: 117319, Diff: 855, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114236, DP: 117319, Diff: 764, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114282, DP: 117319, Diff: 718, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114282, DP: 117319, Diff: 718, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114327, DP: 117319, Diff: 673, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114352, DP: 117319, Diff: 648, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114352, DP: 117319, Diff: 648, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114397, DP: 117319, Diff: 603, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114423, DP: 117319, Diff: 577, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114423, DP: 117319, Diff: 577, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114423, DP: 117319, Diff: 577, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114423, DP: 117319, Diff: 577, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114448, DP: 117319, Diff: 552, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114448, DP: 117319, Diff: 552, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114448, DP: 117319, Diff: 552, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114448, DP: 117319, Diff: 552, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114473, DP: 117319, Diff: 527, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114473, DP: 117319, Diff: 527, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114473, DP: 117319, Diff: 527, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114473, DP: 117319, Diff: 527, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114473, DP: 117319, Diff: 527, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114498, DP: 117319, Diff: 502, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114498, DP: 117319, Diff: 502, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114498, DP: 117319, Diff: 502, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114498, DP: 117319, Diff: 502, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114524, DP: 117598, Diff: 476, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114524, DP: 117598, Diff: 476, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114614, DP: 117598, Diff: 386, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114685, DP: 117598, Diff: 315, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114730, DP: 117598, Diff: 270, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114730, DP: 117598, Diff: 270, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114776, DP: 117598, Diff: 224, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114776, DP: 117598, Diff: 224, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114847, DP: 117598, Diff: 153, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114847, DP: 117598, Diff: 153, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114847, DP: 117598, Diff: 153, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114847, DP: 117598, Diff: 153, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114872, DP: 117598, Diff: 128, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114872, DP: 117598, Diff: 128, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114872, DP: 117598, Diff: 128, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114872, DP: 117598, Diff: 128, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114872, DP: 117598, Diff: 128, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114872, DP: 117598, Diff: 128, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114897, DP: 117598, Diff: 103, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114897, DP: 117598, Diff: 103, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114897, DP: 117598, Diff: 103, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114897, DP: 117598, Diff: 103, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114897, DP: 117598, Diff: 103, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114897, DP: 117598, Diff: 103, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114897, DP: 117598, Diff: 103, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114922, DP: 117598, Diff: 78, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114922, DP: 117598, Diff: 78, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114922, DP: 117598, Diff: 78, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114922, DP: 117598, Diff: 78, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114948, DP: 117598, Diff: 52, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114948, DP: 117598, Diff: 52, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114948, DP: 117598, Diff: 52, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114948, DP: 117598, Diff: 52, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114973, DP: 117598, Diff: 27, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114948, DP: 117598, Diff: 52, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114948, DP: 117598, Diff: 52, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114973, DP: 117598, Diff: 27, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114973, DP: 117598, Diff: 27, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114973, DP: 117598, Diff: 27, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114973, DP: 117598, Diff: 27, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114973, DP: 117598, Diff: 27, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114973, DP: 117598, Diff: 27, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114998, DP: 117831, Diff: 2, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 114998, DP: 117831, Diff: 2, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115044, DP: 117831, Diff: 44, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115089, DP: 117831, Diff: 89, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115160, DP: 117831, Diff: 160, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115180, DP: 117831, Diff: 180, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115206, DP: 117831, Diff: 206, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115206, DP: 117831, Diff: 206, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115251, DP: 117831, Diff: 251, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115251, DP: 117831, Diff: 251, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115251, DP: 117831, Diff: 251, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115251, DP: 117831, Diff: 251, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115276, DP: 117831, Diff: 276, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115276, DP: 117831, Diff: 276, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115251, DP: 117831, Diff: 251, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115276, DP: 117831, Diff: 276, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115276, DP: 117831, Diff: 276, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115276, DP: 117831, Diff: 276, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115276, DP: 117831, Diff: 276, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115276, DP: 117831, Diff: 276, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115302, DP: 117831, Diff: 302, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115302, DP: 117831, Diff: 302, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 115.0 kW
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 115000, RP: 115302, DP: 117831, Diff: 302, ChangeRequest: True
+Gun1: Power Limit Set to: 160.0 kW
+INFO: Limit changed to 160kW.
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Gun1: Power Limit Set to: 35.0 kW
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 115302, DP: 0, Diff: 80302, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 38081, DP: 0, Diff: 3081, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 29642, DP: 0, Diff: 5358, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 22644, DP: 0, Diff: 12356, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 17328, DP: 0, Diff: 17672, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 13165, DP: 0, Diff: 21835, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 10055, DP: 0, Diff: 24945, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 7647, DP: 0, Diff: 27353, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 5853, DP: 0, Diff: 29147, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 4498, DP: 0, Diff: 30502, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 3448, DP: 0, Diff: 31552, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 2705, DP: 0, Diff: 32295, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 2094, DP: 0, Diff: 32906, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 1657, DP: 0, Diff: 33343, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 1308, DP: 0, Diff: 33692, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 1046, DP: 0, Diff: 33954, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 871, DP: 0, Diff: 34129, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 697, DP: 0, Diff: 34303, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 566, DP: 0, Diff: 34434, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 479, DP: 0, Diff: 34521, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35684352, 35717120, 35700736]
+INFO:: Indside Limit Change Function
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 35000, RP: 435, DP: 0, Diff: 34565, ChangeRequest: False
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1 at Condition 14
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35667968, 35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1 at Condition 14
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35667968, 35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1 at Condition 14
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35667968, 35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1 at Condition 14
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35667968, 35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1 at Condition 14
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35667968, 35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1 at Condition 14
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35667968, 35684352, 35700736, 35717120]
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
+GUN1 at Condition 14
+GUN1: UPDATE REQESTED for voltage and Current.
+Stopping Modules [35667968, 35684352, 35700736, 35717120]
+
+Reading input status of Vehicle 1
+INFO:: Indside getRealtimeVIP
