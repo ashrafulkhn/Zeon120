@@ -12,7 +12,6 @@ POWER_DICT = {
     240: 'power_240kw'
 }
 
-
 class ConfigManager(metaclass=Singleton):
     def __init__(self):
         # Create a configparser object
