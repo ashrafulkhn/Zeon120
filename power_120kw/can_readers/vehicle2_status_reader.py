@@ -179,10 +179,11 @@ class Vehicle2StatusReader(BaseReader):
             for module_id in module_ids:
                 mm.stopModule(module_id)
 
-        # Condition 1
+        # GUN2:: Condition 1
         if  vehicle_status2 == 0 and vehicle_status1_g == 0 or \
             vehicle_status2 == 6 and vehicle_status1_g == 6 or \
             vehicle_status2 == 6 and vehicle_status1_g == 0:
+            print("GUN2:: Condition 1")
             mm.digital_output_open_AC()
             setter.setModulesLimit(120000, 250, 2)
 
@@ -191,10 +192,11 @@ class Vehicle2StatusReader(BaseReader):
             digitl_input = self._global_data.get_data()
             standByled()
         
-        # Condition 2
+        # GUN2:: Condition 2
         if  vehicle_status2 == 0 and vehicle_status1_g == 6 or \
             vehicle_status2 == 0 and vehicle_status1_g == 2 or \
             vehicle_status2 == 0 and vehicle_status1_g == 29:
+            print("GUN2:: Condition 2")
             setter.setModulesLimit(120000, 250, gun_number=2)
 
             pm2=[]
@@ -202,9 +204,10 @@ class Vehicle2StatusReader(BaseReader):
             digitl_input = self._global_data.get_data()             
             standByled()
         
-        # Condition 3
+        # GUN2:: Condition 3
         if  vehicle_status2 == 2 and vehicle_status1_g == 0 or \
             vehicle_status2 == 2 and vehicle_status1_g == 6 :
+            print("GUN2:: Condition 3")
             setter.setModulesLimit(120000, 250, gun_number=2) 
 
             pm2=[]
@@ -228,7 +231,7 @@ class Vehicle2StatusReader(BaseReader):
             except IndexError:
                 print("GUN2: IndexError: List index out of range. Please check the input data.")
         
-        # Condition 4
+        # GUN2:: Condition 4
         if  vehicle_status2 == 2 and vehicle_status1_g == 13 or \
             vehicle_status2 == 2 and vehicle_status1_g == 21 or \
             vehicle_status2 == 2 and vehicle_status1_g == 29:
@@ -245,9 +248,10 @@ class Vehicle2StatusReader(BaseReader):
                 mm.stopcharging(CanId.STOP_GUN2)
                 PECC.STATUS1_GUN2_DATA[0] = 2
         
-        # Condition 5
+        # GUN2:: Condition 5
         if  vehicle_status2 == 13 and vehicle_status1_g == 0 or \
             vehicle_status2 == 13 and vehicle_status1_g == 6:
+            print("GUN2:: Condition 5")
             setter.setModulesLimit(120000, 250, gun_number=2)
             updateVI_status(vs2=vs2)
             PECC.STATUS1_GUN2_DATA[0] = 1
@@ -274,10 +278,11 @@ class Vehicle2StatusReader(BaseReader):
             if digitl_input[4] == '0':
                 PECC.STATUS1_GUN2_DATA[0] = 5
         
-        # Condition 6
+        # GUN2:: Condition 6
         if  vehicle_status2 == 13 and vehicle_status1_g == 2 or \
             vehicle_status2 == 13 and vehicle_status1_g == 35 or \
             vehicle_status2 == 13 and vehicle_status1_g == 37:
+            print("GUN2:: Condition 6")
 
             updateVI_status(vs2)
             PECC.STATUS1_GUN2_DATA[0] = 1
@@ -303,10 +308,11 @@ class Vehicle2StatusReader(BaseReader):
             if digitl_input[4] == '0':
                 PECC.STATUS1_GUN2_DATA[0] = 5
             
-        # Condition 7
+        # GUN2:: Condition 7
         if  vehicle_status2 == 13 and vehicle_status1_g == 13 or \
             vehicle_status2 == 13 and vehicle_status1_g == 21 or \
             vehicle_status2 == 13 and vehicle_status1_g == 29:
+            print("GUN2:: Condition 7")
             updateVI_status(vs2)
             PECC.STATUS1_GUN2_DATA[0] = 1
             mm2.digital_output_led_green2()
@@ -351,10 +357,11 @@ class Vehicle2StatusReader(BaseReader):
             if digitl_input[4] == '0':
                 PECC.STATUS1_GUN2_DATA[0] = 5
 
-        # Condition 9
+        # GUN2:: Condition 9
         if  vehicle_status2 == 21 and vehicle_status1_g == 2 or \
             vehicle_status2 == 21 and vehicle_status1_g == 35 or \
             vehicle_status2 == 21 and vehicle_status1_g == 37:
+            print("GUN2:: Condition 9")
             updateVI_status(vs2)
             
             mm2.digital_output_led_green2()
@@ -379,12 +386,13 @@ class Vehicle2StatusReader(BaseReader):
 
             if digitl_input[4] == '0':
                 PECC.STATUS1_GUN2_DATA[0] = 5
-                    # Condition 1   
+                    # GUN2:: Condition 1   
         
-        # Condition 10
+        # GUN2:: Condition 10
         if  vehicle_status2 == 21 and vehicle_status1_g == 13 or \
             vehicle_status2 == 21 and vehicle_status1_g == 21 or \
             vehicle_status2 == 21 and vehicle_status1_g == 29:
+            print("GUN2:: Condition 10")
             updateVI_status(vs2)
             mm2.digital_output_led_green2()
             setter.setModulesLimit(30000, 100, 2)
@@ -409,10 +417,10 @@ class Vehicle2StatusReader(BaseReader):
 # ============================================================================================
 # ============================================================================================
 
-        # Conditions 11
+        # GUN2:: Conditions 11
         if  vehicle_status2 == 29 and vehicle_status1_g == 0 or \
             vehicle_status2 == 29 and vehicle_status1_g == 6:
-            print("Condition 11")
+            print("GUN2:: Condition 11")
             updateVI_status(vs2)
             
             mm2.digital_output_led_blue2()
@@ -638,11 +646,11 @@ class Vehicle2StatusReader(BaseReader):
                 if digitl_input[4] == '0':
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
-        # Condition 12
+        # GUN2:: Condition 12
         if  vehicle_status2 == 29 and vehicle_status1_g == 2 or   \
             vehicle_status2 == 29 and vehicle_status1_g == 35 or \
             vehicle_status2 == 29 and vehicle_status1_g == 37:
-            print("Condition 12")
+            print("GUN2:: Condition 12")
             updateVI_status(vs2)
             mm2.digital_output_led_blue2()
             target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
@@ -868,11 +876,11 @@ class Vehicle2StatusReader(BaseReader):
                 if digitl_input[4] == '0':
                     PECC.STATUS1_GUN2_DATA[0] = 5 
         
-        # Condition 13
+        # GUN2:: Condition 13
         if  vehicle_status2 == 29 and vehicle_status1_g == 13 or \
             vehicle_status2 == 29 and vehicle_status1_g == 21 or \
             vehicle_status2 == 29 and vehicle_status1_g == 29:
-            print("Condition 13")
+            print("GUN2:: Condition 13")
             updateVI_status(vs2)
             mm2.digital_output_led_blue2()
 
@@ -1082,13 +1090,13 @@ class Vehicle2StatusReader(BaseReader):
                 if digitl_input[4] == '0':
                     PECC.STATUS1_GUN2_DATA[0] = 5 
         
-        # Condition 14
+        # GUN2:: Condition 14
         if  vehicle_status2 == 37 and vehicle_status1_g == 0 or \
             vehicle_status2 == 35 and vehicle_status1_g == 0 or \
             vehicle_status2 == 35 and vehicle_status1_g == 6 or \
             vehicle_status2 == 37 and vehicle_status1_g == 6:
             
-            print("GUN2 at Condition 14")
+            print("GUN2:: Condition 14")
             mm2.digital_output_led_red2()
 
             updateVI_status(vs2)
@@ -1100,12 +1108,12 @@ class Vehicle2StatusReader(BaseReader):
             # mm.digital_output_close_AC()
 
         
-        # Condition 15
+        # GUN2:: Condition 15
         if  vehicle_status2 == 37 and vehicle_status1_g == 35 or \
             vehicle_status2 == 35 and vehicle_status1_g == 37 or \
             vehicle_status2 == 35 and vehicle_status1_g == 35 or \
             vehicle_status2 == 37 and vehicle_status1_g == 35:
-            print("GUN2 at Condition 15")
+            print("GUN2:: Condition 15")
             mm2.digital_output_led_red2()
 
             updateVI_status(vs2)
@@ -1115,12 +1123,12 @@ class Vehicle2StatusReader(BaseReader):
             mm.readModule_Current(CanId.CAN_ID_2)
             PECC.STATUS1_GUN2_DATA[0] = 1
         
-        # Condition 16
+        # GUN2:: Condition 16
         if  vehicle_status2 == 37 and vehicle_status1_g == 2 or \
             vehicle_status2 == 37 and vehicle_status1_g == 13 or \
             vehicle_status2 == 37 and vehicle_status1_g == 21 or \
             vehicle_status2 == 37 and vehicle_status1_g == 29:
-            print("GUN2 at Condition 16")
+            print("GUN2:: Condition 16")
             mm2.digital_output_led_red2()
             
             updateVI_status(vs2)
@@ -1147,13 +1155,13 @@ class Vehicle2StatusReader(BaseReader):
 
             PECC.STATUS1_GUN2_DATA[0] = 1
 
-        # Condition 17
+        # GUN2:: Condition 17
         if  vehicle_status2 == 35 and vehicle_status1_g == 2 or \
             vehicle_status2 == 35 and vehicle_status1_g == 13 or \
             vehicle_status2 == 35 and vehicle_status1_g == 21 or \
             vehicle_status2 == 35 and vehicle_status1_g == 29:
 
-            print("GUN2 at Condition 17")
+            print("GUN2:: Condition 17")
             mm2.digital_output_led_red2()
             updateVI_status(vs2)
 
