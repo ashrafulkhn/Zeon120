@@ -1020,7 +1020,8 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5 
 
             # Demand Condition 5
-            if (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 1) or (58000 < target_power_from_car1 <= 62000 and target_power_from_car2 <= 28000):
+            if (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 1) or \
+                (58000 < target_power_from_car1 <= 62000 and target_power_from_car2 <= 28000):
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 if ((pm_assign1) == 2):
                     setter.setModulesLimit(60000, 200, gun_number=1)
