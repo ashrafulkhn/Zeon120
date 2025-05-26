@@ -4,7 +4,6 @@ from power_120kw.constant_manager_120kw import ConstantManager120KW
 from constants import CanId
 from utility import DTH
 
-
 class ModuleMessage:
     bus = CanInterface.bus_instance
 
