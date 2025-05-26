@@ -1047,7 +1047,7 @@ class Vehicle2StatusReader(BaseReader):
                 target_power_from_car2 > 62000 and target_power_from_car1 <= 28000:
                 setter.setModulesLimit(90000, 250, gun_number=2)
                 pm2 = [CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4]
-                set.self._global_data.set_data_pm_assign2(len(pm2))
+                self._global_data.set_data_pm_assign2(len(pm2))
                 mm2.digital_output_load23()
                 startCharging(pm2)
 
