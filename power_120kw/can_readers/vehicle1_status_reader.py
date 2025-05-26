@@ -172,10 +172,11 @@ class Vehicle1StatusReader(BaseReader):
         if  vehicle_status1 == 0 and vehicle_status2_g == 0 or \
             vehicle_status1 == 6 and vehicle_status2_g == 6 or \
             vehicle_status1 == 6 and vehicle_status2_g == 0:
+
             """
             When both the guns are not connected to the vehicle, then the status of the gun is 0 or 6.
             """
-            print("Condition 1")
+            print("GUN1:: Condition 1")
             mm.digital_output_open_AC()
             setter.setModulesLimit(120000, 250, 1)
 
@@ -188,7 +189,7 @@ class Vehicle1StatusReader(BaseReader):
         if  vehicle_status1 == 0 and vehicle_status2_g == 6 or \
             vehicle_status1 == 0 and vehicle_status2_g == 2 or \
             vehicle_status1 == 0 and vehicle_status2_g == 29 :
-            print("Condition 2")
+            print("GUN1:: Condition 2")
             setter.setModulesLimit(120000, 250, gun_number=1)
 
             pm1=[]
