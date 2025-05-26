@@ -177,7 +177,6 @@ class Vehicle1StatusReader(BaseReader):
             """
             print("Condition 1")
             mm.digital_output_open_AC()
-            # setter.setModulesLimit(160000, 250, 1)
             setter.setModulesLimit(120000, 250, 1)
 
             pm1=[]
@@ -200,7 +199,7 @@ class Vehicle1StatusReader(BaseReader):
         # Conditions 3
         if  vehicle_status1 == 2 and vehicle_status2_g == 0 or \
             vehicle_status1 == 2 and vehicle_status2_g == 6 :
-            print("Condition 3")
+            print("GUN1:: Condition 3")
             
             setter.setModulesLimit(120000, 250, gun_number=1)
 
@@ -1094,7 +1093,7 @@ class Vehicle1StatusReader(BaseReader):
 
                     if digitl_input[3] == '0':
                         PECC.STATUS1_GUN1_DATA[0] = 5 
-                    
+            
             # Demand Condition 7
             if  (target_power_from_car1 > 62000 and pm_assign2 == 1) or \
                 (target_power_from_car1 > 62000 and target_power_from_car2 <= 28000):
