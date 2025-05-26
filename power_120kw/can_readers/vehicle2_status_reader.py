@@ -800,7 +800,7 @@ class Vehicle2StatusReader(BaseReader):
             if  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 2) or \
                 (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 3):
                 pm_assign2 = self._global_data.get_data_pm_assign2()
-                setter.setModulesLimit(60000, 200, gun_number=2)
+                setter.setModulesLimit(90000, 250, gun_number=2)
                 if ((pm_assign2) == 2):
                     stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])
                     mm2.digital_output_Gun2_load12()
@@ -841,14 +841,18 @@ class Vehicle2StatusReader(BaseReader):
                 self._global_data.set_data_pm_assign2(len(pm2))
                 mm.stopModule(CanId.CAN_ID_1)
 
-                self.limitChangeRequest(60000)
-                if self.limitChangeRequested == False:
-                    mm2.digital_output_Gun2_load13()
-                    startCharging(pm2)
-                else:
-                    setter.setModulesLimit(60000, 250, gun_number=2)
-                    self.limitChangeRequested = False
-                
+                # self.limitChangeRequest(60000)
+                # if self.limitChangeRequested == False:
+                #     mm2.digital_output_Gun2_load13()
+                #     startCharging(pm2)
+                # else:
+                #     setter.setModulesLimit(60000, 250, gun_number=2)
+                #     self.limitChangeRequested = False
+
+                setter.setModulesLimit(90000, 250, gun_number=2)
+                mm2.digital_output_Gun2_load13()
+                startCharging(pm2)
+
                 digitl_input = self._global_data.get_data()
                 if digitl_input[4] == '1':
                     mm2.digital_output_led_red2()
