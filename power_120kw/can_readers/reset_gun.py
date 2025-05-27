@@ -42,7 +42,7 @@ class ResetGunModule1(BaseReader):
                 mm.stopModule(CanId.CAN_ID_4)
                 mm1.digital_output_open_load13()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1'or digitl_input[7] == '0':
+            if digitl_input[1] == '0' or digitl_input[2] == '1':
                 PECC.STATUS1_GUN1_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN1_DATA[0] = 0
@@ -56,7 +56,7 @@ class ResetGunModule1(BaseReader):
             time.sleep(10)
             mm.digital_output_open_fan()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1' or digitl_input[7] == '0':
+            if digitl_input[1] == '0' or digitl_input[2] == '1' :
                 PECC.STATUS1_GUN1_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN1_DATA[0] = 0
@@ -94,7 +94,7 @@ class ResetGunModule2(BaseReader):
                 mm.stopModule(CanId.CAN_ID_3)
                 mm2.digital_output_open_load23()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1'or digitl_input[7] == '0':
+            if digitl_input[1] == '0' or digitl_input[2] == '1':
                 PECC.STATUS1_GUN2_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN2_DATA[0] = 0
@@ -111,7 +111,7 @@ class ResetGunModule2(BaseReader):
             time.sleep(10)
             mm.digital_output_open_fan()
             digitl_input = self._global_data.get_data()
-            if digitl_input[1] == '0' or digitl_input[2] == '1'or digitl_input[7] == '0':
+            if digitl_input[1] == '0' or digitl_input[2] == '1':
                 PECC.STATUS1_GUN2_DATA[0] = 2
             else:
                 PECC.STATUS1_GUN2_DATA[0] = 0
