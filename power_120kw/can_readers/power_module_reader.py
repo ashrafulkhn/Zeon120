@@ -58,14 +58,14 @@ class PMSetDataCurrentPeccStatus1(PowerModuleReader):
         if self._diff_vol_current == 48:
             self._global_data.set_data_current_pe1(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             if self._vehicle_status2_g == 0 or self._vehicle_status2_g == 6:
-                if self._maxevpower1_g <= 40000 or self._targetpower_ev1 <= 38000 or self._pm_assign1 == 1:
+                if self._targetpower_ev1 <= 28000 or self._pm_assign1 == 1:
                     pe1current = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))                
                     tot_current1 = int((pe1current/1000) * 10)
                     cu_vl_11 = DTH.converttohexforpecc(hex(tot_current1))
                     PECC.STATUS2_GUN1_DATA[3] = cu_vl_11[0]
                     PECC.STATUS2_GUN1_DATA[2] = cu_vl_11[1]
             if self._vehicle_status1_g == 21 and self._vehicle_status2_g != 0 and self._vehicle_status2_g != 6 or self._vehicle_status1_g == 29 and self._vehicle_status2_g != 0 and self._vehicle_status2_g != 6 or self._vehicle_status1_g == 35 and self._vehicle_status2_g != 0 and self._vehicle_status2_g != 6 or self._vehicle_status1_g == 37 and self._vehicle_status2_g != 0 and self._vehicle_status2_g != 6:
-                if self._targetpower_ev1 <= 38000 or self._pm_assign1 == 1:
+                if self._targetpower_ev1 <= 28000 or self._pm_assign1 == 1:
                     pe1current = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))                
                     tot_current1 = int((pe1current/1000) * 10)
                     cu_vl_11 = DTH.converttohexforpecc(hex(tot_current1))
@@ -98,14 +98,14 @@ class PMSetDataCurrentPeccStatus2(PowerModuleReader):
         if self._diff_vol_current == 48: # For current vlaue
             self._global_data.set_data_current_pe2(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             if self._vehicle_status1_g == 0 or self._vehicle_status1_g == 6:
-                if self._maxevpower2_g <= 40000 or self._targetpower_ev2 <= 38000 or self._pm_assign2 == 1:
+                if self._targetpower_ev2 <= 28000 or self._pm_assign2 == 1:
                     pe2current = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))                
                     tot_current2 = int((pe2current/1000) * 10)
                     cu_vl_22 = DTH.converttohexforpecc(hex(tot_current2))
                     PECC.STATUS2_GUN2_DATA[3] = cu_vl_22[0]
                     PECC.STATUS2_GUN2_DATA[2] = cu_vl_22[1]
             if self._vehicle_status2_g == 21 and self._vehicle_status1_g != 0 and self._vehicle_status1_g != 6 or self._vehicle_status2_g == 29 and self._vehicle_status1_g != 0 and self._vehicle_status1_g != 6 or self._vehicle_status2_g == 35 and self._vehicle_status1_g != 0 and self._vehicle_status1_g != 6 or self._vehicle_status2_g == 37 and self._vehicle_status1_g != 0 and self._vehicle_status1_g != 6:
-                if self._targetpower_ev2 <= 38000 or self._pm_assign2 == 1:
+                if self._targetpower_ev2 <= 28000 or self._pm_assign2 == 1:
                     pe2current = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))                
                     tot_current2 = int((pe2current/1000) * 10)
                     cu_vl_22 = DTH.converttohexforpecc(hex(tot_current2))

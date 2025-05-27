@@ -1,0 +1,530 @@
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47435, DP: 48689, Diff: 7565, ChangeRequest: False
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47465, DP: 48689, Diff: 7535, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47465, DP: 48689, Diff: 7535, ChangeRequest: False
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47477, DP: 48689, Diff: 7523, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47519, DP: 48689, Diff: 7481, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47519, DP: 48689, Diff: 7481, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47519, DP: 48786, Diff: 7481, ChangeRequest: False
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47519, DP: 48786, Diff: 7481, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47560, DP: 48786, Diff: 7440, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47560, DP: 48786, Diff: 7440, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47560, DP: 48786, Diff: 7440, ChangeRequest: False
+GUN1:: Condition 13
+GUN1:: Condition 13-4
+Gun1 :: LP: 55000, RP: 47613, DP: 48828, Diff: 7387, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-8
+GUN1:: Condition 16
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 16
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 16
+GUN1:: Condition 16
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2::Condition 12-6
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2::Condition 12-6
+Gun2: Power Limit Set to: 90.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 89981, DP: 0, Diff: 64981, ChangeRequest: False
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 29859, DP: 0, Diff: 4859, ChangeRequest: False
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN1:: Condition 4
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 12
+Gun2: Power Limit Set to: 30.0 kW
+Gun2::Condition 12-1
+Gun2 :: LP: 25000, RP: 23045, DP: 0, Diff: 1955, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN1:: Condition 4
