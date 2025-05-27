@@ -665,8 +665,6 @@ class Vehicle2StatusReader(BaseReader):
                 self._global_data.set_data_pm_assign2(len(pm2))
                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_4, CanId.CAN_ID_3])
 
-
-
                 self.limitChangeRequest(25000)
 
                 if self.limitChangeRequested == False:
@@ -683,7 +681,7 @@ class Vehicle2StatusReader(BaseReader):
                     mm.stopModule(CanId.CAN_ID_1)
                     PECC.STATUS1_GUN2_DATA[0] = 9
                     mm2.digital_output_open_load21()
-
+ 
                 if digitl_input[4] == '0':
                     PECC.STATUS1_GUN2_DATA[0] = 5 
 

@@ -11,7 +11,6 @@ class GunStatus:
     STOP_CHARGE = [35, 37]
     CONNECTED = 2  # TODO: change the key to make it more appropriate for newly connected vehicle
 
-
 class CanId:
     CAN_ID_1 = 0x02204000
     CAN_ID_2 = 0x02208000
