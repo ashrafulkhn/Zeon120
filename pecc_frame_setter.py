@@ -20,7 +20,7 @@ class PECCFrameSetter:
         PECC.__dict__[f"LIMITS2_DATA_120kw_Gun{gun_number}"][3] = current_hex[0]  # Upper byte
         # print(f"Power: {power}, 4: {power_hex[1]}, 5: {power_hex[0]}, 2: {current_hex[1]}, 3: {current_hex[0]}")
         if (power != PECCFrameSetter.previous_power):
-            print(f"Gun{gun_number}: Power Limit Set to: {power/1000} kW power1: {power_hex[1]}, {power_hex[0]}, current1: {current_hex[1]}, {current_hex[0]}")
+            print(f"Gun{gun_number}: Power Limit Set to: {power/1000} kW")
             PECCFrameSetter.previous_power = power
 
 # Example Usage
