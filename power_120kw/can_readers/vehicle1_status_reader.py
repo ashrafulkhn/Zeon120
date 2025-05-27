@@ -810,7 +810,7 @@ class Vehicle1StatusReader(BaseReader):
             if  (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 2) or \
                 (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 3):
                 pm_assign1 = self._global_data.get_data_pm_assign1()
-                setter.setModulesLimit(90000, 200, gun_number=1)
+                setter.setModulesLimit(90000, 250, gun_number=1)
 
                 if ((pm_assign1) == 2):
                     # PECC.LIMITS1_DATA_120kw_Gun1[4] = 64
