@@ -25,7 +25,7 @@ class Vehicle1StatusReader(BaseReader):
         self.limitChangeRequested = False
     
     def getRealTimeVIP(self):
-        print("INFO:: Indside getRealtimeVIP")
+        # print("INFO:: Indside getRealtimeVIP")
         # Return the real-time voltage, current and power
         s2g1d = bytetobinary(PECC.STATUS2_GUN1_DATA)
         voltage_pre = binaryToDecimal(int(s2g1d[1] + s2g1d[0]))
@@ -36,7 +36,7 @@ class Vehicle1StatusReader(BaseReader):
         return self._readPower, self._voltage, self._current
     
     def limitChangeRequest(self, limitPower):
-        print("INFO:: Indside Limit Change Function Gun1")
+        # print("INFO:: Indside Limit Change Function Gun1")
         realTimeVIP = self.getRealTimeVIP()
         # val = abs(limitPower - self._readPower)    # 35 - 34 = 1; 35 - 36 = -1
         val = abs(limitPower - realTimeVIP[0])    # 35 - 34 = 1; 35 - 36 = -1
@@ -287,7 +287,7 @@ class Vehicle1StatusReader(BaseReader):
         if  vehicle_status1 == 13 and vehicle_status2_g == 2 or \
             vehicle_status1 == 13 and vehicle_status2_g == 35 or \
             vehicle_status1 == 13 and vehicle_status2_g == 37:
-            print("GUN1:: Condition 6: Gun1 - Cable Check, Gun2 - Disconnected or Error State")
+            print("GUN1:: Condition 6: Gun1 - Cable Check, Gun2 - Connected or Stop State")
             updateVI_status(vs1)
         
             PECC.STATUS1_GUN1_DATA[0] = 1
@@ -434,7 +434,7 @@ class Vehicle1StatusReader(BaseReader):
             # if target_power_from_car1 <= 38000:
             if target_power_from_car1 <= 29000:
                 print("GUN1:: Condition 11-1")
-
+                self.limitChangeRequest(25000)  # Updates the limitChangeRequested variable to true if the limit is reached
                 setter.setModulesLimit(25000, 100, gun_number=1)
 
                 # Assign modules for Gun1
@@ -449,7 +449,7 @@ class Vehicle1StatusReader(BaseReader):
 
                 # Check the realtime votage and current
                 
-                self.limitChangeRequest(25000)  # Updates the limitChangeRequested variable to true if the limit is reached
+                
 
                 if (self.limitChangeRequested == False):
                     # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
@@ -518,13 +518,13 @@ class Vehicle1StatusReader(BaseReader):
             if  target_power_from_car1 >= 31000 and \
                 target_power_from_car1 <= 59000:
                 print("GUN1:: Condition 11-3")
+                self.limitChangeRequest(55000)  # Updates the limitChangeRequested variable to true if the limit is reached
                 setter.setModulesLimit(55000, 200, gun_number=1)
                 pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3]
                 # pm_assign1 = self._global_data.set_data_pm_assign1(pm1)
                 self._global_data.set_data_pm_assign1(len(pm1))
                 stopActiveModules([CanId.CAN_ID_2,CanId.CAN_ID_4])
-
-                self.limitChangeRequest(55000)  # Updates the limitChangeRequested variable to true if the limit is reached
+                
                 if (self.limitChangeRequested == False):
                     mm1.digital_output_close_Gun12()
                     startCharging(pm1)

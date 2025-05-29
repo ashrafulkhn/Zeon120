@@ -3,13 +3,18 @@ import time
 import random
 
 x = 20000
-demand = x
+_demand1 = x
 read_val = 0
 limitChangeRequested = False
 pm_assigned1 = 0
+_limit = 0
 
 def setLimit(limit_power):
+    global _limit
     print(f"Limit set to {limit_power/1000}kW")
+    _limit = limit_power
+def getSetLimit1():
+    return _limit
 
 def limitChangeRequest(limit_to_check):
     global limitChangeRequested
@@ -26,10 +31,9 @@ def start(pm):
     global pm_assigned1
     pm_assigned1 = len(pm)
     pmUsed(len(pm))
-
-# Precharge limit 30kW -> 20kW
-
+    
 def conditions():
+    demand1 = min(getSetLimit1(), _demand1)
     if demand <= 29000:     
         setLimit(25000)
         limitChangeRequest(25000)

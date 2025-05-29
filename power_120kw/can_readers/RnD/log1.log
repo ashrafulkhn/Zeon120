@@ -1,0 +1,2940 @@
+GUN2:: Condition 4
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 4
+INFO:: Indside getRealtimeVIP
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 6: Gun1 - Cable Check, Gun2 - Disconnected or Error State
+GUN1:: Cable Check
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 6: Gun1 - Cable Check, Gun2 - Disconnected or Error State
+GUN1:: Cable Check
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 6: Gun1 - Cable Check, Gun2 - Disconnected or Error State
+GUN1:: Cable Check
+GUN2:: Condition 4
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+Gun1: Power Limit Set to: 20.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+Gun1: Power Limit Set to: 20.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+Gun1: Power Limit Set to: 20.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+Gun1: Power Limit Set to: 20.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 9
+Gun1: Power Limit Set to: 20.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 42, DP: 18600, Diff: 24958, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 42, DP: 18600, Diff: 24958, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 8718, DP: 18600, Diff: 16282, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17102, DP: 18600, Diff: 7898, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17196, DP: 18600, Diff: 7804, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17240, DP: 26970, Diff: 7760, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17244, DP: 26970, Diff: 7756, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24814, DP: 26923, Diff: 186, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24814, DP: 26877, Diff: 186, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24814, DP: 26970, Diff: 186, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24814, DP: 28225, Diff: 186, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-2
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 29000, RP: 24814, DP: 30318, Diff: 4186, ChangeRequest: False
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 25047, DP: 32317, Diff: 29953, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 28244, DP: 34410, Diff: 26756, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 14959, DP: 36456, Diff: 40041, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 15958, DP: 18600, Diff: 9042, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 16871, DP: 18600, Diff: 8129, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17260, DP: 19855, Diff: 7740, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17216, DP: 26923, Diff: 7784, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 18433, DP: 26923, Diff: 6567, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24972, DP: 26923, Diff: 28, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24972, DP: 26830, Diff: 28, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24972, DP: 28225, Diff: 28, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-2
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 29000, RP: 24972, DP: 30318, Diff: 4028, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 25027, DP: 32317, Diff: 29973, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 28270, DP: 34410, Diff: 26730, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 14933, DP: 36456, Diff: 40067, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 15972, DP: 38455, Diff: 39028, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 16883, DP: 18600, Diff: 8117, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17841, DP: 19855, Diff: 7159, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 17232, DP: 26877, Diff: 7768, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 18407, DP: 26877, Diff: 6593, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24946, DP: 26877, Diff: 54, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24946, DP: 26830, Diff: 54, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24946, DP: 26923, Diff: 54, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 24946, DP: 28225, Diff: 54, ChangeRequest: True
+Gun1: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-2
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 29000, RP: 24946, DP: 30225, Diff: 4054, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 25050, DP: 34363, Diff: 29950, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 28203, DP: 36363, Diff: 26797, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 15940, DP: 38455, Diff: 39060, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 16899, DP: 40455, Diff: 38101, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 17853, DP: 42547, Diff: 37147, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 18770, DP: 44593, Diff: 36230, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 19774, DP: 46593, Diff: 35226, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 20735, DP: 48685, Diff: 34265, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 21866, DP: 52777, Diff: 33134, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 45593, DP: 54823, Diff: 9407, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 49610, DP: 56869, Diff: 5390, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 51581, DP: 58915, Diff: 3419, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 53555, DP: 63751, Diff: 6445, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 55425, DP: 63705, Diff: 4575, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 39825, DP: 64216, Diff: 20175, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 39825, DP: 67611, Diff: 20175, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 40139, DP: 69657, Diff: 19861, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 42316, DP: 71610, Diff: 17684, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 43602, DP: 73702, Diff: 16398, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 44856, DP: 75795, Diff: 15144, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 63756, DP: 77841, Diff: 3756, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 71987, DP: 79887, Diff: 11987, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 73907, DP: 83932, Diff: 13907, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 75935, DP: 86025, Diff: 15935, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 79907, DP: 88071, Diff: 19907, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 81947, DP: 90117, Diff: 21947, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 83973, DP: 94395, Diff: 23973, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 86022, DP: 94302, Diff: 26022, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90249, DP: 94209, Diff: 30249, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90246, DP: 94069, Diff: 30246, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90132, DP: 94023, Diff: 30132, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90039, DP: 94023, Diff: 30039, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90015, DP: 93976, Diff: 30015, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90055, DP: 93930, Diff: 30055, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90031, DP: 93883, Diff: 30031, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90007, DP: 93883, Diff: 30007, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89982, DP: 93837, Diff: 29982, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90047, DP: 93837, Diff: 30047, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89978, DP: 93790, Diff: 29978, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90063, DP: 93790, Diff: 30063, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89994, DP: 93744, Diff: 29994, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90014, DP: 93744, Diff: 30014, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89989, DP: 93697, Diff: 29989, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90054, DP: 93697, Diff: 30054, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89985, DP: 93651, Diff: 29985, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89985, DP: 93651, Diff: 29985, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89960, DP: 93651, Diff: 29960, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89981, DP: 93604, Diff: 29981, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90045, DP: 93604, Diff: 30045, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89976, DP: 93558, Diff: 29976, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90041, DP: 93558, Diff: 30041, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90016, DP: 93558, Diff: 30016, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90016, DP: 93511, Diff: 30016, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89992, DP: 93511, Diff: 29992, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90012, DP: 93511, Diff: 30012, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89967, DP: 93465, Diff: 29967, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90032, DP: 93465, Diff: 30032, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89987, DP: 93465, Diff: 29987, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90007, DP: 93465, Diff: 30007, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90007, DP: 93418, Diff: 30007, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90027, DP: 93418, Diff: 30027, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89938, DP: 93418, Diff: 29938, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90003, DP: 93418, Diff: 30003, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90003, DP: 93372, Diff: 30003, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90023, DP: 93372, Diff: 30023, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89933, DP: 93372, Diff: 29933, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89998, DP: 93372, Diff: 29998, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89953, DP: 93372, Diff: 29953, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90018, DP: 93372, Diff: 30018, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89973, DP: 93325, Diff: 29973, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90038, DP: 93325, Diff: 30038, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89949, DP: 93325, Diff: 29949, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89949, DP: 93325, Diff: 29949, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89969, DP: 93325, Diff: 29969, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90013, DP: 93279, Diff: 30013, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89989, DP: 93279, Diff: 29989, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89989, DP: 93279, Diff: 29989, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89964, DP: 93279, Diff: 29964, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90009, DP: 93232, Diff: 30009, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89964, DP: 93232, Diff: 29964, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89984, DP: 93232, Diff: 29984, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89939, DP: 93232, Diff: 29939, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89939, DP: 93232, Diff: 29939, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89939, DP: 93232, Diff: 29939, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89984, DP: 93232, Diff: 29984, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90004, DP: 93232, Diff: 30004, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89959, DP: 93186, Diff: 29959, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89959, DP: 93186, Diff: 29959, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89959, DP: 93186, Diff: 29959, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89934, DP: 93186, Diff: 29934, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89979, DP: 93186, Diff: 29979, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89934, DP: 93186, Diff: 29934, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89954, DP: 93186, Diff: 29954, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89954, DP: 93186, Diff: 29954, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89954, DP: 93186, Diff: 29954, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89999, DP: 93186, Diff: 29999, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89954, DP: 93186, Diff: 29954, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89974, DP: 93186, Diff: 29974, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89974, DP: 93139, Diff: 29974, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90019, DP: 93139, Diff: 30019, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89929, DP: 93139, Diff: 29929, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89974, DP: 93139, Diff: 29974, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89949, DP: 93139, Diff: 29949, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89994, DP: 93139, Diff: 29994, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89949, DP: 93139, Diff: 29949, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 7
+GUN2: Cable Check
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89994, DP: 93139, Diff: 30994, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89994, DP: 93139, Diff: 30994, ChangeRequest: False
+GUN2:: Condition 7
+GUN2: Cable Check
+GUN2:: Condition 7
+GUN2: Cable Check
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 93139, Diff: 30969, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90014, DP: 93093, Diff: 31014, ChangeRequest: False
+GUN2:: Condition 10
+Gun2: Power Limit Set to: 20.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90014, DP: 93093, Diff: 31014, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89924, DP: 93093, Diff: 30924, ChangeRequest: False
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 93093, Diff: 30969, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89924, DP: 93093, Diff: 30924, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89944, DP: 93093, Diff: 30944, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89989, DP: 93093, Diff: 30989, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89989, DP: 93093, Diff: 30989, ChangeRequest: False
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89989, DP: 93093, Diff: 30989, ChangeRequest: False
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89944, DP: 93093, Diff: 30944, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89944, DP: 93093, Diff: 30944, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89964, DP: 93093, Diff: 30964, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89964, DP: 93046, Diff: 30964, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90009, DP: 93046, Diff: 31009, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89964, DP: 93046, Diff: 30964, ChangeRequest: False
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89920, DP: 93046, Diff: 30920, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89964, DP: 93046, Diff: 30964, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89984, DP: 93046, Diff: 30984, ChangeRequest: False
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89940, DP: 93046, Diff: 30940, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89984, DP: 93046, Diff: 30984, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89940, DP: 93046, Diff: 30940, ChangeRequest: False
+GUN2:: Condition 10
+GUN2:: Condition 10
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89940, DP: 93046, Diff: 30940, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 721, DP: 0, Diff: 24279, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89895, DP: 93046, Diff: 30895, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89984, DP: 93046, Diff: 30984, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 681, DP: 0, Diff: 24319, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89895, DP: 93046, Diff: 30895, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89960, DP: 93046, Diff: 30960, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89960, DP: 93000, Diff: 30960, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90004, DP: 93000, Diff: 31004, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89915, DP: 93000, Diff: 30915, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89960, DP: 93000, Diff: 30960, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 160, DP: 0, Diff: 24840, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89960, DP: 93000, Diff: 30960, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89935, DP: 93000, Diff: 30935, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89915, DP: 93000, Diff: 30915, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89980, DP: 93000, Diff: 30980, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89935, DP: 93000, Diff: 30935, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89935, DP: 93000, Diff: 30935, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 160, DP: 0, Diff: 24840, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89935, DP: 93000, Diff: 30935, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89980, DP: 93000, Diff: 30980, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89935, DP: 93000, Diff: 30935, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89980, DP: 93000, Diff: 30980, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 200, DP: 0, Diff: 24800, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 160, DP: 822, Diff: 24840, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90000, DP: 93000, Diff: 31000, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90000, DP: 93000, Diff: 31000, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 160, DP: 822, Diff: 24840, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 761, DP: 2671, Diff: 24239, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90000, DP: 93000, Diff: 31000, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90000, DP: 93000, Diff: 31000, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 802, DP: 4726, Diff: 24198, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89955, DP: 93000, Diff: 30955, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 2566, DP: 4726, Diff: 22434, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 4582, DP: 6370, Diff: 20418, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90000, DP: 93000, Diff: 31000, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90000, DP: 93000, Diff: 31000, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 4582, DP: 6370, Diff: 20418, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 6231, DP: 8055, Diff: 18769, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89955, DP: 93000, Diff: 30955, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89955, DP: 93000, Diff: 30955, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 6190, DP: 8055, Diff: 18810, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 7898, DP: 9599, Diff: 17102, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90020, DP: 93000, Diff: 31020, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90020, DP: 92953, Diff: 31020, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 7858, DP: 9599, Diff: 17142, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 9349, DP: 11124, Diff: 15651, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89910, DP: 93000, Diff: 30910, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 9349, DP: 12513, Diff: 15651, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89974, DP: 93000, Diff: 30974, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89974, DP: 92953, Diff: 30974, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 10881, DP: 12513, Diff: 14119, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90020, DP: 92953, Diff: 31020, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 12241, DP: 13918, Diff: 12759, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 12200, DP: 13918, Diff: 12800, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89974, DP: 92953, Diff: 30974, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89974, DP: 92953, Diff: 30974, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 13614, DP: 15157, Diff: 11386, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 13574, DP: 15157, Diff: 11426, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89974, DP: 92953, Diff: 30974, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89929, DP: 92953, Diff: 30929, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 14786, DP: 16477, Diff: 10214, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 14826, DP: 16477, Diff: 10174, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89974, DP: 92953, Diff: 30974, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 16078, DP: 17677, Diff: 8922, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89929, DP: 92953, Diff: 30929, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89929, DP: 92953, Diff: 30929, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 16118, DP: 17677, Diff: 8882, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 17293, DP: 18878, Diff: 7707, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 17293, DP: 20003, Diff: 7707, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89994, DP: 92953, Diff: 30994, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 18468, DP: 20003, Diff: 6532, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 19480, DP: 21040, Diff: 5520, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 19528, DP: 21040, Diff: 5472, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 20584, DP: 21995, Diff: 4416, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 20584, DP: 21995, Diff: 4416, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 21518, DP: 23046, Diff: 3482, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 21518, DP: 23046, Diff: 3482, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89994, DP: 92953, Diff: 30994, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 22492, DP: 23920, Diff: 2508, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 22492, DP: 24793, Diff: 2508, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89949, DP: 92953, Diff: 30949, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 92953, Diff: 30969, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2 :: LP: 25000, RP: 23402, DP: 24793, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 25542, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 92907, Diff: 30969, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 25542, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 92907, Diff: 30969, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 92907, Diff: 30969, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 26479, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 26479, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 92907, Diff: 30969, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89924, DP: 92907, Diff: 30924, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 27396, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 27396, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89924, DP: 92907, Diff: 30924, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 92907, Diff: 30969, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 28147, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89969, DP: 92907, Diff: 30969, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 28981, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-2
+Gun2: Power Limit Set to: 25.0 kW
+Gun2 :: LP: 25000, RP: 23402, DP: 28981, Diff: 1598, ChangeRequest: True
+Gun2: Power Limit Set to: 55.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89989, DP: 92907, Diff: 30989, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 90034, DP: 92907, Diff: 31034, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-3
+Gun2 :: LP: 29000, RP: 23402, DP: 29773, Diff: 5598, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-3
+Gun2 :: LP: 29000, RP: 24257, DP: 29773, Diff: 4743, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89944, DP: 92907, Diff: 30944, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89989, DP: 92907, Diff: 30989, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-3
+Gun2 :: LP: 29000, RP: 29049, DP: 30441, Diff: 49, ChangeRequest: True
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89944, DP: 92907, Diff: 30944, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-3
+Gun2 :: LP: 29000, RP: 29090, DP: 30441, Diff: 90, ChangeRequest: True
+GUN2:: Condition 13
+GUN2:: Condition 13-3
+Gun2 :: LP: 29000, RP: 29857, DP: 30941, Diff: 857, ChangeRequest: True
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89989, DP: 92907, Diff: 30989, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-7
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 59000, RP: 89944, DP: 92907, Diff: 30944, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-3
+Gun2 :: LP: 29000, RP: 29857, DP: 30941, Diff: 857, ChangeRequest: True
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 30347, DP: 31642, Diff: 24653, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 57546, DP: 31642, Diff: 2546, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 30593, DP: 32472, Diff: 24407, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 30920, DP: 32849, Diff: 24080, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 31697, DP: 32849, Diff: 23303, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 32065, DP: 33268, Diff: 22935, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 32065, DP: 33268, Diff: 22935, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 32554, DP: 33729, Diff: 22446, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 32513, DP: 33729, Diff: 22487, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 32964, DP: 34148, Diff: 22036, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 32964, DP: 34148, Diff: 22036, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 33415, DP: 34608, Diff: 21585, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 33374, DP: 34944, Diff: 21626, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 33743, DP: 34944, Diff: 21257, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 34071, DP: 35364, Diff: 20929, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 34071, DP: 35364, Diff: 20929, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 34565, DP: 35700, Diff: 20435, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 34565, DP: 35700, Diff: 20435, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 34893, DP: 35994, Diff: 20107, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 34893, DP: 35994, Diff: 20107, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 35181, DP: 36416, Diff: 19819, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 35222, DP: 36711, Diff: 19778, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 35510, DP: 36711, Diff: 19490, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 35798, DP: 37048, Diff: 19202, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 35798, DP: 37048, Diff: 19202, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 36214, DP: 37258, Diff: 18786, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 36256, DP: 37258, Diff: 18744, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 36420, DP: 37553, Diff: 18580, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 36420, DP: 37553, Diff: 18580, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 36709, DP: 37853, Diff: 18291, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 36750, DP: 37853, Diff: 18250, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 36915, DP: 38148, Diff: 18085, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 36915, DP: 38359, Diff: 18085, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 37244, DP: 38359, Diff: 17756, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 37450, DP: 38570, Diff: 17550, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 37409, DP: 38570, Diff: 17591, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 37748, DP: 38781, Diff: 17252, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 37706, DP: 38781, Diff: 17294, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 37954, DP: 38992, Diff: 17046, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 37954, DP: 38992, Diff: 17046, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 38119, DP: 39212, Diff: 16881, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 38161, DP: 39423, Diff: 16839, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 38285, DP: 39423, Diff: 16715, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 38491, DP: 39550, Diff: 16509, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 38450, DP: 39550, Diff: 16550, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 38574, DP: 39635, Diff: 16426, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 38615, DP: 39635, Diff: 16385, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 38656, DP: 39762, Diff: 16344, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 38656, DP: 39762, Diff: 16344, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 38874, DP: 39931, Diff: 16126, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 38874, DP: 39931, Diff: 16126, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39040, DP: 40058, Diff: 15960, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 39040, DP: 40237, Diff: 15960, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39205, DP: 40237, Diff: 15795, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39247, DP: 40280, Diff: 15753, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39247, DP: 40280, Diff: 15753, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 39288, DP: 40364, Diff: 15712, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39330, DP: 40364, Diff: 15670, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39371, DP: 40492, Diff: 15629, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39371, DP: 40492, Diff: 15629, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 39495, DP: 40492, Diff: 15505, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39495, DP: 40576, Diff: 15505, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 39537, DP: 40576, Diff: 15463, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39619, DP: 40704, Diff: 15381, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39619, DP: 40704, Diff: 15381, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 39702, DP: 40704, Diff: 15298, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39702, DP: 40704, Diff: 15298, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2: Power Limit Set to: 55.0 kW
+Gun2 :: LP: 55000, RP: 39744, DP: 40788, Diff: 15256, ChangeRequest: False
+GUN2:: Condition 13
+GUN2:: Condition 13-4
+Gun2 :: LP: 55000, RP: 39744, DP: 40788, Diff: 15256, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 13
+GUN1:: Condition 13-8
+GUN2:: Condition 16
+GUN2:: Condition 16
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 59964, DP: 62589, Diff: 36, ChangeRequest: True
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 59910, DP: 62589, Diff: 90, ChangeRequest: True
+GUN2:: Condition 16
+GUN2:: Condition 16
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 39656, DP: 64635, Diff: 20344, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 39648, DP: 66727, Diff: 20352, ChangeRequest: False
+GUN2:: Condition 17
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 40984, DP: 68773, Diff: 19016, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 42322, DP: 70726, Diff: 17678, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 43669, DP: 72772, Diff: 16331, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 44920, DP: 74632, Diff: 15080, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 46225, DP: 76725, Diff: 13775, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 47433, DP: 80677, Diff: 12567, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 48796, DP: 82816, Diff: 11204, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 77444, DP: 84862, Diff: 17444, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 79815, DP: 86955, Diff: 19815, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 81751, DP: 89047, Diff: 21751, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 83888, DP: 93372, Diff: 23888, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 85938, DP: 93279, Diff: 25938, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90299, DP: 93046, Diff: 30299, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90164, DP: 93046, Diff: 30164, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90004, DP: 93046, Diff: 30004, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89960, DP: 93000, Diff: 29960, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89980, DP: 93000, Diff: 29980, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89935, DP: 93000, Diff: 29935, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89935, DP: 93000, Diff: 29935, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90000, DP: 93000, Diff: 30000, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89955, DP: 93000, Diff: 29955, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89955, DP: 93000, Diff: 29955, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89974, DP: 93000, Diff: 29974, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90020, DP: 92953, Diff: 30020, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89974, DP: 92953, Diff: 29974, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89994, DP: 92953, Diff: 29994, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89949, DP: 92953, Diff: 29949, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89994, DP: 92953, Diff: 29994, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89994, DP: 92953, Diff: 29994, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90014, DP: 92953, Diff: 30014, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90014, DP: 92907, Diff: 30014, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 90014, DP: 92907, Diff: 30014, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89969, DP: 92907, Diff: 29969, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89989, DP: 79189, Diff: 29989, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-6
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 60000, RP: 89929, DP: 62961, Diff: 29929, ChangeRequest: False
+Gun1: Power Limit Set to: 90.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 76328, DP: 49011, Diff: 21328, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 40254, DP: 48918, Diff: 14746, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+Gun1: Power Limit Set to: 60.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 46784, DP: 48918, Diff: 8216, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-3
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 55000, RP: 46685, DP: 48918, Diff: 8315, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 46674, DP: 0, Diff: 21674, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 23374, DP: 0, Diff: 1626, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 218, DP: 0, Diff: 24782, ChangeRequest: False
+GUN2:: Condition 4
+Gun2: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 12
+GUN1:: Condition 12-1
+Gun1: Power Limit Set to: 25.0 kW
+INFO:: Indside Limit Change Function Gun1
+INFO:: Indside getRealtimeVIP
+Gun1 :: LP: 25000, RP: 174, DP: 0, Diff: 24826, ChangeRequest: False
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 16
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 16
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 16
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 16
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 17
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 17
+INFO:: Indside getRealtimeVIP
+GUN1:: Condition 4
+Gun1: Power Limit Set to: 120.0 kW
+GUN2:: Condition 4
+INFO:: Indside getRealtimeVIP
