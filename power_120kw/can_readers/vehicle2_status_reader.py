@@ -194,7 +194,7 @@ class Vehicle2StatusReader(BaseReader):
             standByled()
         
         # GUN2:: Condition 2
-        if  vehicle_status2 == 0 and vehicle_status1_g == 6 or \
+        elif  vehicle_status2 == 0 and vehicle_status1_g == 6 or \
             vehicle_status2 == 0 and vehicle_status1_g == 2 or \
             vehicle_status2 == 0 and vehicle_status1_g == 29:
             print("GUN2:: Condition 2")
@@ -206,7 +206,7 @@ class Vehicle2StatusReader(BaseReader):
             standByled()
         
         # GUN2:: Condition 3
-        if  vehicle_status2 == 2 and vehicle_status1_g == 0 or \
+        elif  vehicle_status2 == 2 and vehicle_status1_g == 0 or \
             vehicle_status2 == 2 and vehicle_status1_g == 6 :
             print("GUN2:: Condition 3")
             setter.setModulesLimit(120000, 250, gun_number=2) 
@@ -233,7 +233,7 @@ class Vehicle2StatusReader(BaseReader):
                 print("GUN2: IndexError: List index out of range. Please check the input data.")
         
         # GUN2:: Condition 4
-        if  vehicle_status2 == 2 and vehicle_status1_g == 13 or \
+        elif  vehicle_status2 == 2 and vehicle_status1_g == 13 or \
             vehicle_status2 == 2 and vehicle_status1_g == 21 or \
             vehicle_status2 == 2 and vehicle_status1_g == 2 or \
             vehicle_status2 == 2 and vehicle_status1_g == 29:
@@ -251,7 +251,7 @@ class Vehicle2StatusReader(BaseReader):
                 PECC.STATUS1_GUN2_DATA[0] = 2
         
         # GUN2:: Condition 5
-        if  vehicle_status2 == 13 and vehicle_status1_g == 0 or \
+        elif  vehicle_status2 == 13 and vehicle_status1_g == 0 or \
             vehicle_status2 == 13 and vehicle_status1_g == 6:
             print("GUN2:: Condition 5")
             setter.setModulesLimit(120000, 250, gun_number=2)
@@ -281,7 +281,7 @@ class Vehicle2StatusReader(BaseReader):
                 PECC.STATUS1_GUN2_DATA[0] = 5
         
         # GUN2:: Condition 6
-        if  vehicle_status2 == 13 and vehicle_status1_g == 2 or \
+        elif  vehicle_status2 == 13 and vehicle_status1_g == 2 or \
             vehicle_status2 == 13 and vehicle_status1_g == 35 or \
             vehicle_status2 == 13 and vehicle_status1_g == 37:
             print("GUN2:: Condition 6")
@@ -311,7 +311,7 @@ class Vehicle2StatusReader(BaseReader):
                 PECC.STATUS1_GUN2_DATA[0] = 5
             
         # GUN2:: Condition 7
-        if  vehicle_status2 == 13 and vehicle_status1_g == 13 or \
+        elif  vehicle_status2 == 13 and vehicle_status1_g == 13 or \
             vehicle_status2 == 13 and vehicle_status1_g == 21 or \
             vehicle_status2 == 13 and vehicle_status1_g == 29:
             print("GUN2:: Condition 7")
@@ -336,7 +336,7 @@ class Vehicle2StatusReader(BaseReader):
                 PECC.STATUS1_GUN2_DATA[0] = 5
 
         # Condition 8
-        if  vehicle_status2 == 21 and vehicle_status1_g == 0 or \
+        elif  vehicle_status2 == 21 and vehicle_status1_g == 0 or \
             vehicle_status2 == 21 and vehicle_status1_g == 6:
             print("GUN2:: Condition 8")
             updateVI_status(vs2)
@@ -361,7 +361,7 @@ class Vehicle2StatusReader(BaseReader):
                 PECC.STATUS1_GUN2_DATA[0] = 5
 
         # GUN2:: Condition 9
-        if  vehicle_status2 == 21 and vehicle_status1_g == 2 or \
+        elif  vehicle_status2 == 21 and vehicle_status1_g == 2 or \
             vehicle_status2 == 21 and vehicle_status1_g == 35 or \
             vehicle_status2 == 21 and vehicle_status1_g == 37:
             print("GUN2:: Condition 9")
@@ -392,7 +392,7 @@ class Vehicle2StatusReader(BaseReader):
                     # GUN2:: Condition 1   
         
         # GUN2:: Condition 10
-        if  vehicle_status2 == 21 and vehicle_status1_g == 13 or \
+        elif  vehicle_status2 == 21 and vehicle_status1_g == 13 or \
             vehicle_status2 == 21 and vehicle_status1_g == 21 or \
             vehicle_status2 == 21 and vehicle_status1_g == 29:
             print("GUN2:: Condition 10")
@@ -421,7 +421,7 @@ class Vehicle2StatusReader(BaseReader):
 # ============================================================================================
 
         # GUN2:: Conditions 11
-        if  vehicle_status2 == 29 and vehicle_status1_g == 0 or \
+        elif  vehicle_status2 == 29 and vehicle_status1_g == 0 or \
             vehicle_status2 == 29 and vehicle_status1_g == 6:
             print("GUN2:: Condition 11")
             updateVI_status(vs2)
@@ -434,7 +434,7 @@ class Vehicle2StatusReader(BaseReader):
             # Demand Condition 1
             # if target_power_from_car1 <= 38000:
             if target_power_from_car2 <= 28000:
-                setter.setModulesLimit(25000, 100, gun_number=2)
+                setter.setModulesLimit(28000, 100, gun_number=2)
                 # Assign modules for Gun1
                 pm2=[CanId.CAN_ID_2]
                 self._global_data.set_data_pm_assign2(len(pm2))
@@ -446,7 +446,7 @@ class Vehicle2StatusReader(BaseReader):
 
                 # Check the realtime votage and current
                 
-                self.limitChangeRequest(25000)  # Updates the limitChangeRequested variable to true if the limit is reached
+                self.limitChangeRequest(28000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
                     # print(f"INFO: Limit change requested: {self.limitChangeRequested}")
@@ -477,7 +477,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5
 
             # Demand Condition 2
-            if  target_power_from_car2 > 28000 and \
+            elif  target_power_from_car2 > 28000 and \
                 target_power_from_car2 < 32000:
                 
                 pm_assign2 = self._global_data.get_data_pm_assign2()
@@ -507,13 +507,13 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5
 
             # Demand Condition 3
-            if  target_power_from_car2 >= 32000 and \
+            elif  target_power_from_car2 >= 32000 and \
                 target_power_from_car2 <= 58000:
-                setter.setModulesLimit(55000, 200, gun_number=2)
+                setter.setModulesLimit(58000, 200, gun_number=2)
                 pm2=[CanId.CAN_ID_2, CanId.CAN_ID_4]
                 self._global_data.set_data_pm_assign2(len(pm2))
                 stopActiveModules([CanId.CAN_ID_1,CanId.CAN_ID_3])
-                self.limitChangeRequest(55000)  # Updates the limitChangeRequested variable to true if the limit is reached
+                self.limitChangeRequest(58000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
                     mm2.digital_output_close_Gun22()
@@ -537,7 +537,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5
             
             # Demand Condition 4
-            if  target_power_from_car2 > 58000 and \
+            elif  target_power_from_car2 > 58000 and \
                 target_power_from_car2 < 62000:
             # if target_power_from_car1 > 78000 and target_power_from_car1 < 82000:
                 pm_assign2 = self._global_data.get_data_pm_assign2()
@@ -567,15 +567,15 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5
             
             # Demand Condition 5
-            if  target_power_from_car2 >= 62000 and \
+            elif  target_power_from_car2 >= 62000 and \
                 target_power_from_car2 <= 88000:
-                setter.setModulesLimit(85000, 250, gun_number=2)
+                setter.setModulesLimit(88000, 250, gun_number=2)
 
                 mm.stopModule(CanId.CAN_ID_1)
                 pm2=[CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4]
                 self._global_data.set_data_pm_assign2(len(pm2))
 
-                self.limitChangeRequest(85000)  # Updates the limitChangeRequested variable to true if the limit is reached
+                self.limitChangeRequest(88000)  # Updates the limitChangeRequested variable to true if the limit is reached
 
                 if (self.limitChangeRequested == False):
                     mm2.digital_output_close_Gun23()
@@ -598,7 +598,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5
 
             # Demand Condition 6
-            if  target_power_from_car2 > 88000 and \
+            elif  target_power_from_car2 > 88000 and \
                 target_power_from_car2 < 92000:
 
                 pm_assign2 = self._global_data.get_data_pm_assign2()
@@ -625,7 +625,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
             
             # Demand Condition 7
-            if target_power_from_car2 >= 92000:
+            elif target_power_from_car2 >= 92000:
                 mm2.digital_output_close_Gun24()
                 setter.setModulesLimit(120000, 250, gun_number=2)
                 pm2=[CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4]
@@ -652,7 +652,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
         # GUN2:: Condition 12
-        if  vehicle_status2 == 29 and vehicle_status1_g == 2 or   \
+        elif  vehicle_status2 == 29 and vehicle_status1_g == 2 or   \
             vehicle_status2 == 29 and vehicle_status1_g == 35 or \
             vehicle_status2 == 29 and vehicle_status1_g == 37:
             print("GUN2:: Condition 12")
@@ -671,13 +671,13 @@ class Vehicle2StatusReader(BaseReader):
 
             # Demand Condition 1
             if (target_power_from_car2 <= 28000) :
-                setter.setModulesLimit(25000, 100, gun_number=2)
+                setter.setModulesLimit(28000, 100, gun_number=2)
                 print("Gun2::Condition 12-1")
                 pm2=[CanId.CAN_ID_2]
                 self._global_data.set_data_pm_assign2(len(pm2))
                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_4, CanId.CAN_ID_3])
 
-                self.limitChangeRequest(25000)
+                self.limitChangeRequest(28000)
 
                 if self.limitChangeRequested == False:
                     mm2.digital_output_Gun2_load11()
@@ -701,7 +701,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5 
 
             # Demand Condtition 2
-            if (28000 < target_power_from_car2 <= 32000) :
+            elif (28000 < target_power_from_car2 <= 32000) :
                 print("GUN2:: Condition 12-2")
                 pm_assign2 = self._global_data.get_data_pm_assign2()
                 setter.setModulesLimit(55000, 200, gun_number=2)
@@ -740,14 +740,14 @@ class Vehicle2StatusReader(BaseReader):
                         PECC.STATUS1_GUN1_DATA[0] = 5 
 
             #Demand Condition 3
-            if (32000 < target_power_from_car2 <= 58000):
+            elif (32000 < target_power_from_car2 <= 58000):
                 print("GUN2:: Condition 12-3")
-                setter.setModulesLimit(55000, 200, gun_number=2)
+                setter.setModulesLimit(58000, 200, gun_number=2)
                 pm2=[CanId.CAN_ID_2, CanId.CAN_ID_4]
                 self._global_data.set_data_pm_assign2(len(pm2))
                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])
 
-                self.limitChangeRequest(55000)
+                self.limitChangeRequest(58000)
 
                 if self.limitChangeRequested == False:
                     mm2.digital_output_Gun2_load12()
@@ -770,11 +770,11 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5 
 
             # Demand Condition 4
-            if  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 1) or \
+            elif  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 1) or \
                 (58000 < target_power_from_car2 <= 62000 and target_power_from_car1 <= 28000):
                 print("GUN2:: Condition 12-4")
                 pm_assign2 = self._global_data.get_data_pm_assign2()
-                setter.setModulesLimit(85000, 250, gun_number=2)
+                setter.setModulesLimit(90000, 250, gun_number=2)
                 if (pm_assign2 == 2):
                     stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])
                     mm2.digital_output_Gun2_load12()
@@ -810,11 +810,11 @@ class Vehicle2StatusReader(BaseReader):
                         PECC.STATUS1_GUN2_DATA[0] = 5
 
             # Demand Condition 5
-            if  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 2) or \
+            elif  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 2) or \
                 (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 3):
                 print("Gun2::Condition 12-5")
                 pm_assign2 = self._global_data.get_data_pm_assign2()
-                setter.setModulesLimit(85000, 250, gun_number=2)
+                setter.setModulesLimit(60000, 200, gun_number=2)
                 if ((pm_assign2) == 2):
                     stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])
                     mm2.digital_output_Gun2_load12()
@@ -849,7 +849,7 @@ class Vehicle2StatusReader(BaseReader):
                         PECC.STATUS1_GUN2_DATA[0] = 5
 
             # Demand Condition 6
-            if  (target_power_from_car2 > 62000 and pm_assign1 == 1) or \
+            elif  (target_power_from_car2 > 62000 and pm_assign1 == 1) or \
                 (target_power_from_car2 > 62000 and target_power_from_car1 <= 28000):
                 print("Gun2::Condition 12-6")
                 pm2=[CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4]
@@ -866,7 +866,7 @@ class Vehicle2StatusReader(BaseReader):
 
                 self._global_data.get_data_targetpower_ev2()
 
-                setter.setModulesLimit(85000, 250, gun_number=2)
+                setter.setModulesLimit(90000, 250, gun_number=2)
                 mm2.digital_output_Gun2_load13()
                 startCharging(pm2)
 
@@ -882,7 +882,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5
         
         # GUN2:: Condition 13
-        if  vehicle_status2 == 29 and vehicle_status1_g == 13 or \
+        elif  vehicle_status2 == 29 and vehicle_status1_g == 13 or \
             vehicle_status2 == 29 and vehicle_status1_g == 21 or \
             vehicle_status2 == 29 and vehicle_status1_g == 29:
             print("GUN2:: Condition 13")
@@ -904,7 +904,7 @@ class Vehicle2StatusReader(BaseReader):
             if  (target_power_from_car2 <= 28000 and pm_assign1 == 1) or \
                 (target_power_from_car2 <= 28000 and pm_assign1 == 2) :
                 print("GUN2:: Condition 13-1")
-                setter.setModulesLimit(25000, 100, gun_number=2)
+                setter.setModulesLimit(28000, 100, gun_number=2)
                 
                 mm.stopModule(CanId.CAN_ID_4)
                 # pm1=1
@@ -912,7 +912,7 @@ class Vehicle2StatusReader(BaseReader):
                 self._global_data.set_data_pm_assign2(len(pm2))
                 # funct_40_1()
 
-                self.limitChangeRequest(25000)
+                self.limitChangeRequest(28000)
 
                 if self.limitChangeRequested == False:
                     mm2.digital_output_load21()
@@ -933,14 +933,14 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5 
             
             # Demand Condition 2
-            if (target_power_from_car2 <= 28000 and pm_assign1 == 3):
+            elif (target_power_from_car2 <= 28000 and pm_assign1 == 3):
                 print("GUN2:: Condition 13-2")
-                setter.setModulesLimit(25000, 100, gun_number=2)
+                setter.setModulesLimit(28000, 100, gun_number=2)
                 # pm1=1
                 pm2=[CanId.CAN_ID_2]
                 self._global_data.set_data_pm_assign2(len(pm2))
 
-                self.limitChangeRequest(25000)
+                self.limitChangeRequest(28000)
 
                 if self.limitChangeRequested == False:
                     mm2.digital_output_load21()
@@ -962,7 +962,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5
 
             # Demand Condition 3
-            if 28000 < target_power_from_car2 <= 32000 :
+            elif 28000 < target_power_from_car2 <= 32000 :
                 print("GUN2:: Condition 13-3")
                 pm_assign2 = self._global_data.get_data_pm_assign2()
                 setter.setModulesLimit(55000, 200, gun_number=2)
@@ -998,13 +998,13 @@ class Vehicle2StatusReader(BaseReader):
                         PECC.STATUS1_GUN2_DATA[0] = 5 
 
             # Demand Condition 4
-            if 32000 < target_power_from_car2 <= 58000 :
+            elif 32000 < target_power_from_car2 <= 58000 :
                 print("GUN2:: Condition 13-4")
                 pm2=[CanId.CAN_ID_2, CanId.CAN_ID_4]
                 self._global_data.set_data_pm_assign2(len(pm2))
-                setter.setModulesLimit(55000, 200, gun_number=2)
+                setter.setModulesLimit(58000, 200, gun_number=2)
 
-                self.limitChangeRequest(55000)
+                self.limitChangeRequest(58000)
 
                 if self.limitChangeRequested == False:
                     mm2.digital_output_load22()
@@ -1025,7 +1025,7 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5 
 
             # Demand Condition 5
-            if  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 1) or \
+            elif  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 1) or \
                 (58000 < target_power_from_car2 <= 62000 and target_power_from_car1 <= 28000):
                 print("GUN2:: Condition 13-5")
                 pm_assign2 = self._global_data.get_data_pm_assign2()
@@ -1062,11 +1062,11 @@ class Vehicle2StatusReader(BaseReader):
                         PECC.STATUS1_GUN2_DATA[0] = 5
 
             # Demand COndition 6
-            if  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 2) or \
+            elif  (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 2) or \
                 (58000 < target_power_from_car2 <= 62000 and pm_assign1 == 3):
                 print("GUN2:: Condition 13-6")
                 pm_assign2 = self._global_data.get_data_pm_assign2()
-                setter.setModulesLimit(55000, 200, gun_number=2)
+                setter.setModulesLimit(60000, 200, gun_number=2)
                 if ((pm_assign2) == 2):
                     # setter.setModulesLimit(60000, 200, gun_number=2)
                     mm2.digital_output_load22()
@@ -1090,10 +1090,10 @@ class Vehicle2StatusReader(BaseReader):
                 
                     
             # Demand Condition 7
-            if  (target_power_from_car2 > 62000 and pm_assign1 == 1) or \
+            elif  (target_power_from_car2 > 62000 and pm_assign1 == 1) or \
                 target_power_from_car2 > 62000 and target_power_from_car1 <= 28000:
                 print("GUN2:: Condition 13-7")
-                setter.setModulesLimit(85000, 250, gun_number=2)
+                setter.setModulesLimit(90000, 250, gun_number=2)
                 pm2 = [CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4]
                 self._global_data.set_data_pm_assign2(len(pm2))
                 mm2.digital_output_load23()
@@ -1112,11 +1112,11 @@ class Vehicle2StatusReader(BaseReader):
                     PECC.STATUS1_GUN2_DATA[0] = 5 
 
             # Demand Condition 8
-            if  (target_power_from_car2 > 62000 and pm_assign1 == 2) or \
+            elif  (target_power_from_car2 > 62000 and pm_assign1 == 2) or \
                 (target_power_from_car2 > 62000 and pm_assign1 == 3) or \
                 (target_power_from_car2 > 62000 and target_power_from_car1 > 32000):
                 print("GUN2:: Condition 13-8")
-                setter.setModulesLimit(55000, 200, gun_number=2)
+                setter.setModulesLimit(60000, 200, gun_number=2)
 
                 # pm1=2
                 pm2=[CanId.CAN_ID_2, CanId.CAN_ID_4]
@@ -1136,10 +1136,13 @@ class Vehicle2StatusReader(BaseReader):
                     mm2.digital_output_open_load22()
 
                 if digitl_input[4] == '0':
-                    PECC.STATUS1_GUN2_DATA[0] = 5 
+                    PECC.STATUS1_GUN2_DATA[0] = 5
+
+            else:
+                print("GUN2: Demand Over Limit.")
         
         # GUN2:: Condition 14
-        if  vehicle_status2 == 37 and vehicle_status1_g == 0 or \
+        elif  vehicle_status2 == 37 and vehicle_status1_g == 0 or \
             vehicle_status2 == 35 and vehicle_status1_g == 0 or \
             vehicle_status2 == 35 and vehicle_status1_g == 6 or \
             vehicle_status2 == 37 and vehicle_status1_g == 6:
@@ -1157,7 +1160,7 @@ class Vehicle2StatusReader(BaseReader):
 
         
         # GUN2:: Condition 15
-        if  vehicle_status2 == 37 and vehicle_status1_g == 35 or \
+        elif  vehicle_status2 == 37 and vehicle_status1_g == 35 or \
             vehicle_status2 == 35 and vehicle_status1_g == 37 or \
             vehicle_status2 == 35 and vehicle_status1_g == 35 or \
             vehicle_status2 == 37 and vehicle_status1_g == 35:
@@ -1172,7 +1175,7 @@ class Vehicle2StatusReader(BaseReader):
             PECC.STATUS1_GUN2_DATA[0] = 1
         
         # GUN2:: Condition 16
-        if  vehicle_status2 == 37 and vehicle_status1_g == 2 or \
+        elif  vehicle_status2 == 37 and vehicle_status1_g == 2 or \
             vehicle_status2 == 37 and vehicle_status1_g == 13 or \
             vehicle_status2 == 37 and vehicle_status1_g == 21 or \
             vehicle_status2 == 37 and vehicle_status1_g == 29:
@@ -1204,7 +1207,7 @@ class Vehicle2StatusReader(BaseReader):
             PECC.STATUS1_GUN2_DATA[0] = 1
 
         # GUN2:: Condition 17
-        if  vehicle_status2 == 35 and vehicle_status1_g == 2 or \
+        elif  vehicle_status2 == 35 and vehicle_status1_g == 2 or \
             vehicle_status2 == 35 and vehicle_status1_g == 13 or \
             vehicle_status2 == 35 and vehicle_status1_g == 21 or \
             vehicle_status2 == 35 and vehicle_status1_g == 29:
