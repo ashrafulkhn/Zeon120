@@ -4,6 +4,10 @@ from utility import DTH
 from constants import PECC
 
 class PECCFrameSetter:
+    # def __init__(self):
+    limitPower1 = 0
+    limitPower2 = 0
+    
     previous_power = 0
     @staticmethod
     def setModulesLimit(power, current, gun_number):
@@ -22,6 +26,17 @@ class PECCFrameSetter:
         if (power != PECCFrameSetter.previous_power):
             print(f"Gun{gun_number}: Power Limit Set to: {power/1000} kW")
             PECCFrameSetter.previous_power = power
+
+        if gun_number == 1:
+            PECCFrameSetter.limitPower1 = power
+        elif gun_number == 2:
+            PECCFrameSetter.limitPower2 = power
+            
+    def getSetLimit1():
+        return PECCFrameSetter.limitPower1
+    
+    def getSetLimit2():
+        return PECCFrameSetter.limitPower2
 
 # Example Usage
 def main():

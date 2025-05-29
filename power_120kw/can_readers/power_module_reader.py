@@ -55,7 +55,7 @@ class PMSetDataCurrentPeccStatus1(PowerModuleReader):
             vl1 = DTH.converttohexforpecc(hex(t1))
             PECC.STATUS2_GUN1_DATA[1] = vl1[0]
             PECC.STATUS2_GUN1_DATA[0] = vl1[1]
-        if self._diff_vol_current == 48:
+        if self._diff_vol_current == 47:
             self._global_data.set_data_current_pe1(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             if self._vehicle_status2_g == 0 or self._vehicle_status2_g == 6:
                 if self._targetpower_ev1 <= 28000 or self._pm_assign1 == 1:
@@ -95,7 +95,7 @@ class PMSetDataCurrentPeccStatus2(PowerModuleReader):
             PECC.STATUS2_GUN2_DATA[1] = vl2[0]
             PECC.STATUS2_GUN2_DATA[0] = vl2[1]
         
-        if self._diff_vol_current == 48: # For current vlaue
+        if self._diff_vol_current == 47: # For current vlaue
             self._global_data.set_data_current_pe2(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             if self._vehicle_status1_g == 0 or self._vehicle_status1_g == 6:
                 if self._targetpower_ev2 <= 28000 or self._pm_assign2 == 1:
@@ -129,7 +129,7 @@ class PMSetDataCurrentPeccStatus4(PowerModuleReader):
             vl4 = DTH.converttohexforpecc(hex(t4))
             PECC.STATUS2_GUN2_DATA[1] = vl4[0]
             PECC.STATUS2_GUN2_DATA[0] = vl4[1]
-        if self._diff_vol_current == 48:
+        if self._diff_vol_current == 47:
             self._global_data.set_data_current_pe4(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             c_pe4 = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))
             current_pe4 = (c_pe4) / 1000
@@ -195,7 +195,7 @@ class PMSetDataCurrentPeccStatus3(PowerModuleReader):
             vl3 = DTH.converttohexforpecc(hex(t3))
             PECC.STATUS2_GUN1_DATA[1] = vl3[0]
             PECC.STATUS2_GUN1_DATA[0] = vl3[1]
-        if self._diff_vol_current == 48:
+        if self._diff_vol_current == 47:
             self._global_data.set_data_current_pe3(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             pe3current = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])) 
             current_pe3 = (pe3current/1000)  
