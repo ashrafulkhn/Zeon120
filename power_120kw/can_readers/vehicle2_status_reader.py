@@ -622,7 +622,7 @@ class Vehicle2StatusReader(BaseReader):
                     mm2.digital_output_open_fan()
 
                 if digitl_input[4] == '0':
-                    PECC.STATUS1_GUN1_DATA[0] = 5
+                    PECC.STATUS1_GUN2_DATA[0] = 5
             
             # Demand Condition 7
             if target_power_from_car2 >= 92000:
@@ -643,13 +643,13 @@ class Vehicle2StatusReader(BaseReader):
                     mm2.digital_output_led_red2()
                     mm.stopcharging(CanId.STOP_GUN2)
                     stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
-                    PECC.STATUS1_GUN1_DATA[0] = 9
+                    PECC.STATUS1_GUN2_DATA[0] = 9
                     mm.digital_output_open_stop()
                     time.sleep(5)
                     mm.digital_output_open_fan()
 
                 if digitl_input[4] == '0':
-                    PECC.STATUS1_GUN1_DATA[0] = 5
+                    PECC.STATUS1_GUN2_DATA[0] = 5
 
         # GUN2:: Condition 12
         if  vehicle_status2 == 29 and vehicle_status1_g == 2 or   \
@@ -737,7 +737,7 @@ class Vehicle2StatusReader(BaseReader):
                         mm2.digital_output_open_load22()
 
                     if digitl_input[4] == '0':
-                        PECC.STATUS1_GUN1_DATA[0] = 5 
+                        PECC.STATUS1_GUN2_DATA[0] = 5 
 
             #Demand Condition 3
             if (32000 < target_power_from_car2 <= 58000):
