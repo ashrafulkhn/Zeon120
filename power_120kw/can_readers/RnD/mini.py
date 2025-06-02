@@ -12,6 +12,3 @@ def main():
         print("Smaller number is:", demand)
         if demand <=29000:
             setLimit(55000)
-
-
-

@@ -3,7 +3,7 @@ import time
 import random
 
 x = 20000
-_demand1 = x
+_demand = x
 read_val = 0
 limitChangeRequested = False
 pm_assigned1 = 0
@@ -33,10 +33,10 @@ def start(pm):
     pmUsed(len(pm))
     
 def conditions():
-    demand1 = min(getSetLimit1(), _demand1)
-    if demand <= 29000:     
-        setLimit(25000)
-        limitChangeRequest(25000)
+    demand = min(getSetLimit1(), _demand)
+    if demand <= 28000:     
+        setLimit(28000)
+        limitChangeRequest(28000)
 
         if limitChangeRequested == False:
             start(pm1=[1])
@@ -47,7 +47,7 @@ def conditions():
     if (29000 < demand < 31000):
         limitChangeRequest(29000)
         if limitChangeRequested == True:
-            setLimit(55000)
+            setLimit(58000)
             limitChangeRequested = False
 
         if pm_assigned1 == 1:
@@ -69,7 +69,7 @@ def conditions():
     if 59000 < demand < 61000:
         limitChangeRequest(59000)
         if limitChangeRequested == True:
-            setLimit(85000)
+            setLimit(88000)
             limitChangeRequested = False
         # setLimit(85000)
         if pm_assigned1 == 2:
