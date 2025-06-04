@@ -13,7 +13,6 @@ from exceptions import ConfigException
 #         filemode='w'
 #     )
 
-
 if __name__ == "__main__":
     # setup_logger()
     #logger = logging.getLogger(__name__)

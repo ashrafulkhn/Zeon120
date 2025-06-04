@@ -3,7 +3,6 @@ from power_120kw.can_readers import *
 
 #logger = logging.getLogger(__name__)
 
-
 class FactoryReader:
 
     reader_dict = {
