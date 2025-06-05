@@ -71,7 +71,7 @@ class Vehicle1StatusReader(BaseReader):
         
         target_power1 = int(target_volatge_from_car1 * tag_curr11)
         self._global_data.set_data_targetpower_ev1(target_power1)
-
+        
         def cableCheck(moduel_ids):
             print("GUN1:: Cable Check")
             cable_check_voltage1 = binaryToDecimal(int(vs1[7] + vs1[6]))
