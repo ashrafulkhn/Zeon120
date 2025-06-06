@@ -4,8 +4,8 @@ class Module:
     TOTAL_MODULE = [
         "CAN_ID_1",
         "CAN_ID_3",
-        "CAN_ID_2",
-        "CAN_ID_4"
+        "CAN_ID_4",
+        "CAN_ID_2"
     ]
 
     MODULE_POWER = 30000  # Each module can serve 30kW (example)
