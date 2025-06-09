@@ -1242,15 +1242,15 @@ class Vehicle2StatusReader(BaseReader):
                     mm2.digital_output_load21()
                     funct_40_2()
                     digitl_input = self._global_data.get_data()
-                if digitl_input[4] == '1':
-                    mm2.digital_output_led_red2()
-                    mm.stopcharging(CanId.STOP_GUN2)
-                    mm.stopModule(CanId.CAN_ID_2)                
-                    PECC.STATUS1_GUN2_DATA[0] = 9
-                    mm2.digital_output_open_load21()
+                    if digitl_input[4] == '1':
+                        mm2.digital_output_led_red2()
+                        mm.stopcharging(CanId.STOP_GUN2)
+                        mm.stopModule(CanId.CAN_ID_2)                
+                        PECC.STATUS1_GUN2_DATA[0] = 9
+                        mm2.digital_output_open_load21()
 
-                if digitl_input[4] == '0':
-                    PECC.STATUS1_GUN2_DATA[0] = 5
+                    if digitl_input[4] == '0':
+                        PECC.STATUS1_GUN2_DATA[0] = 5
                 elif(pm_assign2 == 2):
                     PECC.LIMITS1_DATA_120kw_Gun2[4] = 64
                     PECC.LIMITS1_DATA_120kw_Gun2[5] = 31
