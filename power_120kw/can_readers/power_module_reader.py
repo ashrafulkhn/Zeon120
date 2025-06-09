@@ -49,13 +49,10 @@ class PMSetDataCurrentPeccStatus1(PowerModuleReader):
             volatge_pe1 = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))
             divide_vol = ((volatge_pe1) / 1000)
             t1 = int(divide_vol* 10)
-
-            # self._global_data.set_data_voltage_pe1(t1)   # Set voltage for PE1 in Watt Units
-
             vl1 = DTH.converttohexforpecc(hex(t1))
             PECC.STATUS2_GUN1_DATA[1] = vl1[0]
             PECC.STATUS2_GUN1_DATA[0] = vl1[1]
-        if self._diff_vol_current == 47:
+        if self._diff_vol_current == 48:
             self._global_data.set_data_current_pe1(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             if self._vehicle_status2_g == 0 or self._vehicle_status2_g == 6:
                 if self._targetpower_ev1 <= 28000 or self._pm_assign1 == 1:
@@ -84,18 +81,15 @@ class PMSetDataCurrentPeccStatus2(PowerModuleReader):
         #logger.info('Reading input for 120KW PECC-2 Status')
         bd = self._binary_data
         super().read_input_data()
-        if self._diff_vol_current == 98:  # For voltage vlaue
+        if self._diff_vol_current == 98:
             volatge_pe2 = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))
             divide_vol2 = ((volatge_pe2) / 1000)
-
             t2 = int(divide_vol2) * 10
-
-
             vl2 = DTH.converttohexforpecc(hex(t2))
             PECC.STATUS2_GUN2_DATA[1] = vl2[0]
             PECC.STATUS2_GUN2_DATA[0] = vl2[1]
         
-        if self._diff_vol_current == 47: # For current vlaue
+        if self._diff_vol_current == 48:
             self._global_data.set_data_current_pe2(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             if self._vehicle_status1_g == 0 or self._vehicle_status1_g == 6:
                 if self._targetpower_ev2 <= 28000 or self._pm_assign2 == 1:
@@ -129,7 +123,7 @@ class PMSetDataCurrentPeccStatus4(PowerModuleReader):
             vl4 = DTH.converttohexforpecc(hex(t4))
             PECC.STATUS2_GUN2_DATA[1] = vl4[0]
             PECC.STATUS2_GUN2_DATA[0] = vl4[1]
-        if self._diff_vol_current == 47:
+        if self._diff_vol_current == 48:
             self._global_data.set_data_current_pe4(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             c_pe4 = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7]))
             current_pe4 = (c_pe4) / 1000
@@ -177,7 +171,6 @@ class PMSetDataCurrentPeccStatus4(PowerModuleReader):
                     cu_vl_24 = DTH.converttohexforpecc(hex(tot_current2))
                     PECC.STATUS2_GUN2_DATA[3] = cu_vl_24[0]
                     PECC.STATUS2_GUN2_DATA[2] = cu_vl_24[1]
-
 class PMSetDataCurrentPeccStatus3(PowerModuleReader):
     arbitration_id = int(ConfigManager().get_power_config('PS3_id'))
 
@@ -195,7 +188,7 @@ class PMSetDataCurrentPeccStatus3(PowerModuleReader):
             vl3 = DTH.converttohexforpecc(hex(t3))
             PECC.STATUS2_GUN1_DATA[1] = vl3[0]
             PECC.STATUS2_GUN1_DATA[0] = vl3[1]
-        if self._diff_vol_current == 47:
+        if self._diff_vol_current == 48:
             self._global_data.set_data_current_pe3(binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])))
             pe3current = binaryToDecimal(int(bd[4] + bd[5] + bd[6] + bd[7])) 
             current_pe3 = (pe3current/1000)  
@@ -221,4 +214,3 @@ class PMSetDataCurrentPeccStatus3(PowerModuleReader):
                     cu_vl_13 = DTH.converttohexforpecc(hex(tot_current1))
                     PECC.STATUS2_GUN1_DATA[3] = cu_vl_13[0]
                     PECC.STATUS2_GUN1_DATA[2] = cu_vl_13[1]
-

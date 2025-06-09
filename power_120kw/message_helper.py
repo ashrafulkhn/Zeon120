@@ -4,6 +4,7 @@ from power_120kw.constant_manager_120kw import ConstantManager120KW
 from constants import CanId
 from utility import DTH
 
+
 class ModuleMessage:
     bus = CanInterface.bus_instance
 
@@ -57,7 +58,7 @@ class ModuleMessage:
     @classmethod
     def readModule_Current(cls, can_id):
         message = can.Message(arbitration_id=can_id, is_extended_id=True, data=[
-            18, 47, 0, 0, 0, 0, 0, 0])
+            18, 48, 0, 0, 0, 0, 0, 0])
         cls.bus.send(message)
 
     @classmethod
@@ -215,7 +216,7 @@ class Module1Message(ModuleMessage):
         cls.bus.send(message)
 
 class Module2Message(ModuleMessage):
-    
+
     @classmethod
     def digital_output_close_Gun21(cls):
         message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
@@ -329,3 +330,6 @@ class Module2Message(ModuleMessage):
         message=can.Message(arbitration_id=CanId.DIGITAL_OUT,
                           is_extended_id=False, data=[0, 64, 0, 76])       # data changed for 120kW
         cls.bus.send(message)
+
+
+    
