@@ -152,6 +152,7 @@ class Vehicle1StatusReader(BaseReader):
                 PECC.STATUS1_GUN1_DATA[0] = 3
         
         if vehicle_status1 == 0 and vehicle_status2_g == 0 or vehicle_status1 == 6 and vehicle_status2_g == 6 or vehicle_status1 == 6 and vehicle_status2_g == 0:
+            print("Condition1-1")
             mm.digital_output_open_AC()
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 224                                                                                   
             PECC.LIMITS1_DATA_120kw_Gun1[5] = 46                                                                              
@@ -172,6 +173,7 @@ class Vehicle1StatusReader(BaseReader):
                 mm1.digital_output_led_green1()
 
         if vehicle_status1 == 0 and vehicle_status2_g == 6 or vehicle_status1 == 0 and vehicle_status2_g == 2 or vehicle_status1 == 0 and vehicle_status2_g == 29 :
+            print("Condition1-2")
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 224                                                                                    
             PECC.LIMITS1_DATA_120kw_Gun1[5] = 46                                                                              
             PECC.LIMITS2_DATA_120kw_Gun1[2] = 196                                                                                    
@@ -191,6 +193,7 @@ class Vehicle1StatusReader(BaseReader):
                 mm1.digital_output_led_green1()
 
         if vehicle_status1 == 2 and vehicle_status2_g == 0 or vehicle_status1 == 2 and vehicle_status2_g == 6 :
+            print("Condition1-3")
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 224                                                                                    
             PECC.LIMITS1_DATA_120kw_Gun1[5] = 46                                                                              
             PECC.LIMITS2_DATA_120kw_Gun1[2] = 196                                                                                    
@@ -209,6 +212,7 @@ class Vehicle1StatusReader(BaseReader):
                 PECC.STATUS1_GUN1_DATA[0] = 0
 
         if vehicle_status1 == 2 and vehicle_status2_g == 13 or vehicle_status1 == 2 and vehicle_status2_g == 21 or vehicle_status1 == 2 and vehicle_status2_g == 29:
+            print("Condition1-4")
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 224                                                                                    
             PECC.LIMITS1_DATA_120kw_Gun1[5] = 46                                                                              
             PECC.LIMITS2_DATA_120kw_Gun1[2] = 196                                                                                    
@@ -227,7 +231,7 @@ class Vehicle1StatusReader(BaseReader):
             
 
         if (vehicle_status1 == 13 and vehicle_status2_g == 0) or (vehicle_status1 == 13 and vehicle_status2_g == 6):
-
+            print("Condition1-5")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -259,6 +263,7 @@ class Vehicle1StatusReader(BaseReader):
 
                
         if vehicle_status1 == 13 and vehicle_status2_g == 2 or vehicle_status1 == 13 and vehicle_status2_g == 37 or vehicle_status1 == 13 and vehicle_status2_g == 35:
+            print("Condition1-6")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -291,6 +296,7 @@ class Vehicle1StatusReader(BaseReader):
 
                 
         if vehicle_status1 == 13 and vehicle_status2_g == 13 or vehicle_status1 == 13 and vehicle_status2_g == 21 or vehicle_status1 == 13 and vehicle_status2_g == 29:
+            print("Condition1-7")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -325,6 +331,7 @@ class Vehicle1StatusReader(BaseReader):
                 
 
         if vehicle_status1 == 21 and vehicle_status2_g == 0 or vehicle_status1 == 21 and vehicle_status2_g == 6:
+            print("Condition1-8")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -359,6 +366,7 @@ class Vehicle1StatusReader(BaseReader):
                 
 
         if vehicle_status1 == 21 and vehicle_status2_g == 2 or vehicle_status1 == 21 and vehicle_status2_g == 35 or vehicle_status1 == 21 and vehicle_status2_g == 37:
+            print("Condition1-9")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -392,6 +400,7 @@ class Vehicle1StatusReader(BaseReader):
                 PECC.STATUS1_GUN1_DATA[0] = 5
 
         if vehicle_status1 == 21 and vehicle_status2_g == 13 or vehicle_status1 == 21 and vehicle_status2_g == 21 or vehicle_status1 == 21 and vehicle_status2_g == 29:
+            print("Condition1-10")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -422,6 +431,7 @@ class Vehicle1StatusReader(BaseReader):
                 
 
         if vehicle_status1 == 29 and vehicle_status2_g == 0 or vehicle_status1 == 29 and vehicle_status2_g == 6:
+            print("Condition1-11")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -431,6 +441,7 @@ class Vehicle1StatusReader(BaseReader):
             target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
                 
             if target_power_from_car1 <= 28000:
+                print("Condition1-11-1")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 184
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 11
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 232
@@ -458,6 +469,7 @@ class Vehicle1StatusReader(BaseReader):
 
 
             if target_power_from_car1 > 28000 and target_power_from_car1 < 32000:
+                print("Condition1-11-2")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 23
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 208
@@ -489,6 +501,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
             if target_power_from_car1 >= 32000 and target_power_from_car1 <= 58000:
+                print("Condition1-11-3")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 23
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 208
@@ -514,6 +527,7 @@ class Vehicle1StatusReader(BaseReader):
             
 
             if target_power_from_car1 > 58000 and target_power_from_car1 < 62000:
+                print("Condition1-11-4")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 40
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 35
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
@@ -543,6 +557,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
                 
             if target_power_from_car1 >= 62000 and target_power_from_car1 <= 88000:
+                print("Condition1-11-5")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 40
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 35
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
@@ -567,6 +582,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
             if target_power_from_car1 > 88000 and target_power_from_car1 < 92000:
+                print("Condition1-11-6")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 224
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 46
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
@@ -629,6 +645,7 @@ class Vehicle1StatusReader(BaseReader):
                 
 
             if target_power_from_car1 >= 92000:
+                print("Condition1-11-7")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 224
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 46
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
@@ -692,6 +709,7 @@ class Vehicle1StatusReader(BaseReader):
                     
             
         if vehicle_status1 == 29 and vehicle_status2_g == 2 or vehicle_status1 == 29 and vehicle_status2_g == 35 or vehicle_status1 == 29 and vehicle_status2_g == 37:
+            print("Condition1-12")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -703,6 +721,7 @@ class Vehicle1StatusReader(BaseReader):
             target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
             pm_assign2 = self._global_data.get_data_pm_assign2()
             if (target_power_from_car1 <= 28000) :
+                print("Condition1-12-1")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 184
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 11
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 232
@@ -725,6 +744,7 @@ class Vehicle1StatusReader(BaseReader):
                 if digitl_input[3] == '0':
                     PECC.STATUS1_GUN1_DATA[0] = 5 
             if (28000 < target_power_from_car1 < 32000) :
+                print("Condition1-12-2")
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 if (pm_assign1 == 1):
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
@@ -768,6 +788,7 @@ class Vehicle1StatusReader(BaseReader):
                         PECC.STATUS1_GUN1_DATA[0] = 5 
             
             if (32000 <= target_power_from_car1 <= 58000):
+                print("Condition1-12-3")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 23
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 208
@@ -791,6 +812,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (58000 < target_power_from_car1 < 62000 and pm_assign2 == 1) or (58000 < target_power_from_car1 < 62000 and pm_assign2 == 0):
+                print("Condition1-12-4")
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 if (pm_assign1 == 2):
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 40
@@ -835,6 +857,7 @@ class Vehicle1StatusReader(BaseReader):
                         PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (58000 < target_power_from_car1 < 62000 and pm_assign2 == 2) or (58000 < target_power_from_car1 < 62000 and pm_assign2 == 3):
+                print("Condition1-12-5")
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 if (pm_assign1 == 2):
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
@@ -878,6 +901,7 @@ class Vehicle1StatusReader(BaseReader):
                         PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (target_power_from_car1 >= 62000 and pm_assign2 == 1) or (target_power_from_car1 >= 62000 and pm_assign2 == 0):
+                print("Condition1-12-6")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 40
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 35
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
@@ -901,6 +925,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (target_power_from_car1 >= 62000 and pm_assign2 == 2) or (target_power_from_car1 >= 62000 and pm_assign2 == 3):
+                print("Condition1-12-7")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 23
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 208
@@ -927,6 +952,7 @@ class Vehicle1StatusReader(BaseReader):
                 
 
         if vehicle_status1 == 29 and vehicle_status2_g == 13 or vehicle_status1 == 29 and vehicle_status2_g == 21 or vehicle_status1 == 29 and vehicle_status2_g == 29:
+            print("Condition1-13")
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
@@ -938,6 +964,7 @@ class Vehicle1StatusReader(BaseReader):
             target_power_from_car2 = self._global_data.get_data_targetpower_ev2()
             pm_assign2 = self._global_data.get_data_pm_assign2()
             if (target_power_from_car1 <= 28000 and pm_assign2 == 1) or (target_power_from_car1 <= 28000 and pm_assign2 == 2) :
+                print("Condition1-13-1")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 184
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 11
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 232
@@ -959,6 +986,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (target_power_from_car1 <= 28000 and pm_assign2 == 3) :
+                print("Condition1-13-2")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 184
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 11
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 232
@@ -979,6 +1007,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5
 
             if 28000 < target_power_from_car1 < 32000 :
+                print("Condition1-13-3")
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 if (pm_assign1 == 1):
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
@@ -1018,6 +1047,7 @@ class Vehicle1StatusReader(BaseReader):
                         PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (32000 <= target_power_from_car1 <= 58000 and pm_assign2 ==1) or (32000 <= target_power_from_car1 <= 58000 and pm_assign2 ==2) or (32000 <= target_power_from_car1 <= 58000 and pm_assign2 ==3) :
+                print("Condition1-13-4")
                 pm1=2
                 self._global_data.set_data_pm_assign1(pm1)
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
@@ -1040,6 +1070,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (58000 < target_power_from_car1 < 62000 and pm_assign2 == 1) or (58000 < target_power_from_car1 < 62000 and target_power_from_car2 <= 28000):
+                print("Condition1-13-5")
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 if (pm_assign1 == 2):
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 40
@@ -1081,6 +1112,7 @@ class Vehicle1StatusReader(BaseReader):
                         PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (58000 < target_power_from_car1 < 62000 and pm_assign2 == 2) or (58000 < target_power_from_car1 < 62000 and pm_assign2 == 3):
+                print("Condition1-13-6")
                 pm_assign1 = self._global_data.get_data_pm_assign1()
                 if (pm_assign1 == 2):
                     PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
@@ -1122,6 +1154,7 @@ class Vehicle1StatusReader(BaseReader):
                     
          
             if (target_power_from_car1 >= 62000 and pm_assign2 == 1) or (target_power_from_car1 >= 62000 and target_power_from_car2 <= 28000):
+                print("Condition1-13-7")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 40
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 35
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
@@ -1144,6 +1177,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5 
 
             if (target_power_from_car1 >= 62000 and pm_assign2 == 2) or (target_power_from_car1 >= 62000 and pm_assign2 == 3) or (target_power_from_car1 >= 62000 and target_power_from_car2 > 32000):
+                print("Condition1-13-8")
                 PECC.LIMITS1_DATA_120kw_Gun1[4] = 112
                 PECC.LIMITS1_DATA_120kw_Gun1[5] = 23
                 PECC.LIMITS2_DATA_120kw_Gun1[2] = 208
@@ -1165,6 +1199,7 @@ class Vehicle1StatusReader(BaseReader):
                     PECC.STATUS1_GUN1_DATA[0] = 5    
                 
         if vehicle_status1 == 37 and vehicle_status2_g == 0 or vehicle_status1 == 35 and vehicle_status2_g == 0 or vehicle_status1 == 35 and vehicle_status2_g == 6 or vehicle_status1 == 37 and vehicle_status2_g == 6:
+            print("Condition1-14")
             mm1.digital_output_led_red1()
             mm.stopModule(CanId.CAN_ID_1)
             mm.stopModule(CanId.CAN_ID_2)
@@ -1179,6 +1214,7 @@ class Vehicle1StatusReader(BaseReader):
             PECC.STATUS1_GUN1_DATA[0] = 1
             
         if vehicle_status1 == 37 and vehicle_status2_g == 35 or vehicle_status1 == 35 and vehicle_status2_g == 37 or vehicle_status1 == 35 and vehicle_status2_g == 35 or vehicle_status1 == 37 and vehicle_status2_g == 35:
+            print("Condition1-15")
             mm1.digital_output_led_red1()
             mm.stopModule(CanId.CAN_ID_1)
             mm.stopModule(CanId.CAN_ID_2)
@@ -1195,6 +1231,7 @@ class Vehicle1StatusReader(BaseReader):
            
 
         if vehicle_status1 == 37 and vehicle_status2_g == 2 or vehicle_status1 == 37 and vehicle_status2_g == 13 or vehicle_status1 == 37 and vehicle_status2_g == 21 or vehicle_status1 == 37 and vehicle_status2_g == 29:
+            print("Condition1-16")
             mm1.digital_output_led_red1()
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
@@ -1230,6 +1267,7 @@ class Vehicle1StatusReader(BaseReader):
             PECC.STATUS1_GUN1_DATA[0] = 1
 
         if vehicle_status1 == 35 and vehicle_status2_g == 2 or vehicle_status1 == 35 and vehicle_status2_g == 13 or vehicle_status1 == 35 and vehicle_status2_g == 21 or vehicle_status1 == 35 and vehicle_status2_g == 29:
+            print("Condition1-17")
             mm1.digital_output_led_red1()
             PECC.STATUS1_GUN1_DATA[2] = binaryToDecimal(int(vs1[2]))
             PECC.STATUS1_GUN1_DATA[1] = binaryToDecimal(int(vs1[1]))
