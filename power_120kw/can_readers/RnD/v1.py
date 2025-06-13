@@ -24,13 +24,13 @@ class VehicleStatusReader():
             return demand
     
     def read_data(self):
-        ev1_status = 21
-        ev2_status = 29
+        ev1_status = 2
+        ev2_status = 37
         # demand1 = 30500 # The demand can be from 0 to 120kW
         # demand2 = 30000
 
         while True:
-            random_demand1 = random.randint(10, 100)
+            random_demand1 = random.randint(10, 120000)
             random_demand2 = random.randint(10000, 115000)
 
             demand1 = self.get_effective_demand(ev1_status, random_demand1, self.MIN_MODULE_POWER)
