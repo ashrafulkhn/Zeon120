@@ -2,6 +2,7 @@ from module_assignment import ModuleSetter as ms
 from module_assignment import Module
 import random
 from time import sleep
+import time
 # from power_120kw.message_helper import Module1Message as mm1, ModuleMessage as mm
 # from base_reader import BaseReader
 # from utility import bytetobinary, binaryToDecimal, DTH
@@ -24,14 +25,15 @@ class VehicleStatusReader():
             return demand
     
     def read_data(self):
-        ev1_status = 2
-        ev2_status = 37
+        # The EV status to be collected from eVSEC device. In our case via CAN data. Remove this static data from deployment code.
+        ev1_status = 29
+        ev2_status = 29
         # demand1 = 30500 # The demand can be from 0 to 120kW
         # demand2 = 30000
 
         while True:
-            random_demand1 = random.randint(10, 120000)
-            random_demand2 = random.randint(10000, 115000)
+            random_demand1 = random.randint(0, 20000)
+            random_demand2 = random.randint(0, 20000)
 
             demand1 = self.get_effective_demand(ev1_status, random_demand1, self.MIN_MODULE_POWER)
             demand2 = self.get_effective_demand(ev2_status, random_demand2, self.MIN_MODULE_POWER)
@@ -40,18 +42,15 @@ class VehicleStatusReader():
             G1_Mod = ms.getG1_modules()
             G2_Mod = ms.getG2_modules()
 
-            if len(G1_Mod) > 0:
-                # self.startCharging(G1_Mod)
-                pass
-            # else:
-                # stop
+            if len(G1_Mod) or len(G2_Mod) > 0:
+                self.stopInactiveModules()
+                self.startCharging(G1_Mod)
+                self.startCharging(G2_Mod)
+            else:
+                self.stopAllModules()
 
-            if(len(G2_Mod) > 0):
-                # self.startCharging(G2_Mod)
-                pass
-
-            print(f"G1-Demand: {demand1/1000}kW, G2-Demand: {demand2/1000}kW, G1-Assigned: {G1_Mod},  G2-Assigned: {G2_Mod}")
-            sleep(0.5)
+            print(f"{time.time()}: G1-Demand: {demand1/1000}kW, G2-Demand: {demand2/1000}kW, G1-Assigned: {G1_Mod},  G2-Assigned: {G2_Mod}, Contactor: {ms.getContactors_states()}")
+            sleep(1)
 
 def main():
     print("Entering the main code.")
@@ -60,3 +59,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    

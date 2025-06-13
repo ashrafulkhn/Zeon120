@@ -96,6 +96,8 @@ class ModuleSetter:
             Module.G2_MODULE.extend(Module.TOTAL_MODULE[-g2:])
         else:
             Module.G2_MODULE.clear()
+        
+        ModuleSetter.contactorSetter(Module.G1_MODULE, Module.G2_MODULE)
 
     @staticmethod
     def contactorSetter(G1_Module, G2_Module):
@@ -118,9 +120,9 @@ class ModuleSetter:
                 Contactors.contactor_states[contactor] = False  # OFF (break or unused)
 
         # For debug: print the states
-        print("Contactor States:")
-        for c in Contactors.TOTAL_CONTACTORS:
-            print(f"  {c}: {'ON' if Contactors.contactor_states[c] else 'OFF'}")
+        # print("Contactor States:")
+        # for c in Contactors.TOTAL_CONTACTORS:
+        #     print(f"  {c}: {'ON' if Contactors.contactor_states[c] else 'OFF'}")
 
         # Optionally, return the states for further use
         return Contactors.contactor_states
