@@ -9,8 +9,6 @@ from power_120kw.message_helper import Module1Message as mm1, ModuleMessage as m
 from utility import bytetobinary
 #logger = logging.getLogger(__name__)
 
-
-
 class ResetGunModule1(BaseReader):
     arbitration_id = 774
 

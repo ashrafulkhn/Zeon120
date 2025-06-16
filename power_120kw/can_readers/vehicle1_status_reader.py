@@ -27,10 +27,10 @@ class Vehicle1StatusReader(BaseReader):
     def getRealTimeVIP(self):
         print("INFO:: Indside getRealtimeVIP")
         # Return the real-time voltage, current and power
-        s2g1d = bytetobinary(PECC.STATUS2_GUN1_DATA)
-        voltage_pre = binaryToDecimal(int(s2g1d[1] + s2g1d[0]))
+        status2_g1_data = bytetobinary(PECC.STATUS2_GUN1_DATA)
+        voltage_pre = binaryToDecimal(int(status2_g1_data[1] + status2_g1_data[0]))
         self._voltage = (voltage_pre / 10)
-        current_pre = binaryToDecimal(int(s2g1d[3] + s2g1d[2]))
+        current_pre = binaryToDecimal(int(status2_g1_data[3] + status2_g1_data[2]))
         self._current = (current_pre / 10)
         self._readPower = int(self._voltage * self._current)
         return self._readPower, self._voltage, self._current
@@ -41,6 +41,8 @@ class Vehicle1StatusReader(BaseReader):
         vs1 = self._binary_data
         self._global_data.set_data_status_vehicle1(binaryToDecimal(int(vs1[0])))
         vehicle_status1 = binaryToDecimal(int(vs1[0]))
+        self._global_data.set_data_status_vehicle1(binaryToDecimal(int(vs1[0])))
+
         #logger.info(f'Vehicle-1 status {vehicle_status1}')
         vehicle_status2_g = self._global_data.get_data_status_vehicle2()
         
@@ -58,7 +60,7 @@ class Vehicle1StatusReader(BaseReader):
         target_power1 = int(target_volatge_from_car1 * tag_curr11)
         self._global_data.set_data_targetpower_ev1(target_power1)
         
-        def cableCheck(moduel_ids):
+        def cableCheck(self, moduel_ids):
             print("GUN1:: Cable Check")
             cable_check_voltage1 = binaryToDecimal(int(vs1[7] + vs1[6]))
             if cable_check_voltage1 <= 500:
@@ -83,7 +85,7 @@ class Vehicle1StatusReader(BaseReader):
                 stopActiveModules(module_ids=module_id)
                 PECC.STATUS1_GUN1_DATA[0] = 3
 
-        def handleError(module_ids):
+        def handleError(self, module_ids):
             """"
             Check the digital input from the VSECC.
             Digital input 1: Emergency Button Status, 0 is Active
@@ -103,7 +105,7 @@ class Vehicle1StatusReader(BaseReader):
 
             PECC.STATUS1_GUN1_DATA[0] = 3
 
-        def standByled():
+        def standByled(self, ):
             if len(digitl_input) != 0 :
                 if digitl_input[1] == '0' or digitl_input[2] == '1' :
                     PECC.STATUS1_GUN1_DATA[0] = 2
@@ -114,8 +116,8 @@ class Vehicle1StatusReader(BaseReader):
             else:
                 PECC.STATUS1_GUN1_DATA[0] = 0
                 mm1.digital_output_led_red1()
-            
-        def updateVI_status(vs1):
+        
+        def updateVI_status(self, vs1):
             """
             Update the VI status of the vehicle
             vs1: Vehicle status
@@ -126,7 +128,7 @@ class Vehicle1StatusReader(BaseReader):
             PECC.STATUS1_GUN1_DATA[3] = binaryToDecimal(int(vs1[3]))
             PECC.STATUS1_GUN1_DATA[4] = binaryToDecimal(int(vs1[4]))
 
-        def startCharging(module_ids):
+        def startCharging(self, module_ids):
             """
             Call the startCharging function to start the charging process
             modue_ids: List of module IDs to be started
@@ -158,10 +160,13 @@ class Vehicle1StatusReader(BaseReader):
             if digitl_input[1] == '0' or digitl_input[2] == '1'  :
                 handleError(module_ids)
 
-        def stopActiveModules(module_ids):
+        def stopActiveModules(self, module_ids):
             # print(f"Stopping Modules {module_ids}")
             for module_id in module_ids:
                 mm.stopModule(module_id)
+
+
+        
         
         # Conditions 1
         if  vehicle_status1 == 0 and vehicle_status2_g == 0 or \
@@ -179,7 +184,7 @@ class Vehicle1StatusReader(BaseReader):
             self._global_data.set_data_pm_assign1(len(pm1))
             digitl_input = self._global_data.get_data()
             standByled()
-                
+        
         # Conditions 3
         elif  vehicle_status1 == 2 and vehicle_status2_g == 0 or \
             vehicle_status1 == 2 and vehicle_status2_g == 6 :
@@ -302,614 +307,4 @@ class Vehicle1StatusReader(BaseReader):
                 PECC.STATUS1_GUN1_DATA[0] = 5
             else:
                 print("Targer Power is beyond threshold.")
-       
-        # # GUN1:: Condition 12
-        # elif  vehicle_status1 == 29 and vehicle_status2_g == 2 or   \
-        #     vehicle_status1 == 29 and vehicle_status2_g == 35 or \
-        #     vehicle_status1 == 29 and vehicle_status2_g == 37:
-        #     print("GUN1:: Condition 12")
-        #     updateVI_status(vs1)
-        #     mm1.digital_output_led_green1()
-        #     # target_power_from_car2 = self._global_data.get_data_targetpower_ev2()
-        #     # target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
-            
-        #     _target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
-        #     target_power_from_car1 = min(setter.getSetLimit1(), _target_power_from_car1)
-
-        #     target_power_from_car2 = self._global_data.get_data_targetpower_ev2()
-        #     # target_power_from_car2 = min(setter.getSetLimit1(), _target_power_from_car2)
-            
-        #     pm_assign2 = self._global_data.get_data_pm_assign2() # Number of modules assigned to Gun 2
-
-        #     # Demand Condition 1
-        #     if (target_power_from_car1 <= 28000) :
-        #         print("GUN1:: Condition 12-1")
-        #         setter.setModulesLimit(28000, 100, gun_number=1)
-        #         pm1=[CanId.CAN_ID_1]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-        #         mm1.digital_output_Gun1_load21()
-
-        #         self.limitChangeRequest(28000)
-
-        #         stopActiveModules([CanId.CAN_ID_2, CanId.CAN_ID_4, CanId.CAN_ID_3])
-        #         if (self.limitChangeRequested == False):
-        #             startCharging(pm1)
-                
-        #         else:
-        #             if self._global_data.get_data_targetpower_ev1() == 0:
-        #                 stopActiveModules(pm1)
-        #             else:
-        #                 setter.setModulesLimit(55000, 200, gun_number=1)
-        #                 self.limitChangeRequested = False
-
-        #         digitl_input = self._global_data.get_data()
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-        #             mm.stopModule(CanId.CAN_ID_1)
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load11()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5 
-
-        #     # Demand Condtition 2
-        #     elif (28000 < target_power_from_car1 <= 32000) :
-        #         print("GUN1:: Condition 12-2")
-        #         pm_assign1 = self._global_data.get_data_pm_assign1()
-        #         setter.setModulesLimit(55000, 200, gun_number=1)
-        #         if (pm_assign1 == 1):
-        #             mm1.digital_output_Gun1_load21()
-        #             stopActiveModules([CanId.CAN_ID_2, CanId.CAN_ID_4, CanId.CAN_ID_3])
-        #             startCharging([CanId.CAN_ID_1])
-                    
-        #             # IMD Check conditions
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 mm.stopModule(CanId.CAN_ID_1)                
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load11()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #         elif((pm_assign1) == 2):
-        #             stopActiveModules([CanId.CAN_ID_2, CanId.CAN_ID_4])
-        #             mm1.digital_output_Gun1_load22()
-        #             # funct_80_1()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
-
-        #             #IMD Check
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])              
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5 
-
-        #     #Demand Condition 3
-        #     elif (32000 < target_power_from_car1 <= 58000):
-        #         print("GUN1:: Condition 12-3")
-        #         setter.setModulesLimit(58000, 250, gun_number=1)
-        #         # pm1=2
-        #         pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-
-        #         stopActiveModules([CanId.CAN_ID_2, CanId.CAN_ID_4])
-
-        #         self.limitChangeRequest(58000)
-
-        #         if (self.limitChangeRequested == False):
-        #             # mm1.digital_output_close_Gun12()
-        #             mm1.digital_output_Gun1_load22()
-        #             startCharging(pm1)
-        #         else:
-        #             setter.setModulesLimit(85000, 250, gun_number=1)
-        #             self.limitChangeRequested = False
-
-        #         digitl_input = self._global_data.get_data()
-        #         # IMD Check
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-
-        #             stopActiveModules(pm1)            
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load12()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5 
-
-        #     # Demand Condition 4
-        #     elif  (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 1) or \
-        #         (58000 < target_power_from_car1 <= 62000 and target_power_from_car2 <= 28000):
-        #         print("GUN1:: Condition 12-4")
-        #         pm_assign1 = self._global_data.get_data_pm_assign1()
-        #         setter.setModulesLimit(90000, 250, gun_number=1)
-        #         if (pm_assign1 == 2):
-
-        #             stopActiveModules([CanId.CAN_ID_2, CanId.CAN_ID_4])
-        #             mm1.digital_output_Gun1_load22()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
-
-        #             #IMD Check
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])              
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #         if ((pm_assign1) == 3):
-        #             mm.stopModule(CanId.CAN_ID_2)
-        #             mm1.digital_output_Gun1_load23()
-        #             # funct_120_1()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
-
-        #             #Imd check
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])             
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load13()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #     # Demand Condition 5
-        #     elif  (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 2) or \
-        #         (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 3):
-        #         print("GUN1:: Condition 12-5")
-        #         pm_assign1 = self._global_data.get_data_pm_assign1()
-        #         setter.setModulesLimit(60000, 250, gun_number=1)
-
-        #         if ((pm_assign1) == 2):
-        #             # PECC.LIMITS1_DATA_120kw_Gun1[4] = 64
-        #             # PECC.LIMITS1_DATA_120kw_Gun1[5] = 31
-        #             # PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
-        #             # PECC.LIMITS2_DATA_120kw_Gun1[3] = 9
-        #             stopActiveModules([CanId.CAN_ID_2, CanId.CAN_ID_4])
-        #             mm1.digital_output_Gun1_load22()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
-
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])            
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5 
-
-        #         elif((pm_assign1) == 3):
-        #             stopActiveModules([CanId.CAN_ID_2, CanId.CAN_ID_4])
-        #             mm1.digital_output_Gun1_load22()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
-
-        #             #IMD Check
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])                
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #     # Demand Condition 6
-        #     elif  (target_power_from_car1 > 62000 and pm_assign2 == 1) or \
-        #         (target_power_from_car1 > 62000 and target_power_from_car2 <= 28000):
-        #         print("GUN1:: Condition 12-6")
-        #         pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-        #         mm.stopModule(CanId.CAN_ID_2)
-                
-        #         self.limitChangeRequest(55000)
-        #         # if self.limitChangeRequested == False:
-        #         #     mm1.digital_output_Gun1_load23()
-        #         #     startCharging(pm1)
-
-        #         # else:
-        #         #     setter.setModulesLimit(90000, 250, gun_number=1)
-        #         #     self.limitChangeRequested = False
-        #         self._global_data.get_data_targetpower_ev1()
-        #         setter.setModulesLimit(90000, 250, gun_number=1)
-        #         mm1.digital_output_Gun1_load23()
-        #         startCharging(pm1)
-
-        #         digitl_input = self._global_data.get_data()
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-        #             stopActiveModules(pm1)              
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load13()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #     else:
-        #         print("GUN1: Demand Condition is beyond Limit.")
         
-        # # GUN1:: Condition 13
-        # elif  vehicle_status1 == 29 and vehicle_status2_g == 13 or \
-        #     vehicle_status1 == 29 and vehicle_status2_g == 21 or \
-        #     vehicle_status1 == 29 and vehicle_status2_g == 29:
-        #     print("GUN1:: Condition 13")
-        #     updateVI_status(vs1=vs1)
-        #     mm1.digital_output_led_green1()
-
-        #     # target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
-        #     # target_power_from_car2 = self._global_data.get_data_targetpower_ev2()
-
-        #     _target_power_from_car1 = self._global_data.get_data_targetpower_ev1()
-        #     target_power_from_car1 = min(setter.getSetLimit1(), _target_power_from_car1)
-
-        #     target_power_from_car2 = self._global_data.get_data_targetpower_ev2()
-        #     # target_power_from_car2 = min(setter.getSetLimit2(), _target_power_from_car2)
-
-        #     pm_assign2 = self._global_data.get_data_pm_assign2()
-            
-        #     # Demand Condition 1
-        #     if  (target_power_from_car1 <= 28000 and pm_assign2 == 1) or \
-        #         (target_power_from_car1 <= 28000 and pm_assign2 == 2) :
-        #         print("GUN1:: Condition 13-1")
-        #         setter.setModulesLimit(28000, 100, gun_number=1)
-        #         # mm1.digital_output_load11()
-        #         mm.stopModule(CanId.CAN_ID_3)
-        #         # pm1=1
-        #         pm1=[CanId.CAN_ID_1]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-        #         # funct_40_1()
-        #         self.limitChangeRequest(28000)
-
-        #         if self.limitChangeRequested == False:
-        #             mm1.digital_output_load11()
-        #             startCharging(pm1)
-        #         else:
-        #             setter.setModulesLimit(55000, 200, 1)
-        #             self.limitChangeRequested = False
-
-        #         digitl_input = self._global_data.get_data()
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-        #             stopActiveModules(pm1)               
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load11()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5 
-            
-        #     # Demand Condition 2
-        #     elif (target_power_from_car1 <= 28000 and pm_assign2 == 3) :
-        #         print("GUN1:: Condition 13-2")
-        #         setter.setModulesLimit(28000, 100, gun_number=1)
-        #         # mm1.digital_output_load11()
-        #         # pm1=1
-        #         pm1=[CanId.CAN_ID_1]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-
-        #         startCharging(pm1)
-
-        #         self.limitChangeRequest(28000)
-
-        #         if self.limitChangeRequested == False:
-        #             mm1.digital_output_load11()
-        #             startCharging(pm1)
-        #         else:
-        #             setter.setModulesLimit(55000, 200, 1)
-        #             self.limitChangeRequested = False
-
-        #         digitl_input = self._global_data.get_data()
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-        #             stopActiveModules(pm1)
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load11()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #     # Demand Condition 3
-        #     elif 28000 < target_power_from_car1 <= 32000 :
-        #         print("GUN1:: Condition 13-3")
-        #         pm_assign1 = self._global_data.get_data_pm_assign1()
-        #         setter.setModulesLimit(55000, 200, gun_number=1)
-        #         if ((pm_assign1) == 1):
-        #             mm1.digital_output_load11()
-        #             startCharging([CanId.CAN_ID_1])
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 mm.stopModule(CanId.CAN_ID_1)                
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load11()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #         elif((pm_assign1) == 2):
-        #             mm1.digital_output_load12()
-        #             # funct_80_1()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
-
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])             
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5 
-
-        #     # Demand Condition 4
-        #     elif 32000 < target_power_from_car1 <= 58000 :   # Borrow from other Gun
-        #         print("GUN1:: Condition 13-4")
-        #         # pm1=2
-        #         pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-        #         setter.setModulesLimit(58000, 200, gun_number=1)
-        #         # mm1.digital_output_load12()
-        #         # startCharging(pm1)
-        #         self.limitChangeRequest(58000)
-
-        #         if self.limitChangeRequested == False:
-        #             mm1.digital_output_load12()
-        #             startCharging(pm1)
-        #         else:
-        #             setter.setModulesLimit(85000, 250, 1)
-        #             self.limitChangeRequested = False
-
-        #         digitl_input = self._global_data.get_data()
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-        #             stopActiveModules(pm1)
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load12()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5 
-
-        #     # Demand Condition 5
-        #     elif (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 1) or \
-        #         (58000 < target_power_from_car1 <= 62000 and target_power_from_car2 <= 28000):
-        #         print("GUN1:: Condition 13-5")
-        #         pm_assign1 = self._global_data.get_data_pm_assign1()
-        #         if ((pm_assign1) == 2):
-        #             setter.setModulesLimit(85000, 200, gun_number=1)
-        #             mm1.digital_output_load12()
-        #             # funct_80_1()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])              
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5 
-        #         elif((pm_assign1) == 3):
-        #             # PECC.LIMITS1_DATA_120kw_Gun1[4] = 224
-        #             # PECC.LIMITS1_DATA_120kw_Gun1[5] = 46
-        #             # PECC.LIMITS2_DATA_120kw_Gun1[2] = 196
-        #             # PECC.LIMITS2_DATA_120kw_Gun1[3] = 9
-        #             setter.setModulesLimit(85000, 250, gun_number=1)
-        #             mm1.digital_output_load13()
-        #             # funct_120_1()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
-
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])              
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load13()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #     # Demand COndition 6
-        #     elif  (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 2) or \
-        #         (58000 < target_power_from_car1 <= 62000 and pm_assign2 == 3):
-        #         print("GUN1:: Condition 13-6")
-        #         pm_assign1 = self._global_data.get_data_pm_assign1()
-        #         setter.setModulesLimit(60000, 200, gun_number=1)
-        #         if ((pm_assign1) == 2):
-        #             mm1.digital_output_load12()
-        #             startCharging([CanId.CAN_ID_1, CanId.CAN_ID_3])
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])               
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5 
-        #         elif((pm_assign1) == 3):
-        #             mm1.digital_output_load12()
-        #             # funct_80_1()
-        #             startCharging(CanId.CAN_ID_1, CanId.CAN_ID_3)
-                
-        #             digitl_input = self._global_data.get_data()
-        #             if digitl_input[3] == '1':
-        #                 mm1.digital_output_led_red1()
-        #                 mm.stopcharging(CanId.STOP_GUN1)
-        #                 stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])              
-        #                 PECC.STATUS1_GUN1_DATA[0] = 9
-        #                 mm1.digital_output_open_load12()
-
-        #             if digitl_input[3] == '0':
-        #                 PECC.STATUS1_GUN1_DATA[0] = 5 
-            
-        #     # Demand Condition 7
-        #     elif  (target_power_from_car1 > 62000 and pm_assign2 == 1) or \
-        #         (target_power_from_car1 > 62000 and target_power_from_car2 <= 28000):
-        #         print("GUN1:: Condition 13-7")
-        #         setter.setModulesLimit(90000, 250, gun_number=1)
-        #         # pm1=3
-        #         pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-        #         mm1.digital_output_load13()
-        #         # funct_120_1()
-        #         startCharging(pm1)
-
-        #         digitl_input = self._global_data.get_data()
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-        #             stopActiveModules(pm1)              
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load13()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5 
-            
-        #     # Demand Condition 8
-        #     elif  (target_power_from_car1 > 62000 and pm_assign2 == 2) or \
-        #         (target_power_from_car1 > 62000 and pm_assign2 == 3) or\
-        #         (target_power_from_car1 > 62000 and target_power_from_car2 > 32000):
-        #         print("GUN1:: Condition 13-8")
-        #         setter.setModulesLimit(60000, 200, gun_number=1)
-        #         mm1.digital_output_load12()
-        #         # pm1=2
-        #         pm1=[CanId.CAN_ID_1, CanId.CAN_ID_3]
-        #         self._global_data.set_data_pm_assign1(len(pm1))
-        #         startCharging(pm1)
-        #         digitl_input = self._global_data.get_data()
-        #         if digitl_input[3] == '1':
-        #             mm1.digital_output_led_red1()
-        #             mm.stopcharging(CanId.STOP_GUN1)
-        #             stopActiveModules(pm1)           
-        #             PECC.STATUS1_GUN1_DATA[0] = 9
-        #             mm1.digital_output_open_load12()
-
-        #         if digitl_input[3] == '0':
-        #             PECC.STATUS1_GUN1_DATA[0] = 5
-
-        #     else:
-        #         print("GUN1: Demand over limit.")
-        
-        # GUN1:: Condition 14
-        elif  vehicle_status1 == 37 and vehicle_status2_g == 0 or \
-            vehicle_status1 == 35 and vehicle_status2_g == 0 or \
-            vehicle_status1 == 35 and vehicle_status2_g == 6 or \
-            vehicle_status1 == 37 and vehicle_status2_g == 6:
-            
-            print("GUN1:: Condition 14")
-            mm1.digital_output_led_red1()
-
-            updateVI_status(vs1)
-            stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
-
-            mm.readModule_Voltage(CanId.CAN_ID_1)
-            mm.readModule_Current(CanId.CAN_ID_1)
-            PECC.STATUS1_GUN1_DATA[0] = 1
-            # mm.digital_output_close_AC()
-
-        # GUN1:: Condition 15
-        elif  vehicle_status1 == 37 and vehicle_status2_g == 35 or \
-            vehicle_status1 == 35 and vehicle_status2_g == 37 or \
-            vehicle_status1 == 35 and vehicle_status2_g == 35 or \
-            vehicle_status1 == 37 and vehicle_status2_g == 35:
-            print("GUN1:: Condition 15")
-            mm1.digital_output_led_red1()
-
-            updateVI_status(vs1)
-            stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_2, CanId.CAN_ID_3, CanId.CAN_ID_4])
-
-            mm.readModule_Voltage(CanId.CAN_ID_1)
-            mm.readModule_Current(CanId.CAN_ID_1)
-            PECC.STATUS1_GUN1_DATA[0] = 1
-        
-        # GUN1:: Condition 16
-        elif  vehicle_status1 == 37 and vehicle_status2_g == 2 or \
-            vehicle_status1 == 37 and vehicle_status2_g == 13 or \
-            vehicle_status1 == 37 and vehicle_status2_g == 21 or \
-            vehicle_status1 == 37 and vehicle_status2_g == 29:
-            print("GUN1:: Condition 16")
-            mm1.digital_output_led_red1()
-            updateVI_status(vs1)
-            
-            pm_assign1 = self._global_data.get_data_pm_assign1()
-            pm_assign2 = self._global_data.get_data_pm_assign2()
-            if ((pm_assign1) == 1):
-                stopActiveModules([CanId.CAN_ID_1])
-                mm.readModule_Voltage(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_1)
-
-            elif ((pm_assign1) == 2):
-                stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])
-                mm.readModule_Voltage(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_3)
-            
-            elif ((pm_assign1) == 3):
-                stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
-                mm.readModule_Voltage(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_3)
-                mm.readModule_Current(CanId.CAN_ID_4)
-
-            PECC.STATUS1_GUN1_DATA[0] = 1
-
-        # GUN1:: Condition 17
-        elif  vehicle_status1 == 35 and vehicle_status2_g == 2 or  \
-            vehicle_status1 == 35 and vehicle_status2_g == 13 or \
-            vehicle_status1 == 35 and vehicle_status2_g == 21 or \
-            vehicle_status1 == 35 and vehicle_status2_g == 29:
-
-            print("GUN1:: Condition 17")
-            mm1.digital_output_led_red1()
-            updateVI_status(vs1)
-
-            pm_assign1 = self._global_data.get_data_pm_assign1()
-            pm_assign2 = self._global_data.get_data_pm_assign2()
-            if ((pm_assign1) == 1):
-                stopActiveModules([CanId.CAN_ID_1])
-                mm.readModule_Voltage(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_1)
-
-            elif ((pm_assign1) == 2):
-                stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3])
-                mm.readModule_Voltage(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_3)
-
-            elif ((pm_assign1) == 3): 
-                stopActiveModules([CanId.CAN_ID_1, CanId.CAN_ID_3, CanId.CAN_ID_4])
-                mm.readModule_Voltage(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_1)
-                mm.readModule_Current(CanId.CAN_ID_3)
-                mm.readModule_Current(CanId.CAN_ID_4)
-
-            PECC.STATUS1_GUN1_DATA[0] = 1
-
-        else:
-            print("No Condition Satisfied.")
