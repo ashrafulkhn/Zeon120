@@ -7,6 +7,7 @@ from power_120kw.constant_manager_120kw import ConstantManager120KW
 from power_120kw.message_helper import Module1Message as mm1, ModuleMessage as mm
 from utility import bytetobinary, binaryToDecimal, DTH
 import math
+from module_assignment import ModuleSetter, Module, Contactors
 
 from power_120kw.can_readers.power_module_reader import PowerModuleReader
 from pecc_frame_setter import PECCFrameSetter as setter
@@ -59,6 +60,12 @@ class Vehicle1StatusReader(BaseReader):
         
         target_power1 = int(target_volatge_from_car1 * tag_curr11)
         self._global_data.set_data_targetpower_ev1(target_power1)
+        target_power2 = self._global_data.get_data_targetpower_ev2()
+
+        ModuleSetter.assign_modules(demand1=target_power1, demand2=target_power2)
+        G1_modules = ModuleSetter.getG1_modules()
+        startCharging(G1_modules)
+
         
         def cableCheck(self, moduel_ids):
             print("GUN1:: Cable Check")
@@ -146,6 +153,8 @@ class Vehicle1StatusReader(BaseReader):
 
             RUNNING_CURRENT = (target_current_from_car1/len(module_ids))
             self._global_data.set_data_running_current(RUNNING_CURRENT)
+
+            # TODO: Start Contactor and the only start the modules
 
             for module_id in module_ids:
                 voltage_value = DTH.convertohex(target_volatge_from_car1)
