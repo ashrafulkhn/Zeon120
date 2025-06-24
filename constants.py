@@ -1,7 +1,6 @@
 
 FULL_POWER = 60  # This represents combined power configuration from all the modules in Kilo Watts(kW)
 
-
 class GunStatus:
     NO_CONNECTION = 0
     CABLE_CHECK = 13

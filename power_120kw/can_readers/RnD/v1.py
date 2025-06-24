@@ -13,7 +13,7 @@ from datasets import DataHandler
 # from power_120kw.constant_manager_120kw import ConstantManager120KW
 # from constants import PECC, CanId, GunStatus
 
-class VehicleStatusReader():
+class VehicleCharger():
     arbitration_id = 769
     def __init__(self):
         self.max_power_of_charger = 120000   # This value should be captured from config.ini file. This will be updated by the server person from GUI.
@@ -63,7 +63,6 @@ class VehicleStatusReader():
 
 def main():
     print("Entering the main code.")
-    mqtt_handler.setupMqtt()
     v1Reader = VehicleStatusReader()
     v1Reader.read_data()
 
