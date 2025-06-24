@@ -1,8 +1,12 @@
 from module_assignment import ModuleSetter as ms
 from module_assignment import Module
+from contactor_assignement import Contactors, ContactorSetter
 import random
 from time import sleep
 import time
+import mqtt_handler
+from datasets import DataHandler
+
 # from power_120kw.message_helper import Module1Message as mm1, ModuleMessage as mm
 # from base_reader import BaseReader
 # from utility import bytetobinary, binaryToDecimal, DTH
@@ -32,28 +36,34 @@ class VehicleStatusReader():
         # demand2 = 30000
 
         while True:
-            random_demand1 = random.randint(0, 20000)
-            random_demand2 = random.randint(0, 20000)
+            # random_demand1 = random.randint(0, 0)
+            # random_demand2 = random.randint(0, 0)
+            demand_vehicle1  = DataHandler.getDemand_vehicle("gun1")    # Data handler return list [Current, Volatge]
+            demand_vehicle2  = DataHandler.getDemand_vehicle("gun2")
 
-            demand1 = self.get_effective_demand(ev1_status, random_demand1, self.MIN_MODULE_POWER)
-            demand2 = self.get_effective_demand(ev2_status, random_demand2, self.MIN_MODULE_POWER)
+            demand_power_vehicle1 = demand_vehicle1[0] * demand_vehicle1[1]
+            demand_power_vehicle2 = demand_vehicle2[0] * demand_vehicle2[1]
+
+            demand1 = self.get_effective_demand(ev1_status, demand_power_vehicle1, self.MIN_MODULE_POWER)
+            demand2 = self.get_effective_demand(ev2_status, demand_power_vehicle2, self.MIN_MODULE_POWER)
 
             ms.assign_modules(demand1, demand2)
             G1_Mod = ms.getG1_modules()
             G2_Mod = ms.getG2_modules()
 
-            if len(G1_Mod) or len(G2_Mod) > 0:
-                self.stopInactiveModules()
-                self.startCharging(G1_Mod)
-                self.startCharging(G2_Mod)
-            else:
-                self.stopAllModules()
+            # if len(G1_Mod) or len(G2_Mod) > 0:
+                # self.stopInactiveModules()
+                # self.startCharging(G1_Mod)
+                # self.startCharging(G2_Mod)
+            # else:
+                # self.stopAllModules()
 
-            print(f"{time.time()}: G1-Demand: {demand1/1000}kW, G2-Demand: {demand2/1000}kW, G1-Assigned: {G1_Mod},  G2-Assigned: {G2_Mod}, Contactor: {ms.getContactors_states()}")
-            sleep(1)
+            print(f"{time.time()}: G1-Demand: {demand1/1000}kW, G2-Demand: {demand2/1000}kW, G1-Assigned: {G1_Mod},  G2-Assigned: {G2_Mod}, Contactor: {ContactorSetter.getContactors_states()}")
+            sleep(.25)
 
 def main():
     print("Entering the main code.")
+    mqtt_handler.setupMqtt()
     v1Reader = VehicleStatusReader()
     v1Reader.read_data()
 
