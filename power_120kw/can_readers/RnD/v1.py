@@ -63,7 +63,8 @@ class VehicleCharger():
 
 def main():
     print("Entering the main code.")
-    v1Reader = VehicleStatusReader()
+    mqtt_handler.setupMqtt()
+    v1Reader = VehicleCharger()
     v1Reader.read_data()
 
 if __name__ == "__main__":
