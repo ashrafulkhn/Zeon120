@@ -1,0 +1,5 @@
+2025-06-26 18:08:10,294 - config_reader - INFO - Loading configuration from C:\Users\ashra\Documents\GitHub\Zeon120\config.ini
+2025-06-26 18:08:10,295 - __main__ - INFO - Configuring system for 120kW power setting
+2025-06-26 18:08:10,295 - config_reader - DEBUG - Power set to power_120kw
+2025-06-26 18:08:11,261 - can - DEBUG - can config: {'bitrate': 125000, 'interface': 'socketcan', 'channel': 'can1'}
+2025-06-26 18:08:11,329 - can.interfaces.socketcan.socketcan - ERROR - socket.CMSG_SPACE not available on this platform

@@ -41,6 +41,7 @@ def on_connect(client, userdata, flags, rc):
 
 # The callback function to be called when a message is received.
 def on_message(client, userdata, msg):
+    # amazonq-ignore-next-line
     global isStartButton1Pressed
     global isStartButton2Pressed
     global current
