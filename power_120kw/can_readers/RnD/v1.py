@@ -6,6 +6,8 @@ from time import sleep
 import time
 import mqtt_handler
 from datasets import DataHandler
+from can_readers.vehicle1_status_reader import Vehicle1StatusReader
+from can_readers.vehicle2_status_reader import Vehicle2StatusReader
 
 # from power_120kw.message_helper import Module1Message as mm1, ModuleMessage as mm
 # from base_reader import BaseReader
