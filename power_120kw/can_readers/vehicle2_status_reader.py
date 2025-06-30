@@ -117,9 +117,6 @@ class Vehicle2StatusReader(BaseReader):
             PECC.STATUS1_GUN2_DATA[0] = 3
 
         def standByled():
-            """
-            
-            """
             if len(digitl_input) != 0 :
                 if digitl_input[1] == '0' or digitl_input[2] == '1' :
                     PECC.STATUS1_GUN2_DATA[0] = 2
