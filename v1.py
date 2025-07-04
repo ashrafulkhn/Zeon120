@@ -1,13 +1,13 @@
-from module_assignment import ModuleSetter as ms
-from module_assignment import Module
-from contactor_assignement import Contactors, ContactorSetter
+from power_120kw.can_readers.allocations.module_assignment import ModuleSetter as ms
+from power_120kw.can_readers.allocations.module_assignment import Module
+from power_120kw.can_readers.allocations.contactor_assignement import Contactors, ContactorSetter
 import random
 from time import sleep
 import time
-import mqtt_handler
-from datasets import DataHandler
-from can_readers.vehicle1_status_reader import Vehicle1StatusReader
-from can_readers.vehicle2_status_reader import Vehicle2StatusReader
+import power_120kw.can_readers.allocations.mqtt_handler as mqtt_handler
+from power_120kw.can_readers.allocations.datasets import DataHandler
+# from power_120kw.can_readers.vehicle1_status_reader import Vehicle1StatusReader
+# from power_120kw.can_readers.vehicle2_status_reader import Vehicle2StatusReader
 
 # from power_120kw.message_helper import Module1Message as mm1, ModuleMessage as mm
 # from base_reader import BaseReader
@@ -32,8 +32,8 @@ class VehicleCharger():
     
     def read_data(self):
         # The EV status to be collected from eVSEC device. In our case via CAN data. Remove this static data from deployment code.
-        ev1_status = 29
-        ev2_status = 29
+        ev1_status = 2
+        ev2_status = 0
         # demand1 = 30500 # The demand can be from 0 to 120kW
         # demand2 = 30000
 

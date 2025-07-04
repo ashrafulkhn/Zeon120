@@ -95,8 +95,6 @@ class ModuleMessage:
         message = can.Message(arbitration_id=can_id, is_extended_id=True, data=[
             16, 4, 0, 0, 0, 0, 0, 0])
         cls.bus.send(message)
- 
-
 
 class Module1Message(ModuleMessage):
 

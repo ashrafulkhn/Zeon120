@@ -3,7 +3,7 @@ import logging
 import threading
 import time
 
-from constants import PECC, CanId
+from constants import PECC, CanId, CONTACTOR
 from caninterface import CanInterface
 
 #logger = logging.getLogger(__name__)
@@ -85,10 +85,19 @@ class PECCStatusManager:
                               is_extended_id=False, data=PECC.STATUS2_GUN2_DATA)
         PECCStatusManager.bus.send(message)
 
+    
+    @staticmethod
+    def contactor_action():
+        # Updated Contactor Status is being sent to the CAN bus to Vector
+        print("Inside Contactor Action")
+        message = can.Message(arbitration_id=CanId.DIGITAL_OUT,
+                              is_extended_id=False, data=CONTACTOR.CONTACTOR_STATUS_DATA)
+        PECCStatusManager.bus.send(message)
 
 def set_status_update():
     # Get all the attributes of the class
     attributes = dir(PECCStatusManager)
+    print("Inside set Status Update.")
 
     # Filter for methods
     send_status_methods = [attr for attr in attributes if callable(getattr(PECCStatusManager, attr)) and not attr.startswith('__')]

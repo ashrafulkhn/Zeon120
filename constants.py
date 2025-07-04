@@ -48,3 +48,8 @@ class PECC:
 
     STATUS1_GUN2_DATA = [0, 0, 0, 0, 0, 0, 0]  # Error codes
     STATUS2_GUN2_DATA = [0, 0, 0, 0, 0, 0, 0]  # Total voltage, current
+
+class CONTACTOR:
+    # Palceholder for contactors/Digital Output of the Vector device
+    DIGITAL_OUT_LIST = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    CONTACTOR_STATUS_DATA = [32, 0, 32, 3]  # [Data: D1-D8, Data: D9-D15, Mask: D1-D8, Mask: D9-D15]

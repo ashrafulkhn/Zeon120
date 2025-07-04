@@ -52,3 +52,6 @@ class BaseConstantManager(metaclass=Singleton):
 
     def set_data_maxpower_ev2(self, x):
         self._maxev2_power = x
+
+    def set_digital_output_list(self, data, index):
+        self._digitalinput[index] = data

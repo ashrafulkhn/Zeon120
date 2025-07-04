@@ -3,7 +3,6 @@ import sys
 from config_reader import ConfigManager
 from exceptions import ConfigException
 
-
 # def setup_logger():
 #     # Configure logging settings
 #     logging.basicConfig(

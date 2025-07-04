@@ -4,6 +4,7 @@ from power_120kw.can_readers import *
 #logger = logging.getLogger(__name__)
 
 class FactoryReader:
+    print("Inside factory reader. Starting threads.")
 
     reader_dict = {
         DigitalInputReader.arbitration_id: DigitalInputReader,

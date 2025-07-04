@@ -3,8 +3,26 @@ from base_constant_manager import BaseConstantManager
 
 class ConstantManager120KW(BaseConstantManager):
 
-    def __init__(self, d='', pe1current=0, pe2current=0, pe3current=0, pe4current=0, rc=0, vehiclestatus2=6, vehiclestatus1=6, targetpower1=0,targetpower2=0,maxev1power=0,maxev2power=0,maxpower1=0,maxpower2=0,pm_assign1=0, pm_assign2=0 ):
-        super().__init__(d, pe1current, vehiclestatus2, vehiclestatus1,maxev1power,maxev2power)
+    def __init__(
+            self, d='', 
+            pe1current=0, 
+            pe2current=0, 
+            pe3current=0, 
+            pe4current=0, 
+            rc=0, 
+            vehiclestatus2=6, 
+            vehiclestatus1=6, 
+            targetpower1=0,
+            targetpower2=0,
+            maxev1power=0,
+            maxev2power=0,
+            maxpower1=0,
+            maxpower2=0,
+            pm_assign1=0, 
+            pm_assign2=0 
+            ):
+        
+        super().__init__(d, pe1current, vehiclestatus2, vehiclestatus1,maxev1power,maxev2power, digital_out)
         self._pe2_current = pe2current
         self._pe3_current = pe3current
         self._pe4_current = pe4current

@@ -5,10 +5,10 @@ from power_120kw.can_readers.vehicle1_status_reader import Vehicle1StatusReader
 from power_120kw.can_readers.vehicle2_status_reader import Vehicle2StatusReader
 from power_120kw.can_readers.reset_gun import ResetGunModule1, ResetGunModule2
 from power_120kw.can_readers.max_EV_reader import MaxEVvalues1, MaxEVvalues2
-from power_120kw.can_readers.assignment.contactor_assignement import Contactors, ContactorSetter
-from power_120kw.can_readers.assignment.datasets import DataHandler, Datasets
-from power_120kw.can_readers.assignment.module_assignment import Module, ModuleSetter
-from power_120kw.can_readers.assignment.mqtt_handler import setupMqtt
+from power_120kw.can_readers.allocations.contactor_assignement import Contactors, ContactorSetter
+from power_120kw.can_readers.allocations.datasets import DataHandler, Datasets
+from power_120kw.can_readers.allocations.module_assignment import Module, ModuleSetter
+from power_120kw.can_readers.allocations.mqtt_handler import setupMqtt
 
 __all__ = ['DigitalInputReader','PMSetDataCurrentPeccStatus1', 'PMSetDataCurrentPeccStatus2', 'PMSetDataCurrentPeccStatus3',
            'PMSetDataCurrentPeccStatus4','Vehicle1StatusReader', 'Vehicle2StatusReader','ResetGunModule1', 'ResetGunModule2',
