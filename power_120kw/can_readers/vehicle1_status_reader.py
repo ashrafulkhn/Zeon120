@@ -165,7 +165,7 @@ class Vehicle1StatusReader(BaseReader):
             digitl_input = self._global_data.get_data()
             if digitl_input[1] == '0' or digitl_input[2] == '1'  :
                 handleError(module_ids)
-
+        
         def stopActiveModules(module_ids):
             # print(f"Stopping Modules {module_ids}")
             for module_id in module_ids:
