@@ -22,7 +22,7 @@ class ConstantManager120KW(BaseConstantManager):
             pm_assign2=0 
             ):
         
-        super().__init__(d, pe1current, vehiclestatus2, vehiclestatus1,maxev1power,maxev2power, digital_out)
+        super().__init__(d, pe1current, vehiclestatus2, vehiclestatus1,maxev1power,maxev2power)
         self._pe2_current = pe2current
         self._pe3_current = pe3current
         self._pe4_current = pe4current

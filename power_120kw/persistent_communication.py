@@ -85,7 +85,7 @@ class PECCStatusManager:
                               is_extended_id=False, data=PECC.STATUS2_GUN2_DATA)
         PECCStatusManager.bus.send(message)
 
-    
+    # Newly added function for the IO Actions.
     @staticmethod
     def contactor_action():
         # Updated Contactor Status is being sent to the CAN bus to Vector
@@ -105,4 +105,4 @@ def set_status_update():
     # Invoke all the methods
     for send_status in send_status_methods:
         send_status_method = getattr(PECCStatusManager, send_status)
-        SetInterval(0.25, send_status_method)
+        SetInterval(1, send_status_method)

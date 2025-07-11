@@ -76,11 +76,10 @@ class DigitalOutputFrameBuilder:
         mask_byte_1 = 0xFF  # Enable all for D1–D8
         mask_byte_2 = 0x7F  # Only 7 bits used for D9–D15
         
-        
         return [data_byte_1, data_byte_2, mask_byte_1, mask_byte_2]
 
 # Usage example
 if __name__ == "__main__":
-    digital_out_data = [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1]  # 15 values
+    digital_out_data = [1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]  # 15 values
     frame_data = DigitalOutputFrameBuilder.build_contact_status_frame(digital_out_data)
-    print("Message sent:", frame_data)
+    print(f"Message sent:", frame_data)

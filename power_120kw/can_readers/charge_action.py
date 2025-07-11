@@ -11,7 +11,6 @@ from constants import PECC, CanId, CONTACTOR
 from utility import DigitalOutputFrameBuilder
 
 class VehicleCharger():
-    # arbitration_id = 769
     def __init__(self):
         self.max_power_of_charger = 120000   # This value should be captured from config.ini file. This will be updated by the server person from GUI.
         self.MIN_MODULE_POWER = self.max_power_of_charger/len(Module.TOTAL_MODULE)
@@ -35,7 +34,6 @@ class VehicleCharger():
     def setDigitalOutList(self, value, index):
         CONTACTOR.DIGITAL_OUT_LIST[index] = value
         
-
     def action(self):
         # The EV status to be collected from eVSEC device. In our case via CAN data. Remove this static data from deployment code.
         # ev1_status = 2
@@ -58,13 +56,6 @@ class VehicleCharger():
         G1_Mod = self.modulesetter.getG1_modules()
         G2_Mod = self.modulesetter.getG2_modules()
 
-        # if len(G1_Mod) or len(G2_Mod) > 0:
-            # self.stopInactiveModules()
-            # self.startCharging(G1_Mod)
-            # self.startCharging(G2_Mod)
-        # else:
-            # self.stopAllModules()
-
         for index, (cont, state) in enumerate(self._contactors.getContactors_states().items()):
             self.setDigitalOutList(state, index)
 
@@ -74,4 +65,3 @@ class VehicleCharger():
 
         print(f"{time.time()}: G1-Demand: {demand1/1000}kW, G2-Demand: {demand2/1000}kW, G1-Assigned: {G1_Mod},  G2-Assigned: {G2_Mod}, Contactor: {self._contactors.getContactors_states()}")
         # sleep(.25)
-
