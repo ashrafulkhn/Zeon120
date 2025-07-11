@@ -9,7 +9,6 @@ from utility import bytetobinary, binaryToDecimal, DTH
 
 #logger = logging.getLogger(__name__)
 
-
 class Vehicle2StatusReader(BaseReader):
     arbitration_id = 1537
 
