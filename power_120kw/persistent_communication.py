@@ -96,4 +96,4 @@ def set_status_update():
     # Invoke all the methods
     for send_status in send_status_methods:
         send_status_method = getattr(PECCStatusManager, send_status)
-        SetInterval(0.25, send_status_method)
+        SetInterval(2, send_status_method)

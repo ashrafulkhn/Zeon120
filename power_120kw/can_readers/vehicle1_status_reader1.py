@@ -6,9 +6,9 @@ from constants import PECC, CanId
 from power_120kw.constant_manager_120kw import ConstantManager120KW
 from power_120kw.message_helper import Module1Message as mm1, ModuleMessage as mm
 from utility import bytetobinary, binaryToDecimal, DTH
-import random
 
 #logger = logging.getLogger(__name__)
+
 
 class Vehicle1StatusReader(BaseReader):
     arbitration_id = 769
@@ -17,62 +17,41 @@ class Vehicle1StatusReader(BaseReader):
         self.data = data
         self._global_data = ConstantManager120KW()
         self._binary_data = bytetobinary(data)
-        self._statuses_for_modules = [0, 13, 21, 29]
-        self._statuses_for_not_modules = [0,4,6,35,37]
-        self._call_count = 0
-        self._status_index = 0
-
-    def getRealTimeVIP(self):
-        #print("INFO:: Indside getRealtimeVIP")
-        # Return the real-time voltage, current and power
-        s2g1d = bytetobinary(PECC.STATUS2_GUN1_DATA)
-        voltage_pre = binaryToDecimal(int(s2g1d[1] + s2g1d[0]))
-        self._voltage = (voltage_pre / 10)
-        # current_pre = binaryToDecimal(int(s2g1d[3] + s2g1d[2]))
-        # self._current = (current_pre / 10)
-        self._current = random.randint(0, 250)
-        self._readPower = int(self._voltage * self._current)
-        #print(f"p1= {self._readPower}, v1= {self._voltage}, c1={self._current}")
-        return self._readPower, self._voltage, self._current
 
     # def getRealTimeVIP(self):
-    #     self._voltage = random.randint(0, 1000)
-    #     self._current = random.randint(0, 250)
+    #     #print("INFO:: Indside getRealtimeVIP")
+    #     # Return the real-time voltage, current and power
+    #     s2g1d = bytetobinary(PECC.STATUS2_GUN1_DATA)
+    #     voltage_pre = binaryToDecimal(int(s2g1d[1] + s2g1d[0]))
+    #     self._voltage = (voltage_pre / 10)
+    #     current_pre = binaryToDecimal(int(s2g1d[3] + s2g1d[2]))
+    #     self._current = (current_pre / 10)
     #     self._readPower = int(self._voltage * self._current)
+    #     #print(f"p1= {self._readPower}, v1= {self._voltage}, c1={self._current}")
     #     return self._readPower, self._voltage, self._current
 
-    def getVehicleStatus(self):
-        vehicle_status1 = self._statuses_for_modules[self._status_index]
-        self._call_count += 1
-
-        if self._call_count >= 10:
-            self._call_count = 0
-            self._status_index = (self._status_index + 1) % len(self._statuses_for_modules)
+    def getRealTimeVIP(self):
         
-        return vehicle_status1
+        return self._readPower, self._voltage, self._current
 
     def read_input_data(self):
         #logger.info('Read input for Vehicle-1 status')
         vs1 = self._binary_data
         self._global_data.set_data_status_vehicle1(binaryToDecimal(int(vs1[0])))
-        # vehicle_status1 = binaryToDecimal(int(vs1[0]))
-        vehicle_status1 = self.getVehicleStatus()
-
+        vehicle_status1 = binaryToDecimal(int(vs1[0]))
         #logger.info(f'Vehicle-1 status {vehicle_status1}')
-        print(f'Vehicle-1 status {vehicle_status1}')
         vehicle_status2_g = self._global_data.get_data_status_vehicle2()
         
+
         #logger.info(f'Vehicle-2 status {vehicle_status2_g}')
-        # tag_vol1 = binaryToDecimal(int(vs1[2] + vs1[1]))
-        # target_volatge_from_car1 = (tag_vol1 / 10)
-        target_volatge_from_car1 = random.randint(0, 1000)
+        tag_vol1 = binaryToDecimal(int(vs1[2] + vs1[1]))
+        target_volatge_from_car1 = (tag_vol1 / 10)
 
-        # tag_curr1 = binaryToDecimal(int(vs1[4] + vs1[3]))
-        # tag_curr11 = (tag_curr1 / 10)
-        # target_current_from_car1 = (tag_curr11 )
-        target_current_from_car1 = random.randint(0,250)
+        tag_curr1 = binaryToDecimal(int(vs1[4] + vs1[3]))
+        tag_curr11 = (tag_curr1 / 10)
+        target_current_from_car1 = (tag_curr11 )
 
-        target_power1 = int(target_volatge_from_car1 * target_current_from_car1)
+        target_power1 = int(target_volatge_from_car1 * tag_curr11)
         self._global_data.set_data_targetpower_ev1(target_power1)
 
         maxpowerev1_g = self._global_data.get_data_maxpower_ev1()
@@ -91,12 +70,12 @@ class Vehicle1StatusReader(BaseReader):
             mm.startModule(CanId.CAN_ID_1)
             mm.readModule_Voltage(CanId.CAN_ID_1)
             digitl_input = self._global_data.get_data()
-            if (len(digitl_input) != 0):
-                if digitl_input[1] == '0' or digitl_input[2] == '1'  :
-                    mm1.digital_output_led_red1()
-                    mm.stopcharging(CanId.STOP_GUN1)
-                    mm.stopModule(CanId.CAN_ID_1)
-                    PECC.STATUS1_GUN1_DATA[0] = 3
+
+            if digitl_input[1] == '0' or digitl_input[2] == '1'  :
+                mm1.digital_output_led_red1()
+                mm.stopcharging(CanId.STOP_GUN1)
+                mm.stopModule(CanId.CAN_ID_1)
+                PECC.STATUS1_GUN1_DATA[0] = 3
 
         def funct_30_1():
             
@@ -237,20 +216,15 @@ class Vehicle1StatusReader(BaseReader):
             pm1=0
             self._global_data.set_data_pm_assign1(pm1)
             digitl_input = self._global_data.get_data()
-            if len(digitl_input) != 0 :
-                if digitl_input[1] == '0' or digitl_input[2] == '1'   :
-                    mm1.digital_output_led_red1()
-                    mm.stopcharging(CanId.STOP_GUN1)
-                    PECC.STATUS1_GUN1_DATA[0] = 2
-                
-                else:
-                    mm1.digital_output_led_red1()
-                    mm.digital_output_close_AC()
-                    PECC.STATUS1_GUN1_DATA[0] = 0
-            else:
-                PECC.STATUS1_GUN1_DATA[0] = 0
-                mm.digital_output_close_AC()
+            if digitl_input[1] == '0' or digitl_input[2] == '1'   :
                 mm1.digital_output_led_red1()
+                mm.stopcharging(CanId.STOP_GUN1)
+                PECC.STATUS1_GUN1_DATA[0] = 2
+            
+            else:
+                mm1.digital_output_led_red1()
+                mm.digital_output_close_AC()
+                PECC.STATUS1_GUN1_DATA[0] = 0
 
         if vehicle_status1 == 2 and vehicle_status2_g != 0 or vehicle_status1 == 2 and vehicle_status2_g != 6:
             PECC.LIMITS1_DATA_120kw_Gun1[4] = 224                                                                                    
@@ -264,11 +238,10 @@ class Vehicle1StatusReader(BaseReader):
             self._global_data.set_data_pm_assign1(pm1)
 
             digitl_input = self._global_data.get_data()
-            if len(digitl_input) != 0 :
-                if digitl_input[1] == '0' or digitl_input[2] == '1'   :
-                    mm1.digital_output_led_red1()
-                    mm.stopcharging(CanId.STOP_GUN1)
-                    PECC.STATUS1_GUN1_DATA[0] = 2
+            if digitl_input[1] == '0' or digitl_input[2] == '1'   :
+                mm1.digital_output_led_red1()
+                mm.stopcharging(CanId.STOP_GUN1)
+                PECC.STATUS1_GUN1_DATA[0] = 2
             
 
         if (vehicle_status1 == 13 and vehicle_status2_g == 0) or (vehicle_status1 == 13 and vehicle_status2_g == 6):
