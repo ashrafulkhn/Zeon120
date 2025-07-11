@@ -12,13 +12,13 @@ POWER_DICT = {
     240: 'power_240kw'
 }
 
+
 class ConfigManager(metaclass=Singleton):
     def __init__(self):
         # Create a configparser object
         self._config = configparser.ConfigParser()
         # Read the configuration from the INI file
-        # self._config.read('/home/FastCharger_Zeon/bin/config.ini')
-        self._config.read('/home/Standard_Dec15/bin/config.ini')
+        self._config.read('/home/FastCharger_Zeon/bin/config.ini')
         self._power = None
 
     def set_power(self, power):

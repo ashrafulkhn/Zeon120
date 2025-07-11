@@ -15,10 +15,6 @@ class ConstantManager120KW(BaseConstantManager):
         self._maxpower2 = maxpower2
         self._pm_assign1 = pm_assign1
         self._pm_assign2 = pm_assign2
-        self._pe1_voltage = 0
-        self._pe2_voltage = 0
-        self._pe3_voltage = 0
-        self._pe4_voltage = 0
         
     def get_data_current_pe2(self):  # 120kW code change
         return self._pe2_current
